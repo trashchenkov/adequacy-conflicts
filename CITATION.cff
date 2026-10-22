@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite this software; article publication details will be added by the author."
+message: "Please cite this software when using these reproducibility materials. Article publication details will be added by the author."
 type: software
 title: "Adequacy-constraint conflicts: duration and self-discharge — reproducibility code"
 authors:
@@ -7,7 +7,19 @@ authors:
     given-names: Sergei
     orcid: "https://orcid.org/0000-0001-8786-8336"
 license: MIT
-version: "0.1.0"
+version: "1.0.0"
+date-released: 2026-10-22
 repository-code: "https://github.com/trashchenkov/adequacy-conflicts"
-# Article citation placeholder: title, journal, year and DOI to be supplied after publication.
-# No article DOI or Zenodo record has been assigned.
+abstract: >-
+  Reproducibility code for conflicts among adequacy constraints in storage
+  systems: total and consecutive deficit duration, self-discharge, and the
+  extra firm capacity needed to meet the constraints together.
+keywords:
+  - energy storage
+  - resource adequacy
+  - energy not served
+  - loss of load hours
+  - self-discharge
+  - reproducibility
+# Article title, journal, year and DOI will be added after publication.
+# The Zenodo DOI of this software release is added when Zenodo assigns it.
