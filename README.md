@@ -79,12 +79,12 @@ Direct scripts may write results beside their code. Prefer `reproduce.sh full` f
 
 ## Archived evidence and limitations
 
-Bulk search traces, original Rye dispatch witnesses and its >5 MB independent-audit JSON are kept **outside Git**, in the sibling `paper2_repo_2026-10-22_artifacts/zenodo_extra/` delivery folder. See its README, archive manifest and SHA256 sums. No repository payload file exceeds 5 MB; virtual environments and newly generated run trees are not distribution content.
+Bulk search traces, original Rye dispatch witnesses and its >5 MB independent-audit JSON are kept **outside Git**, in the sibling `reliability-conflicts-artifacts/zenodo_extra/` delivery folder. See its README, archive manifest and SHA256 sums. No repository payload file exceeds 5 MB; virtual environments and newly generated run trees are not distribution content.
 
 The clean repository does not need these optional archives for quick or fresh full runs. To independently replay the original Rye witnesses, extract `rye_witnesses.tar.gz` outside the repo and run:
 
 ```sh
-python numerics/rye/replay.py --witnesses ../paper2_repo_2026-10-22_artifacts/original_rye/witnesses --output validation/original_rye_replay.json
+python numerics/rye/replay.py --witnesses ../reliability-conflicts-artifacts/original_rye/witnesses --output validation/original_rye_replay.json
 ```
 
 See [REPORT_RU.md](REPORT_RU.md) for verified results and manuscript discrepancies. Working logs, task files, G-series reports, duplicate reference solvers, platform binaries, unrelated exploration and Idjwi are excluded. The original manuscript and source-code tree remain read-only and unchanged.
