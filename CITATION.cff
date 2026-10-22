@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite this software; article publication details will be added by the author."
 type: software
-title: "Reliability-constraint conflicts: duration and self-discharge — reproducibility code"
+title: "Adequacy-constraint conflicts: duration and self-discharge — reproducibility code"
 authors:
   - family-names: Trashchenkov
     given-names: Sergei

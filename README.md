@@ -1,4 +1,4 @@
-# Reliability-constraint conflicts: duration and self-discharge
+# Adequacy-constraint conflicts: duration and self-discharge
 
 Reproducibility code for the second manuscript by **Sergei Trashchenkov** (ORCID [0000-0001-8786-8336](https://orcid.org/0000-0001-8786-8336)). This is a local publication-preparation snapshot, not a published article or an uploaded archive. Article metadata in `CITATION.cff` remain pending. The first paper is not modified.
 
@@ -79,12 +79,12 @@ Direct scripts may write results beside their code. Prefer `reproduce.sh full` f
 
 ## Archived evidence and limitations
 
-Bulk search traces, original Rye dispatch witnesses and its >5 MB independent-audit JSON are kept **outside Git**, in the sibling `reliability-conflicts-artifacts/zenodo_extra/` delivery folder. See its README, archive manifest and SHA256 sums. No repository payload file exceeds 5 MB; virtual environments and newly generated run trees are not distribution content.
+Bulk search traces, original Rye dispatch witnesses and its >5 MB independent-audit JSON are kept **outside Git**, in the sibling `adequacy-conflicts-artifacts/zenodo_extra/` delivery folder. See its README, archive manifest and SHA256 sums. No repository payload file exceeds 5 MB; virtual environments and newly generated run trees are not distribution content.
 
 The clean repository does not need these optional archives for quick or fresh full runs. To independently replay the original Rye witnesses, extract `rye_witnesses.tar.gz` outside the repo and run:
 
 ```sh
-python numerics/rye/replay.py --witnesses ../reliability-conflicts-artifacts/original_rye/witnesses --output validation/original_rye_replay.json
+python numerics/rye/replay.py --witnesses ../adequacy-conflicts-artifacts/original_rye/witnesses --output validation/original_rye_replay.json
 ```
 
 See [REPORT_RU.md](REPORT_RU.md) for verified results and manuscript discrepancies. Working logs, task files, G-series reports, duplicate reference solvers, platform binaries, unrelated exploration and Idjwi are excluded. The original manuscript and source-code tree remain read-only and unchanged.
