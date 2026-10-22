@@ -1,6 +1,6 @@
 # Adequacy-constraint conflicts: duration and self-discharge
 
-Reproducibility code for the second manuscript by **Sergei Trashchenkov** (ORCID [0000-0001-8786-8336](https://orcid.org/0000-0001-8786-8336)). This is a local publication-preparation snapshot, not a published article or an uploaded archive. Article metadata in `CITATION.cff` remain pending. The first paper is not modified.
+Reproducibility code for the second manuscript by **Sergei Trashchenkov** (ORCID [0000-0001-8786-8336](https://orcid.org/0000-0001-8786-8336)). Source repository: [https://github.com/trashchenkov/adequacy-conflicts](https://github.com/trashchenkov/adequacy-conflicts). Article metadata in `CITATION.cff` remain pending. The first paper is not modified.
 
 ## Install (Python 3.12)
 
@@ -91,4 +91,4 @@ See [REPORT_RU.md](REPORT_RU.md) for verified results and manuscript discrepanci
 
 ## License and citation
 
-Software: MIT (`LICENSE`). Rye: CC BY 4.0, Aaslid and Klæboe, DOI 10.5281/zenodo.4448894. PVGIS/ERA5 terms and transformations: [data/README.md](data/README.md). Third-party datasets are not relicensed as MIT. Citation metadata: `CITATION.cff`. No remote repository is configured, and nothing has been pushed or uploaded.
+Software: MIT (`LICENSE`). Rye: CC BY 4.0, Aaslid and Klæboe, DOI 10.5281/zenodo.4448894. PVGIS/ERA5 terms and transformations: [data/README.md](data/README.md). Third-party datasets are not relicensed as MIT. Citation metadata: `CITATION.cff`. The code repository is [https://github.com/trashchenkov/adequacy-conflicts](https://github.com/trashchenkov/adequacy-conflicts). Zenodo has not been used.
