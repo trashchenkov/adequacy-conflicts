@@ -1,6 +1,6 @@
 # Отчёт: репозиторий кода второй статьи
 
-Дата: 22.10.2026. Снимок `adequacy-conflicts/`. Код опубликован на https://github.com/trashchenkov/adequacy-conflicts. На Zenodo ничего не отправлялось. Каталоги `paper2_code` и рукопись не изменялись.
+Дата: 22.10.2026. Снимок `adequacy-conflicts/`. Код опубликован на https://github.com/trashchenkov/adequacy-conflicts. Версия v1.0.0 архивирована Zenodo: https://doi.org/10.5281/zenodo.23564776. Крупные журналы и свидетели в этот архив не входят. Каталоги `paper2_code` и рукопись не изменялись.
 
 ## Состав
 

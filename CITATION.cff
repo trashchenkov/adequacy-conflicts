@@ -9,6 +9,7 @@ authors:
 license: MIT
 version: "1.0.0"
 date-released: 2026-10-22
+doi: "10.5281/zenodo.23564776"
 repository-code: "https://github.com/trashchenkov/adequacy-conflicts"
 abstract: >-
   Reproducibility code for conflicts among adequacy constraints in storage
@@ -22,4 +23,5 @@ keywords:
   - self-discharge
   - reproducibility
 # Article title, journal, year and DOI will be added after publication.
-# The Zenodo DOI of this software release is added when Zenodo assigns it.
+# doi above is the Zenodo archive of GitHub release v1.0.0, not an article DOI.
+# The concept DOI for all versions is 10.5281/zenodo.23564775.

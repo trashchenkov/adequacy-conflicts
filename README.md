@@ -91,4 +91,4 @@ See [REPORT_RU.md](REPORT_RU.md) for verified results and manuscript discrepanci
 
 ## License and citation
 
-Software: MIT (`LICENSE`). Rye: CC BY 4.0, Aaslid and Klæboe, DOI 10.5281/zenodo.4448894. PVGIS/ERA5 terms and transformations: [data/README.md](data/README.md). Third-party datasets are not relicensed as MIT. Citation metadata: `CITATION.cff`. The code repository is [https://github.com/trashchenkov/adequacy-conflicts](https://github.com/trashchenkov/adequacy-conflicts). Zenodo has not been used.
+Software: MIT (`LICENSE`). Rye: CC BY 4.0, Aaslid and Klæboe, DOI 10.5281/zenodo.4448894. PVGIS/ERA5 terms and transformations: [data/README.md](data/README.md). Third-party datasets are not relicensed as MIT. Citation metadata: `CITATION.cff`. The code repository is [https://github.com/trashchenkov/adequacy-conflicts](https://github.com/trashchenkov/adequacy-conflicts). Release v1.0.0 is archived at [10.5281/zenodo.23564776](https://doi.org/10.5281/zenodo.23564776).
