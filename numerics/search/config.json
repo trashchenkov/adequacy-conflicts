@@ -1,0 +1,10 @@
+{
+  "seed": 20261022,
+  "seconds": 1100.0,
+  "max_evals_per_structure": 650,
+  "structures": 2046,
+  "searched": 704,
+  "method": "16 fixed/random starts; bounded Powell continuous refinement",
+  "bounds": "negative magnitudes [0,2], positive magnitudes [0,T], E/Pc [0,T]",
+  "engine_bisection_iterations": 27
+}

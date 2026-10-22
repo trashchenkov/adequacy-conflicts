@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "years": [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
+  "request_startyear": 2005,
+  "request_endyear": 2022,
+  "reuse_year": 2023,
+  "maximum_download_attempts": 2,
+  "parameters": {"lat": 71.7775, "lon": 139.8471, "raddatabase": "PVGIS-ERA5", "startyear": 2005, "endyear": 2022, "pvcalculation": 1, "peakpower": 1, "loss": 14, "pvtechchoice": "crystSi", "mountingplace": "free", "angle": 60, "aspect": 0, "trackingtype": 0, "usehorizon": 1, "outputformat": "json"},
+  "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=71.7775&lon=139.8471&raddatabase=PVGIS-ERA5&startyear=2005&endyear=2022&pvcalculation=1&peakpower=1&loss=14&pvtechchoice=crystSi&mountingplace=free&angle=60&aspect=0&trackingtype=0&usehorizon=1&outputformat=json"
+}

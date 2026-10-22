@@ -1,0 +1,123 @@
+{
+  "config": {
+    "seed": 20261022,
+    "seconds": 1100.0,
+    "max_evals_per_structure": 650,
+    "structures": 2046,
+    "searched": 704,
+    "method": "16 fixed/random starts; bounded Powell continuous refinement",
+    "bounds": "negative magnitudes [0,2], positive magnitudes [0,T], E/Pc [0,T]",
+    "engine_bisection_iterations": 27
+  },
+  "elapsed_seconds": 6.74844049999956,
+  "evaluations": 184581,
+  "completed_search_structures": 704,
+  "status_counts": {
+    "comparable_for_all_norms": 668,
+    "completed": 704,
+    "no_charge_or_no_deficit": 20,
+    "reflection": 654
+  },
+  "best": [
+    {
+      "evaluation": 41,
+      "structure": [
+        5,
+        23
+      ],
+      "x": [
+        -1.9998677860772962,
+        -1.000000003241962,
+        -0.5,
+        1.0,
+        -0.5
+      ],
+      "E": 1.0,
+      "Pc": 1.0,
+      "Pd": 1,
+      "eta": 1,
+      "results": [
+        {
+          "cyclic": false,
+          "gamma": 0.25,
+          "H": 2,
+          "D": 1,
+          "r_H": 0.0,
+          "r_D": 3.2419620321633147e-09,
+          "r_joint": 0.25000000324196203
+        },
+        {
+          "cyclic": true,
+          "gamma": 0.0,
+          "H": 0,
+          "D": 0,
+          "r_H": 0.9999338950789327,
+          "r_D": 0.9999338950789327,
+          "r_joint": 0.9999338950789327
+        }
+      ],
+      "selected": {
+        "cyclic": false,
+        "gamma": 0.25,
+        "H": 2,
+        "D": 1,
+        "r_H": 0.0,
+        "r_D": 3.2419620321633147e-09,
+        "r_joint": 0.25000000324196203
+      }
+    },
+    {
+      "evaluation": 67078,
+      "structure": [
+        9,
+        383
+      ],
+      "x": [
+        -0.7639320225002102,
+        -0.5,
+        -1.0,
+        -1.25,
+        -1.0,
+        -1.0,
+        -1.25,
+        1.0,
+        -0.5
+      ],
+      "E": 1.5,
+      "Pc": 1.0,
+      "Pd": 1,
+      "eta": 1,
+      "results": [
+        {
+          "cyclic": false,
+          "gamma": 0.25,
+          "H": 6,
+          "D": 4,
+          "r_H": 0.0,
+          "r_D": 0.0,
+          "r_joint": 0.25
+        },
+        {
+          "cyclic": true,
+          "gamma": 0.25,
+          "H": 6,
+          "D": 4,
+          "r_H": 0.0,
+          "r_D": 0.0,
+          "r_joint": 0.25
+        }
+      ],
+      "selected": {
+        "cyclic": true,
+        "gamma": 0.25,
+        "H": 6,
+        "D": 4,
+        "r_H": 0.0,
+        "r_D": 0.0,
+        "r_joint": 0.25
+      }
+    }
+  ],
+  "all_structures_accounted_for": true,
+  "continuous_global_optimum_proven": false
+}

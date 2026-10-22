@@ -1,0 +1,14 @@
+.venv*/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.dylib
+*.so
+runs/
+figures/output/
+**/witnesses/
+**/calls.jsonl
+**/refinement_evaluations/
+**/*evaluations.jsonl
+**/results.jsonl
+**/refinement_results.jsonl

@@ -1,0 +1,3197 @@
+{
+  "passed": true,
+  "witness_files_checked": 354,
+  "max_residual": 3.30466320974665e-09,
+  "max_ell_outside_allowed_loss_kW": 2.533081433252198e-10,
+  "max_integer_violation": 5.361000532388971e-11,
+  "failures": [],
+  "witnesses": {
+    "winter2023_industrial_liion_H8D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 7.815970093361102e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 8,
+      "longest_cyclic": 6,
+      "r": 812.6907082353927,
+      "profile": "winter2023",
+      "equipment": "industrial_liion"
+    },
+    "winter2023_industrial_liion_H8D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.637978807091713e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 567,
+      "longest_cyclic": 24,
+      "r": 12.38019876132511,
+      "profile": "winter2023",
+      "equipment": "industrial_liion"
+    },
+    "winter2023_industrial_liion_H4D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 6.821210263296962e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 4,
+      "longest_cyclic": 3,
+      "r": 826.8028629795265,
+      "profile": "winter2023",
+      "equipment": "industrial_liion"
+    },
+    "winter2023_industrial_liion_H4D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.7284841053187847e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 354,
+      "longest_cyclic": 8,
+      "r": 460.3439049728372,
+      "profile": "winter2023",
+      "equipment": "industrial_liion"
+    },
+    "winter2023_industrial_liion_H4D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 6.821210263296962e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 4,
+      "longest_cyclic": 3,
+      "r": 826.8028629795265,
+      "profile": "winter2023",
+      "equipment": "industrial_liion"
+    },
+    "winter2023_industrial_liion_H4D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 8.185452315956354e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 427,
+      "longest_cyclic": 12,
+      "r": 354.277291992204,
+      "profile": "winter2023",
+      "equipment": "industrial_liion"
+    },
+    "winter2023_liion_hydrogen_H8D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.637978807091713e-12,
+      "max_ell_outside_allowed_loss_kW": 2.8421709430404007e-12,
+      "hours": 8,
+      "longest_cyclic": 4,
+      "r": 623.8910295899805,
+      "profile": "winter2023",
+      "equipment": "liion_hydrogen"
+    },
+    "winter2023_liion_hydrogen_H8D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.6825651982799172e-11,
+      "max_ell_outside_allowed_loss_kW": 4.3930862341239457e-13,
+      "hours": 588,
+      "longest_cyclic": 24,
+      "r": 0.052177103170300436,
+      "profile": "winter2023",
+      "equipment": "liion_hydrogen"
+    },
+    "winter2023_liion_hydrogen_H4D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 5.4569682106375694e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 4,
+      "longest_cyclic": 1,
+      "r": 636.0911822634746,
+      "profile": "winter2023",
+      "equipment": "liion_hydrogen"
+    },
+    "winter2023_liion_hydrogen_H4D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.5711520973127335e-10,
+      "max_ell_outside_allowed_loss_kW": 8.187297794574266e-12,
+      "hours": 540,
+      "longest_cyclic": 8,
+      "r": 0.062238188244047615,
+      "profile": "winter2023",
+      "equipment": "liion_hydrogen"
+    },
+    "winter2023_liion_hydrogen_H4D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 5.4569682106375694e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 4,
+      "longest_cyclic": 1,
+      "r": 636.0911822634746,
+      "profile": "winter2023",
+      "equipment": "liion_hydrogen"
+    },
+    "winter2023_liion_hydrogen_H4D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 5.7980287238024175e-12,
+      "max_ell_outside_allowed_loss_kW": 3.253304730763781e-12,
+      "hours": 565,
+      "longest_cyclic": 12,
+      "r": 0.06078497023809523,
+      "profile": "winter2023",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2023_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.8189894035458565e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 12,
+      "r": 829.5956991483562,
+      "profile": "annual2023",
+      "equipment": "industrial_liion"
+    },
+    "annual2023_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 6.320988177321851e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3577,
+      "longest_cyclic": 24,
+      "r": 378.115860328747,
+      "profile": "annual2023",
+      "equipment": "industrial_liion"
+    },
+    "annual2023_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 9.094947017729282e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 855.563547884318,
+      "profile": "annual2023",
+      "equipment": "industrial_liion"
+    },
+    "annual2023_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 8.640199666842818e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2377,
+      "longest_cyclic": 8,
+      "r": 632.3589083394079,
+      "profile": "annual2023",
+      "equipment": "industrial_liion"
+    },
+    "annual2023_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 9.094947017729282e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 855.563547884318,
+      "profile": "annual2023",
+      "equipment": "industrial_liion"
+    },
+    "annual2023_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.091837814077735e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2889,
+      "longest_cyclic": 12,
+      "r": 556.2839354415312,
+      "profile": "annual2023",
+      "equipment": "industrial_liion"
+    },
+    "annual2023_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 7.531752999057062e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 71,
+      "longest_cyclic": 14,
+      "r": 771.4368540039063,
+      "profile": "annual2023",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2023_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.019522409886122e-10,
+      "max_ell_outside_allowed_loss_kW": 8.087744452275789e-11,
+      "hours": 4953,
+      "longest_cyclic": 24,
+      "r": 59.26761904761904,
+      "profile": "annual2023",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2023_liion_hydrogen_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 5.229594535194337e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 13,
+      "r": 737.6292757169597,
+      "profile": "annual2023",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2023_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 5.4569682106375694e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 796.6049112548828,
+      "profile": "annual2023",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2023_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.0236257114447653e-11,
+      "max_ell_outside_allowed_loss_kW": 1.286149142135686e-11,
+      "hours": 3695,
+      "longest_cyclic": 8,
+      "r": 386.0015400754511,
+      "profile": "annual2023",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2023_liion_hydrogen_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 8.412825991399586e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 759.8110318981935,
+      "profile": "annual2023",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2023_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 5.4569682106375694e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 796.6049112548828,
+      "profile": "annual2023",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2005_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.7053025658242404e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 64,
+      "longest_cyclic": 15,
+      "r": 838.6298683036296,
+      "profile": "annual2005",
+      "equipment": "industrial_liion"
+    },
+    "annual2005_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 4.547473508864641e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3992,
+      "longest_cyclic": 24,
+      "r": 295.72735112872897,
+      "profile": "annual2005",
+      "equipment": "industrial_liion"
+    },
+    "annual2005_industrial_liion_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 3.524291969370097e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 15,
+      "r": 832.6393276037852,
+      "profile": "annual2005",
+      "equipment": "industrial_liion"
+    },
+    "annual2005_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.6431300764452317e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 9,
+      "r": 864.2967377266439,
+      "profile": "annual2005",
+      "equipment": "industrial_liion"
+    },
+    "annual2005_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.0913936421275139e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2084,
+      "longest_cyclic": 8,
+      "r": 654.6551174545143,
+      "profile": "annual2005",
+      "equipment": "industrial_liion"
+    },
+    "annual2005_industrial_liion_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 7.958078640513122e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 872.6767716374461,
+      "profile": "annual2005",
+      "equipment": "industrial_liion"
+    },
+    "annual2005_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.6431300764452317e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 9,
+      "r": 864.2967377266439,
+      "profile": "annual2005",
+      "equipment": "industrial_liion"
+    },
+    "annual2005_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.0913936421275139e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2537,
+      "longest_cyclic": 12,
+      "r": 586.7316515587216,
+      "profile": "annual2005",
+      "equipment": "industrial_liion"
+    },
+    "annual2005_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 5.4569682106375694e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 14,
+      "r": 753.1413074137371,
+      "profile": "annual2005",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2005_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.0334133548894897e-10,
+      "max_ell_outside_allowed_loss_kW": 2.921751729445532e-11,
+      "hours": 5128,
+      "longest_cyclic": 24,
+      "r": 59.26761904761904,
+      "profile": "annual2005",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2005_liion_hydrogen_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 5.7980287238024175e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 11,
+      "r": 717.0467858030192,
+      "profile": "annual2005",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2005_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 7.617018127348274e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 3,
+      "r": 785.5373440958659,
+      "profile": "annual2005",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2005_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 7.389644451905042e-11,
+      "max_ell_outside_allowed_loss_kW": 2.156820827159479e-11,
+      "hours": 4137,
+      "longest_cyclic": 8,
+      "r": 254.92761904761903,
+      "profile": "annual2005",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2005_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 7.617018127348274e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 3,
+      "r": 785.5373440958659,
+      "profile": "annual2005",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2005_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.1020092994788325e-11,
+      "max_ell_outside_allowed_loss_kW": 2.218352961500691e-11,
+      "hours": 4345,
+      "longest_cyclic": 12,
+      "r": 248.97523809523807,
+      "profile": "annual2005",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2006_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.2505552149377763e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 10,
+      "r": 802.7892794873047,
+      "profile": "annual2006",
+      "equipment": "industrial_liion"
+    },
+    "annual2006_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.4783730623312294e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 4057,
+      "longest_cyclic": 24,
+      "r": 113.09523809523809,
+      "profile": "annual2006",
+      "equipment": "industrial_liion"
+    },
+    "annual2006_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.3642420526593924e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 825.3335705639649,
+      "profile": "annual2006",
+      "equipment": "industrial_liion"
+    },
+    "annual2006_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 6.821210263296962e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2504,
+      "longest_cyclic": 8,
+      "r": 521.9477264568511,
+      "profile": "annual2006",
+      "equipment": "industrial_liion"
+    },
+    "annual2006_industrial_liion_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 9.947598300641403e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 818.6780355741374,
+      "profile": "annual2006",
+      "equipment": "industrial_liion"
+    },
+    "annual2006_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.3642420526593924e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 825.3335705639649,
+      "profile": "annual2006",
+      "equipment": "industrial_liion"
+    },
+    "annual2006_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.000888343900442e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2894,
+      "longest_cyclic": 12,
+      "r": 421.03627213303344,
+      "profile": "annual2006",
+      "equipment": "industrial_liion"
+    },
+    "annual2006_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 6.0254023992456496e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 6,
+      "r": 630.84822849528,
+      "profile": "annual2006",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2006_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.1949442426814153e-10,
+      "max_ell_outside_allowed_loss_kW": 3.0005200042577476e-12,
+      "hours": 4669,
+      "longest_cyclic": 24,
+      "r": 59.26761904761904,
+      "profile": "annual2006",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2006_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 7.275957614183426e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 12,
+      "r": 644.9455310465496,
+      "profile": "annual2006",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2006_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.9321078070788644e-10,
+      "max_ell_outside_allowed_loss_kW": 3.10459169483579e-11,
+      "hours": 4094,
+      "longest_cyclic": 8,
+      "r": 127.46380952380952,
+      "profile": "annual2006",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2006_liion_hydrogen_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 6.366462912410498e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 636.6756912704469,
+      "profile": "annual2006",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2006_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 7.275957614183426e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 12,
+      "r": 644.9455310465496,
+      "profile": "annual2006",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2006_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 5.161382432561368e-10,
+      "max_ell_outside_allowed_loss_kW": 6.294110714103833e-11,
+      "hours": 3900,
+      "longest_cyclic": 12,
+      "r": 248.97523809523807,
+      "profile": "annual2006",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2007_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.7053025658242404e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 9,
+      "r": 863.5155130411785,
+      "profile": "annual2007",
+      "equipment": "industrial_liion"
+    },
+    "annual2007_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 5.1386450650170445e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3913,
+      "longest_cyclic": 24,
+      "r": 370.5091155625116,
+      "profile": "annual2007",
+      "equipment": "industrial_liion"
+    },
+    "annual2007_industrial_liion_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.8189894035458565e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 12,
+      "r": 852.9794124741238,
+      "profile": "annual2007",
+      "equipment": "industrial_liion"
+    },
+    "annual2007_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.1368683772161603e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 9,
+      "r": 875.5512162548828,
+      "profile": "annual2007",
+      "equipment": "industrial_liion"
+    },
+    "annual2007_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 6.366462912410498e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2708,
+      "longest_cyclic": 8,
+      "r": 614.6917973805746,
+      "profile": "annual2007",
+      "equipment": "industrial_liion"
+    },
+    "annual2007_industrial_liion_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 9.094947017729282e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 878.4679682176591,
+      "profile": "annual2007",
+      "equipment": "industrial_liion"
+    },
+    "annual2007_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.1368683772161603e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 9,
+      "r": 875.5512162548828,
+      "profile": "annual2007",
+      "equipment": "industrial_liion"
+    },
+    "annual2007_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 9.777068044058979e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3157,
+      "longest_cyclic": 12,
+      "r": 544.0606756357538,
+      "profile": "annual2007",
+      "equipment": "industrial_liion"
+    },
+    "annual2007_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.7284841053187847e-12,
+      "max_ell_outside_allowed_loss_kW": 2.1316282072803006e-14,
+      "hours": 72,
+      "longest_cyclic": 8,
+      "r": 824.4123812972007,
+      "profile": "annual2007",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2007_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 5.194351615500636e-10,
+      "max_ell_outside_allowed_loss_kW": 6.847240497650048e-11,
+      "hours": 4977,
+      "longest_cyclic": 24,
+      "r": 118.53523809523809,
+      "profile": "annual2007",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2007_liion_hydrogen_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.261923898709938e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 10,
+      "r": 715.6698617960614,
+      "profile": "annual2007",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2007_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 7.048583938740194e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 34,
+      "longest_cyclic": 3,
+      "r": 748.1491056591797,
+      "profile": "annual2007",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2007_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 6.014033715473488e-11,
+      "max_ell_outside_allowed_loss_kW": 2.4154565939281832e-12,
+      "hours": 4225,
+      "longest_cyclic": 8,
+      "r": 260.12244186988465,
+      "profile": "annual2007",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2007_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 7.048583938740194e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 34,
+      "longest_cyclic": 3,
+      "r": 748.1491056591797,
+      "profile": "annual2007",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2008_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 4.320099833421409e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 11,
+      "r": 849.2552183439128,
+      "profile": "annual2008",
+      "equipment": "industrial_liion"
+    },
+    "annual2008_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 4.1382008930668235e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3533,
+      "longest_cyclic": 24,
+      "r": 404.78120130267916,
+      "profile": "annual2008",
+      "equipment": "industrial_liion"
+    },
+    "annual2008_industrial_liion_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 2.1600499167107046e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 11,
+      "r": 848.5648300015259,
+      "profile": "annual2008",
+      "equipment": "industrial_liion"
+    },
+    "annual2008_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.7284841053187847e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 34,
+      "longest_cyclic": 7,
+      "r": 873.2566974927776,
+      "profile": "annual2008",
+      "equipment": "industrial_liion"
+    },
+    "annual2008_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 7.73070496506989e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2148,
+      "longest_cyclic": 8,
+      "r": 678.7134405812292,
+      "profile": "annual2008",
+      "equipment": "industrial_liion"
+    },
+    "annual2008_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.7284841053187847e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 34,
+      "longest_cyclic": 7,
+      "r": 873.2566974927776,
+      "profile": "annual2008",
+      "equipment": "industrial_liion"
+    },
+    "annual2008_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.1827872842550278e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2598,
+      "longest_cyclic": 12,
+      "r": 616.3614834685698,
+      "profile": "annual2008",
+      "equipment": "industrial_liion"
+    },
+    "annual2008_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.637978807091713e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 13,
+      "r": 811.681861328125,
+      "profile": "annual2008",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2008_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 8.005827112356201e-10,
+      "max_ell_outside_allowed_loss_kW": 2.6207615363568396e-11,
+      "hours": 4918,
+      "longest_cyclic": 24,
+      "r": 59.26761904761904,
+      "profile": "annual2008",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2008_liion_hydrogen_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 3.637978807091713e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 15,
+      "r": 771.3941350081382,
+      "profile": "annual2008",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2008_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.637978807091713e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 11,
+      "r": 811.681861328125,
+      "profile": "annual2008",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2008_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 5.911715561524034e-11,
+      "max_ell_outside_allowed_loss_kW": 1.2354208629756148e-13,
+      "hours": 3631,
+      "longest_cyclic": 8,
+      "r": 382.39142357142856,
+      "profile": "annual2008",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2008_liion_hydrogen_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 7.275957614183426e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 804.4876138602702,
+      "profile": "annual2008",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2008_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.637978807091713e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 11,
+      "r": 811.681861328125,
+      "profile": "annual2008",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2008_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 4.729372449219227e-11,
+      "max_ell_outside_allowed_loss_kW": 1.421285138318953e-11,
+      "hours": 4181,
+      "longest_cyclic": 12,
+      "r": 248.97523809523807,
+      "profile": "annual2008",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2009_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 4.320099833421409e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 13,
+      "r": 854.7162762524415,
+      "profile": "annual2009",
+      "equipment": "industrial_liion"
+    },
+    "annual2009_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 5.184119800105691e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3793,
+      "longest_cyclic": 24,
+      "r": 277.0222890515427,
+      "profile": "annual2009",
+      "equipment": "industrial_liion"
+    },
+    "annual2009_industrial_liion_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 13,
+      "r": 849.1908453275554,
+      "profile": "annual2009",
+      "equipment": "industrial_liion"
+    },
+    "annual2009_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 6.821210263296962e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 11,
+      "r": 877.7777124430339,
+      "profile": "annual2009",
+      "equipment": "industrial_liion"
+    },
+    "annual2009_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 5.9117155615240335e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2050,
+      "longest_cyclic": 8,
+      "r": 649.947332730989,
+      "profile": "annual2009",
+      "equipment": "industrial_liion"
+    },
+    "annual2009_industrial_liion_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.3073986337985843e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 29,
+      "longest_cyclic": 7,
+      "r": 876.6784794026757,
+      "profile": "annual2009",
+      "equipment": "industrial_liion"
+    },
+    "annual2009_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 6.821210263296962e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 11,
+      "r": 877.7777124430339,
+      "profile": "annual2009",
+      "equipment": "industrial_liion"
+    },
+    "annual2009_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.4783730623312294e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2603,
+      "longest_cyclic": 12,
+      "r": 550.2857954643613,
+      "profile": "annual2009",
+      "equipment": "industrial_liion"
+    },
+    "annual2009_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 8.071765478234738e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 13,
+      "r": 735.3236365152995,
+      "profile": "annual2009",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2009_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.581613545738604e-10,
+      "max_ell_outside_allowed_loss_kW": 8.913048077374697e-11,
+      "hours": 4884,
+      "longest_cyclic": 24,
+      "r": 59.26761904761904,
+      "profile": "annual2009",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2009_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.2732925824820995e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 34,
+      "longest_cyclic": 8,
+      "r": 739.407652796224,
+      "profile": "annual2009",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2009_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 6.036771083017811e-11,
+      "max_ell_outside_allowed_loss_kW": 1.3758303053446904e-11,
+      "hours": 4264,
+      "longest_cyclic": 8,
+      "r": 127.46380952380952,
+      "profile": "annual2009",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2009_liion_hydrogen_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 6.792788553866558e-12,
+      "max_ell_outside_allowed_loss_kW": 1.3308484323041904e-12,
+      "hours": 35,
+      "longest_cyclic": 3,
+      "r": 728.604441813965,
+      "profile": "annual2009",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2009_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.2732925824820995e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 34,
+      "longest_cyclic": 8,
+      "r": 739.407652796224,
+      "profile": "annual2009",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2009_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.213038558489643e-10,
+      "max_ell_outside_allowed_loss_kW": 2.490200921440032e-12,
+      "hours": 4081,
+      "longest_cyclic": 12,
+      "r": 248.97523809523807,
+      "profile": "annual2009",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2010_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.296918293926865e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 68,
+      "longest_cyclic": 9,
+      "r": 822.009339170634,
+      "profile": "annual2010",
+      "equipment": "industrial_liion"
+    },
+    "annual2010_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.1527845344971865e-10,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 4003,
+      "longest_cyclic": 24,
+      "r": 289.803483903082,
+      "profile": "annual2010",
+      "equipment": "industrial_liion"
+    },
+    "annual2010_industrial_liion_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.0800249583553523e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 71,
+      "longest_cyclic": 9,
+      "r": 820.3762958268485,
+      "profile": "annual2010",
+      "equipment": "industrial_liion"
+    },
+    "annual2010_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 7.958078640513122e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 845.3910980782064,
+      "profile": "annual2010",
+      "equipment": "industrial_liion"
+    },
+    "annual2010_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 5.4569682106375694e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2602,
+      "longest_cyclic": 8,
+      "r": 586.1938630391439,
+      "profile": "annual2010",
+      "equipment": "industrial_liion"
+    },
+    "annual2010_industrial_liion_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.0231815394945443e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 6,
+      "r": 842.6591919671123,
+      "profile": "annual2010",
+      "equipment": "industrial_liion"
+    },
+    "annual2010_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 7.958078640513122e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 845.3910980782064,
+      "profile": "annual2010",
+      "equipment": "industrial_liion"
+    },
+    "annual2010_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.3869794202037156e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3097,
+      "longest_cyclic": 12,
+      "r": 511.9363671640741,
+      "profile": "annual2010",
+      "equipment": "industrial_liion"
+    },
+    "annual2010_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.637978807091713e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 71,
+      "longest_cyclic": 13,
+      "r": 701.9065469767253,
+      "profile": "annual2010",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2010_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.3221450941294028e-10,
+      "max_ell_outside_allowed_loss_kW": 4.8483519694422977e-11,
+      "hours": 4992,
+      "longest_cyclic": 24,
+      "r": 59.26761904761904,
+      "profile": "annual2010",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2010_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 5.4569682106375694e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 10,
+      "r": 728.7285904337566,
+      "profile": "annual2010",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2010_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 9.57482138619944e-11,
+      "max_ell_outside_allowed_loss_kW": 2.2396307031158358e-11,
+      "hours": 4057,
+      "longest_cyclic": 8,
+      "r": 254.92761904761903,
+      "profile": "annual2010",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2010_liion_hydrogen_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 4.433786671143025e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 34,
+      "longest_cyclic": 8,
+      "r": 722.2042310615541,
+      "profile": "annual2010",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2010_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 5.4569682106375694e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 10,
+      "r": 728.7285904337566,
+      "profile": "annual2010",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2010_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 6.957634468562901e-11,
+      "max_ell_outside_allowed_loss_kW": 1.2984247321790598e-11,
+      "hours": 4273,
+      "longest_cyclic": 12,
+      "r": 248.84023809523808,
+      "profile": "annual2010",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2011_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.3874235921539366e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 9,
+      "r": 841.6765729708862,
+      "profile": "annual2011",
+      "equipment": "industrial_liion"
+    },
+    "annual2011_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 5.3660187404602766e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3471,
+      "longest_cyclic": 24,
+      "r": 328.82137254725865,
+      "profile": "annual2011",
+      "equipment": "industrial_liion"
+    },
+    "annual2011_industrial_liion_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 2.5011104298755527e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 10,
+      "r": 838.9748318100485,
+      "profile": "annual2011",
+      "equipment": "industrial_liion"
+    },
+    "annual2011_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.0302869668521453e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 33,
+      "longest_cyclic": 7,
+      "r": 862.8555801261393,
+      "profile": "annual2011",
+      "equipment": "industrial_liion"
+    },
+    "annual2011_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.1368683772161603e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2139,
+      "longest_cyclic": 8,
+      "r": 598.1396954082888,
+      "profile": "annual2011",
+      "equipment": "industrial_liion"
+    },
+    "annual2011_industrial_liion_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.0231815394945443e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 6,
+      "r": 860.596877789917,
+      "profile": "annual2011",
+      "equipment": "industrial_liion"
+    },
+    "annual2011_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.0302869668521453e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 33,
+      "longest_cyclic": 7,
+      "r": 862.8555801261393,
+      "profile": "annual2011",
+      "equipment": "industrial_liion"
+    },
+    "annual2011_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 8.86757334228605e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2621,
+      "longest_cyclic": 12,
+      "r": 521.0937981826346,
+      "profile": "annual2011",
+      "equipment": "industrial_liion"
+    },
+    "annual2011_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 5.5706550483591855e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 17,
+      "r": 733.985809539795,
+      "profile": "annual2011",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2011_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.90084392670542e-10,
+      "max_ell_outside_allowed_loss_kW": 3.3026105522420716e-11,
+      "hours": 4593,
+      "longest_cyclic": 24,
+      "r": 59.26761904761904,
+      "profile": "annual2011",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2011_liion_hydrogen_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 4.668265773943858e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 14,
+      "r": 718.5902230018107,
+      "profile": "annual2011",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2011_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 4.497735517361434e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 12,
+      "r": 753.404224609375,
+      "profile": "annual2011",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2011_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.9667822925839573e-11,
+      "max_ell_outside_allowed_loss_kW": 1.0055186139139125e-11,
+      "hours": 3682,
+      "longest_cyclic": 8,
+      "r": 254.92761904761903,
+      "profile": "annual2011",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2011_liion_hydrogen_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 9.094947017729282e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 782.2535411783855,
+      "profile": "annual2011",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2011_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 4.497735517361434e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 12,
+      "r": 753.404224609375,
+      "profile": "annual2011",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2011_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 9.656359950061832e-11,
+      "max_ell_outside_allowed_loss_kW": 9.656359950061832e-11,
+      "hours": 3885,
+      "longest_cyclic": 12,
+      "r": 248.97523809523807,
+      "profile": "annual2011",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2012_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.3642420526593924e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 68,
+      "longest_cyclic": 8,
+      "r": 820.1586149503581,
+      "profile": "annual2012",
+      "equipment": "industrial_liion"
+    },
+    "annual2012_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 8.174083632184193e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 4055,
+      "longest_cyclic": 24,
+      "r": 197.65406914501364,
+      "profile": "annual2012",
+      "equipment": "industrial_liion"
+    },
+    "annual2012_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 9.094947017729282e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 850.6151605631511,
+      "profile": "annual2012",
+      "equipment": "industrial_liion"
+    },
+    "annual2012_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 9.549694368615746e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2757,
+      "longest_cyclic": 8,
+      "r": 508.6571163558815,
+      "profile": "annual2012",
+      "equipment": "industrial_liion"
+    },
+    "annual2012_industrial_liion_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.0231815394945443e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 839.0712199587506,
+      "profile": "annual2012",
+      "equipment": "industrial_liion"
+    },
+    "annual2012_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 9.094947017729282e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 850.6151605631511,
+      "profile": "annual2012",
+      "equipment": "industrial_liion"
+    },
+    "annual2012_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.7280399333685637e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3307,
+      "longest_cyclic": 12,
+      "r": 372.7700503013974,
+      "profile": "annual2012",
+      "equipment": "industrial_liion"
+    },
+    "annual2012_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.0913936421275139e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 11,
+      "r": 671.4421512247723,
+      "profile": "annual2012",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2012_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.1509549696929753e-10,
+      "max_ell_outside_allowed_loss_kW": 4.547473508864641e-12,
+      "hours": 4869,
+      "longest_cyclic": 24,
+      "r": 56.90816680090036,
+      "profile": "annual2012",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2012_liion_hydrogen_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.000444171950221e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 12,
+      "r": 640.57087380188,
+      "profile": "annual2012",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2012_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 5.229594535194337e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 10,
+      "r": 695.3652405192056,
+      "profile": "annual2012",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2012_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.1766587704187259e-11,
+      "max_ell_outside_allowed_loss_kW": 1.911359267423462e-12,
+      "hours": 4268,
+      "longest_cyclic": 8,
+      "r": 127.46380952380952,
+      "profile": "annual2012",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2012_liion_hydrogen_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 7.275957614183426e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 695.3652405192056,
+      "profile": "annual2012",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2012_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 5.229594535194337e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 10,
+      "r": 695.3652405192056,
+      "profile": "annual2012",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2012_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 7.325030113348816e-11,
+      "max_ell_outside_allowed_loss_kW": 7.325030113348816e-11,
+      "hours": 4468,
+      "longest_cyclic": 12,
+      "r": 124.48761904761903,
+      "profile": "annual2012",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2013_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.637978807091713e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 71,
+      "longest_cyclic": 13,
+      "r": 830.9528580548097,
+      "profile": "annual2013",
+      "equipment": "industrial_liion"
+    },
+    "annual2013_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 6.866684998385608e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3420,
+      "longest_cyclic": 24,
+      "r": 424.9673066244943,
+      "profile": "annual2013",
+      "equipment": "industrial_liion"
+    },
+    "annual2013_industrial_liion_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 2.6147972675971687e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 12,
+      "r": 826.1232941439057,
+      "profile": "annual2013",
+      "equipment": "industrial_liion"
+    },
+    "annual2013_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 9.094947017729282e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 33,
+      "longest_cyclic": 10,
+      "r": 851.457118630371,
+      "profile": "annual2013",
+      "equipment": "industrial_liion"
+    },
+    "annual2013_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.5011104298755527e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2257,
+      "longest_cyclic": 8,
+      "r": 626.0892623574539,
+      "profile": "annual2013",
+      "equipment": "industrial_liion"
+    },
+    "annual2013_industrial_liion_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.6324719354088302e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 850.7949758563996,
+      "profile": "annual2013",
+      "equipment": "industrial_liion"
+    },
+    "annual2013_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 9.094947017729282e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 33,
+      "longest_cyclic": 10,
+      "r": 851.457118630371,
+      "profile": "annual2013",
+      "equipment": "industrial_liion"
+    },
+    "annual2013_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 8.185452315956354e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2708,
+      "longest_cyclic": 12,
+      "r": 568.4537573007929,
+      "profile": "annual2013",
+      "equipment": "industrial_liion"
+    },
+    "annual2013_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.637978807091713e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 14,
+      "r": 792.7809389343263,
+      "profile": "annual2013",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2013_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.866489350912161e-10,
+      "max_ell_outside_allowed_loss_kW": 9.593691269975983e-11,
+      "hours": 4975,
+      "longest_cyclic": 24,
+      "r": 118.53523809523809,
+      "profile": "annual2013",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2013_liion_hydrogen_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.3073986337985843e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 15,
+      "r": 767.869288797811,
+      "profile": "annual2013",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2013_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 4.320099833421409e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 10,
+      "r": 793.6099315325928,
+      "profile": "annual2013",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2013_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.3072622652380432e-11,
+      "max_ell_outside_allowed_loss_kW": 1.3072622652380432e-11,
+      "hours": 3621,
+      "longest_cyclic": 8,
+      "r": 406.4411167528134,
+      "profile": "annual2013",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2013_liion_hydrogen_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 6.110667527536862e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 787.9352691810609,
+      "profile": "annual2013",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2013_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.106759211528697e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 9,
+      "r": 816.3085759387208,
+      "profile": "annual2013",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2013_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.8622260944976006e-10,
+      "max_ell_outside_allowed_loss_kW": 4.1542656028426586e-11,
+      "hours": 4212,
+      "longest_cyclic": 12,
+      "r": 285.8502856211054,
+      "profile": "annual2013",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2014_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 7.958078640513122e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 13,
+      "r": 861.2781930948894,
+      "profile": "annual2014",
+      "equipment": "industrial_liion"
+    },
+    "annual2014_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.3874235921539366e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3454,
+      "longest_cyclic": 24,
+      "r": 402.7957595444452,
+      "profile": "annual2014",
+      "equipment": "industrial_liion"
+    },
+    "annual2014_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.2505552149377763e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 3,
+      "r": 881.2288904797365,
+      "profile": "annual2014",
+      "equipment": "industrial_liion"
+    },
+    "annual2014_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 9.094947017729282e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2080,
+      "longest_cyclic": 8,
+      "r": 683.1637806320045,
+      "profile": "annual2014",
+      "equipment": "industrial_liion"
+    },
+    "annual2014_industrial_liion_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.7053025658242404e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 878.0455009737651,
+      "profile": "annual2014",
+      "equipment": "industrial_liion"
+    },
+    "annual2014_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.2505552149377763e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 3,
+      "r": 881.2288904797365,
+      "profile": "annual2014",
+      "equipment": "industrial_liion"
+    },
+    "annual2014_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.77351466845721e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2479,
+      "longest_cyclic": 12,
+      "r": 624.8302145151483,
+      "profile": "annual2014",
+      "equipment": "industrial_liion"
+    },
+    "annual2014_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 9.549694368615746e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 15,
+      "r": 766.2985586954753,
+      "profile": "annual2014",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2014_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.092281986027956e-11,
+      "max_ell_outside_allowed_loss_kW": 3.970697220741192e-12,
+      "hours": 4758,
+      "longest_cyclic": 24,
+      "r": 59.26761904761904,
+      "profile": "annual2014",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2014_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 5.115907697472721e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 9,
+      "r": 800.5724966837566,
+      "profile": "annual2014",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2014_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 5.4569682106375694e-11,
+      "max_ell_outside_allowed_loss_kW": 3.211653165635653e-12,
+      "hours": 3866,
+      "longest_cyclic": 8,
+      "r": 254.92761904761903,
+      "profile": "annual2014",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2014_liion_hydrogen_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 7.16227077646181e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 795.5448853584292,
+      "profile": "annual2014",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2014_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 5.115907697472721e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 9,
+      "r": 800.5724966837566,
+      "profile": "annual2014",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2014_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.2511236491263844e-10,
+      "max_ell_outside_allowed_loss_kW": 3.226773329581507e-11,
+      "hours": 4071,
+      "longest_cyclic": 12,
+      "r": 248.97523809523807,
+      "profile": "annual2014",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2015_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 6.821210263296962e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 70,
+      "longest_cyclic": 15,
+      "r": 800.8874092659505,
+      "profile": "annual2015",
+      "equipment": "industrial_liion"
+    },
+    "annual2015_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.319655661471188e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3778,
+      "longest_cyclic": 24,
+      "r": 265.83859096534366,
+      "profile": "annual2015",
+      "equipment": "industrial_liion"
+    },
+    "annual2015_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.4779288903810084e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 833.9222107491048,
+      "profile": "annual2015",
+      "equipment": "industrial_liion"
+    },
+    "annual2015_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 7.16227077646181e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2219,
+      "longest_cyclic": 8,
+      "r": 612.2078073747907,
+      "profile": "annual2015",
+      "equipment": "industrial_liion"
+    },
+    "annual2015_industrial_liion_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 6.821210263296962e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 828.04880540802,
+      "profile": "annual2015",
+      "equipment": "industrial_liion"
+    },
+    "annual2015_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.4779288903810084e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 833.9222107491048,
+      "profile": "annual2015",
+      "equipment": "industrial_liion"
+    },
+    "annual2015_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.000444171950221e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2767,
+      "longest_cyclic": 12,
+      "r": 514.8612107177153,
+      "profile": "annual2015",
+      "equipment": "industrial_liion"
+    },
+    "annual2015_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 4.405364961712621e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 18,
+      "r": 692.1468341471355,
+      "profile": "annual2015",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2015_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 8.412825991399586e-10,
+      "max_ell_outside_allowed_loss_kW": 9.13583429153087e-14,
+      "hours": 4749,
+      "longest_cyclic": 24,
+      "r": 59.26761904761904,
+      "profile": "annual2015",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2015_liion_hydrogen_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 8.981260180007666e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 71,
+      "longest_cyclic": 13,
+      "r": 663.0009469677735,
+      "profile": "annual2015",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2015_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 5.115907697472721e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 13,
+      "r": 707.1252615763347,
+      "profile": "annual2015",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2015_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 5.4569682106375694e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 4154,
+      "longest_cyclic": 8,
+      "r": 127.46380952380952,
+      "profile": "annual2015",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2015_liion_hydrogen_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 8.071765478234738e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 700.1508328529358,
+      "profile": "annual2015",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2015_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 5.115907697472721e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 13,
+      "r": 707.1252615763347,
+      "profile": "annual2015",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2015_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.717559593496844e-11,
+      "max_ell_outside_allowed_loss_kW": 5.839477990000283e-12,
+      "hours": 4008,
+      "longest_cyclic": 12,
+      "r": 248.97523809523807,
+      "profile": "annual2015",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2016_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.8189894035458565e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 12,
+      "r": 847.736971476237,
+      "profile": "annual2016",
+      "equipment": "industrial_liion"
+    },
+    "annual2016_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.955857780762017e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3676,
+      "longest_cyclic": 24,
+      "r": 358.9534549113828,
+      "profile": "annual2016",
+      "equipment": "industrial_liion"
+    },
+    "annual2016_industrial_liion_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.8189894035458565e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 11,
+      "r": 847.34466879701,
+      "profile": "annual2016",
+      "equipment": "industrial_liion"
+    },
+    "annual2016_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 7.958078640513122e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 885.6478936332195,
+      "profile": "annual2016",
+      "equipment": "industrial_liion"
+    },
+    "annual2016_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.1596057447604835e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 1894,
+      "longest_cyclic": 8,
+      "r": 711.0866493606422,
+      "profile": "annual2016",
+      "equipment": "industrial_liion"
+    },
+    "annual2016_industrial_liion_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 6.821210263296962e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 882.7960932264839,
+      "profile": "annual2016",
+      "equipment": "industrial_liion"
+    },
+    "annual2016_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 7.958078640513122e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 885.6478936332195,
+      "profile": "annual2016",
+      "equipment": "industrial_liion"
+    },
+    "annual2016_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.4551915228366852e-11,
+      "max_ell_outside_allowed_loss_kW": 1.2951073374406795e-13,
+      "hours": 2384,
+      "longest_cyclic": 12,
+      "r": 636.6460169692411,
+      "profile": "annual2016",
+      "equipment": "industrial_liion"
+    },
+    "annual2016_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.637978807091713e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 11,
+      "r": 769.487109720866,
+      "profile": "annual2016",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2016_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.533081433252198e-10,
+      "max_ell_outside_allowed_loss_kW": 2.533081433252198e-10,
+      "hours": 4974,
+      "longest_cyclic": 24,
+      "r": 59.26761904761904,
+      "profile": "annual2016",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2016_liion_hydrogen_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.2732925824820995e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 9,
+      "r": 729.7605973448182,
+      "profile": "annual2016",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2016_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 7.73070496506989e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 6,
+      "r": 777.3178744376628,
+      "profile": "annual2016",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2016_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 5.661604518536478e-11,
+      "max_ell_outside_allowed_loss_kW": 3.6561366197142184e-12,
+      "hours": 4263,
+      "longest_cyclic": 8,
+      "r": 179.26830074329192,
+      "profile": "annual2016",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2016_liion_hydrogen_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 4.888534022029489e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 6,
+      "r": 766.2937216934205,
+      "profile": "annual2016",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2016_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 7.73070496506989e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 6,
+      "r": 777.3178744376628,
+      "profile": "annual2016",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2016_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 8.748202162678353e-11,
+      "max_ell_outside_allowed_loss_kW": 4.808953235624358e-11,
+      "hours": 4255,
+      "longest_cyclic": 12,
+      "r": 248.97523809523807,
+      "profile": "annual2016",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2017_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.1589063042549697e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 67,
+      "longest_cyclic": 11,
+      "r": 841.7782924939983,
+      "profile": "annual2017",
+      "equipment": "industrial_liion"
+    },
+    "annual2017_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 6.070877134334296e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2902,
+      "longest_cyclic": 24,
+      "r": 466.8656106377738,
+      "profile": "annual2017",
+      "equipment": "industrial_liion"
+    },
+    "annual2017_industrial_liion_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 3.410605131648481e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 9,
+      "r": 838.8783075346375,
+      "profile": "annual2017",
+      "equipment": "industrial_liion"
+    },
+    "annual2017_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.2931877790833823e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 9,
+      "r": 862.367587409668,
+      "profile": "annual2017",
+      "equipment": "industrial_liion"
+    },
+    "annual2017_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 7.048583938740194e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2136,
+      "longest_cyclic": 8,
+      "r": 638.1015128144765,
+      "profile": "annual2017",
+      "equipment": "industrial_liion"
+    },
+    "annual2017_industrial_liion_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.0516032489249483e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 865.5710650485039,
+      "profile": "annual2017",
+      "equipment": "industrial_liion"
+    },
+    "annual2017_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.2931877790833823e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 9,
+      "r": 862.367587409668,
+      "profile": "annual2017",
+      "equipment": "industrial_liion"
+    },
+    "annual2017_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.0118128557223827e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2461,
+      "longest_cyclic": 12,
+      "r": 594.6342473250907,
+      "profile": "annual2017",
+      "equipment": "industrial_liion"
+    },
+    "annual2017_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.5153212845907547e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 15,
+      "r": 824.6770987044272,
+      "profile": "annual2017",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2017_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.7189449863508344e-10,
+      "max_ell_outside_allowed_loss_kW": 4.1354021963562894e-11,
+      "hours": 4568,
+      "longest_cyclic": 24,
+      "r": 59.26761904761904,
+      "profile": "annual2017",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2017_liion_hydrogen_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 7.503331289626658e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 17,
+      "r": 743.2194706062826,
+      "profile": "annual2017",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2017_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.865352482534945e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 14,
+      "r": 791.679713939209,
+      "profile": "annual2017",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2017_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 7.579895809032813e-11,
+      "max_ell_outside_allowed_loss_kW": 7.579895809032813e-11,
+      "hours": 3553,
+      "longest_cyclic": 8,
+      "r": 302.36537822742275,
+      "profile": "annual2017",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2017_liion_hydrogen_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 6.252776074688882e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 5,
+      "r": 779.1351961361695,
+      "profile": "annual2017",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2017_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.865352482534945e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 14,
+      "r": 791.679713939209,
+      "profile": "annual2017",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2017_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.233662144135451e-10,
+      "max_ell_outside_allowed_loss_kW": 3.061465175261731e-11,
+      "hours": 3856,
+      "longest_cyclic": 12,
+      "r": 248.97523809523807,
+      "profile": "annual2017",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2018_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.0231815394945443e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 15,
+      "r": 777.1213390281765,
+      "profile": "annual2018",
+      "equipment": "industrial_liion"
+    },
+    "annual2018_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 7.548806024715304e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3982,
+      "longest_cyclic": 24,
+      "r": 207.78390393050898,
+      "profile": "annual2018",
+      "equipment": "industrial_liion"
+    },
+    "annual2018_industrial_liion_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.1368683772161603e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 10,
+      "r": 769.3892298033591,
+      "profile": "annual2018",
+      "equipment": "industrial_liion"
+    },
+    "annual2018_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.3642420526593924e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 792.4565341819255,
+      "profile": "annual2018",
+      "equipment": "industrial_liion"
+    },
+    "annual2018_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 6.366462912410498e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2750,
+      "longest_cyclic": 8,
+      "r": 495.04338189813524,
+      "profile": "annual2018",
+      "equipment": "industrial_liion"
+    },
+    "annual2018_industrial_liion_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 3.296918293926865e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 790.7405192976125,
+      "profile": "annual2018",
+      "equipment": "industrial_liion"
+    },
+    "annual2018_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.3642420526593924e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 792.4565341819255,
+      "profile": "annual2018",
+      "equipment": "industrial_liion"
+    },
+    "annual2018_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.1373125491663814e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3174,
+      "longest_cyclic": 12,
+      "r": 417.94202639087496,
+      "profile": "annual2018",
+      "equipment": "industrial_liion"
+    },
+    "annual2018_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.2050804798491299e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 70,
+      "longest_cyclic": 7,
+      "r": 766.8133505902451,
+      "profile": "annual2018",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2018_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 8.309517666307529e-11,
+      "max_ell_outside_allowed_loss_kW": 6.113289026458966e-12,
+      "hours": 4818,
+      "longest_cyclic": 24,
+      "r": 53.676940344083185,
+      "profile": "annual2018",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2018_liion_hydrogen_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 7.16227077646181e-12,
+      "max_ell_outside_allowed_loss_kW": 2.2737367544323206e-13,
+      "hours": 72,
+      "longest_cyclic": 13,
+      "r": 631.6498972238335,
+      "profile": "annual2018",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2018_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.1823431123048067e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 668.2297159220377,
+      "profile": "annual2018",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2018_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 4.783942131325603e-10,
+      "max_ell_outside_allowed_loss_kW": 6.249636444369737e-11,
+      "hours": 4241,
+      "longest_cyclic": 8,
+      "r": 127.46380952380952,
+      "profile": "annual2018",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2018_liion_hydrogen_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 9.208633855450898e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 34,
+      "longest_cyclic": 5,
+      "r": 652.6602207396443,
+      "profile": "annual2018",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2018_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.1823431123048067e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 668.2297159220377,
+      "profile": "annual2018",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2018_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 9.367795428261161e-11,
+      "max_ell_outside_allowed_loss_kW": 2.3714900614060842e-11,
+      "hours": 4029,
+      "longest_cyclic": 12,
+      "r": 248.97523809523807,
+      "profile": "annual2018",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2019_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.8189894035458565e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 70,
+      "longest_cyclic": 9,
+      "r": 831.3807514060466,
+      "profile": "annual2019",
+      "equipment": "industrial_liion"
+    },
+    "annual2019_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.694822225952521e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3934,
+      "longest_cyclic": 24,
+      "r": 252.7851737595331,
+      "profile": "annual2019",
+      "equipment": "industrial_liion"
+    },
+    "annual2019_industrial_liion_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.5916157281026244e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 8,
+      "r": 828.597468591156,
+      "profile": "annual2019",
+      "equipment": "industrial_liion"
+    },
+    "annual2019_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 9.094947017729282e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 32,
+      "longest_cyclic": 6,
+      "r": 848.5147025931803,
+      "profile": "annual2019",
+      "equipment": "industrial_liion"
+    },
+    "annual2019_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.1368683772161603e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2479,
+      "longest_cyclic": 8,
+      "r": 550.4700726890419,
+      "profile": "annual2019",
+      "equipment": "industrial_liion"
+    },
+    "annual2019_industrial_liion_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.2079226507921703e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 7,
+      "r": 846.0169856314087,
+      "profile": "annual2019",
+      "equipment": "industrial_liion"
+    },
+    "annual2019_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 9.094947017729282e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 32,
+      "longest_cyclic": 6,
+      "r": 848.5147025931803,
+      "profile": "annual2019",
+      "equipment": "industrial_liion"
+    },
+    "annual2019_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.9326762412674725e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2729,
+      "longest_cyclic": 12,
+      "r": 502.4509115366327,
+      "profile": "annual2019",
+      "equipment": "industrial_liion"
+    },
+    "annual2019_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.637978807091713e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 71,
+      "longest_cyclic": 10,
+      "r": 802.2418008528647,
+      "profile": "annual2019",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2019_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 4.610180273026502e-10,
+      "max_ell_outside_allowed_loss_kW": 2.6943780540023e-11,
+      "hours": 4916,
+      "longest_cyclic": 24,
+      "r": 59.26761904761904,
+      "profile": "annual2019",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2019_liion_hydrogen_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 7.560174708487466e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 10,
+      "r": 682.4139911295574,
+      "profile": "annual2019",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2019_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.3528733688872308e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 6,
+      "r": 699.9808771158855,
+      "profile": "annual2019",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2019_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.2964741219766438e-11,
+      "max_ell_outside_allowed_loss_kW": 1.3492053463421459e-11,
+      "hours": 3940,
+      "longest_cyclic": 8,
+      "r": 254.92761904761903,
+      "profile": "annual2019",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2019_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.3528733688872308e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 6,
+      "r": 699.9808771158855,
+      "profile": "annual2019",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2019_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.595914677134715e-10,
+      "max_ell_outside_allowed_loss_kW": 2.332869756270647e-13,
+      "hours": 4148,
+      "longest_cyclic": 12,
+      "r": 248.97523809523807,
+      "profile": "annual2019",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2020_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.4779288903810084e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 16,
+      "r": 829.4092584635417,
+      "profile": "annual2020",
+      "equipment": "industrial_liion"
+    },
+    "annual2020_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.115019353572279e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3829,
+      "longest_cyclic": 24,
+      "r": 227.79745407668338,
+      "profile": "annual2020",
+      "equipment": "industrial_liion"
+    },
+    "annual2020_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.1368683772161603e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 15,
+      "r": 834.9354408552043,
+      "profile": "annual2020",
+      "equipment": "industrial_liion"
+    },
+    "annual2020_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.0231815394945443e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2481,
+      "longest_cyclic": 8,
+      "r": 544.3530268096779,
+      "profile": "annual2020",
+      "equipment": "industrial_liion"
+    },
+    "annual2020_industrial_liion_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.1368683772161603e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 834.178762871666,
+      "profile": "annual2020",
+      "equipment": "industrial_liion"
+    },
+    "annual2020_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.1368683772161603e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 15,
+      "r": 834.9354408552043,
+      "profile": "annual2020",
+      "equipment": "industrial_liion"
+    },
+    "annual2020_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 6.480149750132114e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3083,
+      "longest_cyclic": 12,
+      "r": 425.5517903374082,
+      "profile": "annual2020",
+      "equipment": "industrial_liion"
+    },
+    "annual2020_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.9326762412674725e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 70,
+      "longest_cyclic": 17,
+      "r": 760.6811679182944,
+      "profile": "annual2020",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2020_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.8826540326699615e-10,
+      "max_ell_outside_allowed_loss_kW": 2.97859514830634e-11,
+      "hours": 4767,
+      "longest_cyclic": 24,
+      "r": 59.26761904761904,
+      "profile": "annual2020",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2020_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.637978807091713e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 33,
+      "longest_cyclic": 12,
+      "r": 786.798625193685,
+      "profile": "annual2020",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2020_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 8.953975338954479e-10,
+      "max_ell_outside_allowed_loss_kW": 3.277944035688652e-11,
+      "hours": 4152,
+      "longest_cyclic": 8,
+      "r": 142.8661741258603,
+      "profile": "annual2020",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2020_liion_hydrogen_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.9326762412674725e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 33,
+      "longest_cyclic": 8,
+      "r": 786.798625193685,
+      "profile": "annual2020",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2020_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.637978807091713e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 33,
+      "longest_cyclic": 12,
+      "r": 786.798625193685,
+      "profile": "annual2020",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2020_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.5426061256439425e-10,
+      "max_ell_outside_allowed_loss_kW": 2.717470692914503e-11,
+      "hours": 4014,
+      "longest_cyclic": 12,
+      "r": 248.77273809523808,
+      "profile": "annual2020",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2021_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 9.094947017729282e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 71,
+      "longest_cyclic": 9,
+      "r": 812.8402863106282,
+      "profile": "annual2021",
+      "equipment": "industrial_liion"
+    },
+    "annual2021_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 5.88897819397971e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3884,
+      "longest_cyclic": 24,
+      "r": 264.83365665443057,
+      "profile": "annual2021",
+      "equipment": "industrial_liion"
+    },
+    "annual2021_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.1368683772161603e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 28,
+      "longest_cyclic": 7,
+      "r": 837.2634087166341,
+      "profile": "annual2021",
+      "equipment": "industrial_liion"
+    },
+    "annual2021_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.2278178473934531e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2528,
+      "longest_cyclic": 8,
+      "r": 564.5967311286781,
+      "profile": "annual2021",
+      "equipment": "industrial_liion"
+    },
+    "annual2021_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.1368683772161603e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 28,
+      "longest_cyclic": 7,
+      "r": 837.2634087166341,
+      "profile": "annual2021",
+      "equipment": "industrial_liion"
+    },
+    "annual2021_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 5.32054400537163e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2793,
+      "longest_cyclic": 12,
+      "r": 502.2241861961728,
+      "profile": "annual2021",
+      "equipment": "industrial_liion"
+    },
+    "annual2021_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.844036200462142e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 71,
+      "longest_cyclic": 15,
+      "r": 752.0706857910159,
+      "profile": "annual2021",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2021_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.30466320974665e-09,
+      "max_ell_outside_allowed_loss_kW": 4.661328305831351e-11,
+      "hours": 4782,
+      "longest_cyclic": 24,
+      "r": 59.26761904761904,
+      "profile": "annual2021",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2021_liion_hydrogen_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 5.073275133327115e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 16,
+      "r": 708.5966726147462,
+      "profile": "annual2021",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2021_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.637978807091713e-12,
+      "max_ell_outside_allowed_loss_kW": 5.684341886080802e-14,
+      "hours": 35,
+      "longest_cyclic": 5,
+      "r": 759.0792284240724,
+      "profile": "annual2021",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2021_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.9554136088117957e-11,
+      "max_ell_outside_allowed_loss_kW": 1.3257615265887071e-11,
+      "hours": 3522,
+      "longest_cyclic": 8,
+      "r": 348.94806931129085,
+      "profile": "annual2021",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2021_liion_hydrogen_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 8.128608897095546e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 723.7269469396465,
+      "profile": "annual2021",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2021_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 3.637978807091713e-12,
+      "max_ell_outside_allowed_loss_kW": 5.684341886080802e-14,
+      "hours": 35,
+      "longest_cyclic": 5,
+      "r": 759.0792284240724,
+      "profile": "annual2021",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2021_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.226432454539463e-10,
+      "max_ell_outside_allowed_loss_kW": 3.847739143176503e-11,
+      "hours": 4042,
+      "longest_cyclic": 12,
+      "r": 248.97523809523807,
+      "profile": "annual2021",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2022_industrial_liion_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 7.958078640513122e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 9,
+      "r": 864.3223215128581,
+      "profile": "annual2022",
+      "equipment": "industrial_liion"
+    },
+    "annual2022_industrial_liion_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 6.45741238258779e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 3542,
+      "longest_cyclic": 24,
+      "r": 326.89852066603885,
+      "profile": "annual2022",
+      "equipment": "industrial_liion"
+    },
+    "annual2022_industrial_liion_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 3.979039320256561e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 71,
+      "longest_cyclic": 9,
+      "r": 843.3762029524486,
+      "profile": "annual2022",
+      "equipment": "industrial_liion"
+    },
+    "annual2022_industrial_liion_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.9558577807620168e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 13,
+      "r": 868.6854592205812,
+      "profile": "annual2022",
+      "equipment": "industrial_liion"
+    },
+    "annual2022_industrial_liion_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 9.549694368615746e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2134,
+      "longest_cyclic": 8,
+      "r": 636.0190385491653,
+      "profile": "annual2022",
+      "equipment": "industrial_liion"
+    },
+    "annual2022_industrial_liion_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 9.094947017729282e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 867.4384168063609,
+      "profile": "annual2022",
+      "equipment": "industrial_liion"
+    },
+    "annual2022_industrial_liion_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.9558577807620168e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 13,
+      "r": 868.6854592205812,
+      "profile": "annual2022",
+      "equipment": "industrial_liion"
+    },
+    "annual2022_industrial_liion_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 5.9117155615240335e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 2274,
+      "longest_cyclic": 12,
+      "r": 633.1653065840076,
+      "profile": "annual2022",
+      "equipment": "industrial_liion"
+    },
+    "annual2022_liion_hydrogen_H72D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 5.4569682106375694e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 17,
+      "r": 776.1938059082033,
+      "profile": "annual2022",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2022_liion_hydrogen_H72D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.6636826078174636e-10,
+      "max_ell_outside_allowed_loss_kW": 1.249088681663947e-10,
+      "hours": 4446,
+      "longest_cyclic": 24,
+      "r": 59.26761904761904,
+      "profile": "annual2022",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2022_liion_hydrogen_H72D24_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.057287590811029e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 72,
+      "longest_cyclic": 17,
+      "r": 742.9808466092938,
+      "profile": "annual2022",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2022_liion_hydrogen_H35D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.397193554770638e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 9,
+      "r": 805.3649675598147,
+      "profile": "annual2022",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2022_liion_hydrogen_H35D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.0149528516422403e-10,
+      "max_ell_outside_allowed_loss_kW": 1.0149528516422403e-10,
+      "hours": 3628,
+      "longest_cyclic": 8,
+      "r": 254.92761904761903,
+      "profile": "annual2022",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2022_liion_hydrogen_H35D8_r_joint.npz": {
+      "max_residual_kW_or_kWh": 1.4097167877480388e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 8,
+      "r": 775.7984072173565,
+      "profile": "annual2022",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2022_liion_hydrogen_H35D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.397193554770638e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 35,
+      "longest_cyclic": 9,
+      "r": 805.3649675598147,
+      "profile": "annual2022",
+      "equipment": "liion_hydrogen"
+    },
+    "annual2022_liion_hydrogen_H35D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 4.904450179310516e-10,
+      "max_ell_outside_allowed_loss_kW": 1.5241381502972674e-12,
+      "hours": 3812,
+      "longest_cyclic": 12,
+      "r": 248.97523809523807,
+      "profile": "annual2022",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_measured_0_industrial_liion_H0D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 182.31784596086922,
+      "profile": "pilot72_measured_0",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_measured_0_industrial_liion_H0D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.1368683772161603e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 58,
+      "longest_cyclic": 20,
+      "r": 0.06502493886018626,
+      "profile": "pilot72_measured_0",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_measured_0_industrial_liion_H0D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 182.31784596086922,
+      "profile": "pilot72_measured_0",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_measured_0_industrial_liion_H0D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 8.384404281969182e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 54,
+      "longest_cyclic": 8,
+      "r": 0.09841950329082681,
+      "profile": "pilot72_measured_0",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_measured_0_industrial_liion_H0D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 182.31784596086922,
+      "profile": "pilot72_measured_0",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_measured_0_industrial_liion_H0D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 9.663381206337363e-13,
+      "max_ell_outside_allowed_loss_kW": 2.9837911787202753e-13,
+      "hours": 56,
+      "longest_cyclic": 12,
+      "r": 0.06689582003593215,
+      "profile": "pilot72_measured_0",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_measured_0_liion_hydrogen_H0D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.7053025658242404e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 237.95536094215146,
+      "profile": "pilot72_measured_0",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_measured_0_liion_hydrogen_H0D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.5987211554602254e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 61,
+      "longest_cyclic": 20,
+      "r": 0.053762469430093135,
+      "profile": "pilot72_measured_0",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_measured_0_liion_hydrogen_H0D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.7053025658242404e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 237.95536094215146,
+      "profile": "pilot72_measured_0",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_measured_0_liion_hydrogen_H0D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.1368683772161603e-13,
+      "max_ell_outside_allowed_loss_kW": 1.1368683772161603e-13,
+      "hours": 56,
+      "longest_cyclic": 8,
+      "r": 0.05983475164541341,
+      "profile": "pilot72_measured_0",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_measured_0_liion_hydrogen_H0D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.7053025658242404e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 237.95536094215146,
+      "profile": "pilot72_measured_0",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_measured_0_liion_hydrogen_H0D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 56,
+      "longest_cyclic": 12,
+      "r": 0.08814582003593216,
+      "profile": "pilot72_measured_0",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_measured_336_industrial_liion_H0D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.9184653865522705e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 195.40977334524632,
+      "profile": "pilot72_measured_336",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_measured_336_industrial_liion_H0D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.9184653865522705e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 195.40977334524632,
+      "profile": "pilot72_measured_336",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_measured_336_industrial_liion_H0D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.1368683772161603e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 47,
+      "longest_cyclic": 8,
+      "r": 0.050378224206349215,
+      "profile": "pilot72_measured_336",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_measured_336_industrial_liion_H0D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.9184653865522705e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 195.40977334524632,
+      "profile": "pilot72_measured_336",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_measured_336_industrial_liion_H0D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.5579538487363607e-13,
+      "max_ell_outside_allowed_loss_kW": 4.263256414560601e-14,
+      "hours": 48,
+      "longest_cyclic": 12,
+      "r": 0.0506417871914531,
+      "profile": "pilot72_measured_336",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_measured_336_liion_hydrogen_H0D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.7053025658242404e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 251.16922164709212,
+      "profile": "pilot72_measured_336",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_measured_336_liion_hydrogen_H0D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.7053025658242404e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 251.16922164709212,
+      "profile": "pilot72_measured_336",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_measured_336_liion_hydrogen_H0D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.4210854715202004e-13,
+      "max_ell_outside_allowed_loss_kW": 2.842170943040401e-14,
+      "hours": 52,
+      "longest_cyclic": 8,
+      "r": 0.06100322420634922,
+      "profile": "pilot72_measured_336",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_measured_336_liion_hydrogen_H0D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.7053025658242404e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 251.16922164709212,
+      "profile": "pilot72_measured_336",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_measured_336_liion_hydrogen_H0D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 7.105427357601002e-14,
+      "max_ell_outside_allowed_loss_kW": 2.842170943040401e-14,
+      "hours": 53,
+      "longest_cyclic": 12,
+      "r": 0.0718917871914531,
+      "profile": "pilot72_measured_336",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_solar_evening_industrial_liion_H0D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 537.200871514299,
+      "profile": "pilot72_solar_evening",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_solar_evening_industrial_liion_H0D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.751665644813329e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 53,
+      "longest_cyclic": 24,
+      "r": 0.08224246389520443,
+      "profile": "pilot72_solar_evening",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_solar_evening_industrial_liion_H0D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 537.200871514299,
+      "profile": "pilot72_solar_evening",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_solar_evening_industrial_liion_H0D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.410605131648481e-12,
+      "max_ell_outside_allowed_loss_kW": 7.652816957751896e-14,
+      "hours": 51,
+      "longest_cyclic": 8,
+      "r": 0.06713867393557986,
+      "profile": "pilot72_solar_evening",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_solar_evening_industrial_liion_H0D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 537.200871514299,
+      "profile": "pilot72_solar_evening",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_solar_evening_industrial_liion_H0D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.751665644813329e-12,
+      "max_ell_outside_allowed_loss_kW": 8.883162572717922e-14,
+      "hours": 52,
+      "longest_cyclic": 12,
+      "r": 0.06713867393557986,
+      "profile": "pilot72_solar_evening",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_solar_evening_liion_hydrogen_H0D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 555.256965488788,
+      "profile": "pilot72_solar_evening",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_solar_evening_liion_hydrogen_H0D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.8189894035458565e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 57,
+      "longest_cyclic": 20,
+      "r": 0.09286746389520442,
+      "profile": "pilot72_solar_evening",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_solar_evening_liion_hydrogen_H0D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 555.256965488788,
+      "profile": "pilot72_solar_evening",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_solar_evening_liion_hydrogen_H0D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.410605131648481e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 51,
+      "longest_cyclic": 8,
+      "r": 0.07245117393557986,
+      "profile": "pilot72_solar_evening",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_solar_evening_liion_hydrogen_H0D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 555.256965488788,
+      "profile": "pilot72_solar_evening",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_solar_evening_liion_hydrogen_H0D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 53,
+      "longest_cyclic": 11,
+      "r": 0.07245117393557986,
+      "profile": "pilot72_solar_evening",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_persistent_generation_industrial_liion_H0D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 564.9807312829638,
+      "profile": "pilot72_persistent_generation",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_persistent_generation_industrial_liion_H0D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.2050804798491299e-11,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 62,
+      "longest_cyclic": 22,
+      "r": 40.58854106576839,
+      "profile": "pilot72_persistent_generation",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_persistent_generation_industrial_liion_H0D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 564.9807312829638,
+      "profile": "pilot72_persistent_generation",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_persistent_generation_industrial_liion_H0D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 3.183231456205249e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 47,
+      "longest_cyclic": 8,
+      "r": 136.89934964976254,
+      "profile": "pilot72_persistent_generation",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_persistent_generation_industrial_liion_H0D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 564.9807312829638,
+      "profile": "pilot72_persistent_generation",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_persistent_generation_industrial_liion_H0D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.7053025658242404e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 52,
+      "longest_cyclic": 11,
+      "r": 106.10919767070061,
+      "profile": "pilot72_persistent_generation",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_persistent_generation_liion_hydrogen_H0D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 561.164014788946,
+      "profile": "pilot72_persistent_generation",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_persistent_generation_liion_hydrogen_H0D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 7.105427357601002e-14,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 62,
+      "longest_cyclic": 22,
+      "r": 84.1085363398656,
+      "profile": "pilot72_persistent_generation",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_persistent_generation_liion_hydrogen_H0D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 561.164014788946,
+      "profile": "pilot72_persistent_generation",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_persistent_generation_liion_hydrogen_H0D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 4.092726157978177e-12,
+      "max_ell_outside_allowed_loss_kW": 2.968480847014112e-13,
+      "hours": 47,
+      "longest_cyclic": 8,
+      "r": 180.4166017786725,
+      "profile": "pilot72_persistent_generation",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_persistent_generation_liion_hydrogen_H0D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 561.164014788946,
+      "profile": "pilot72_persistent_generation",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_persistent_generation_liion_hydrogen_H0D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 9.237055564881302e-14,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 52,
+      "longest_cyclic": 11,
+      "r": 149.63072392801632,
+      "profile": "pilot72_persistent_generation",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_stress_industrial_liion_H0D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 279.4168053104521,
+      "profile": "pilot72_stress",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_stress_industrial_liion_H0D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 7.389644451905042e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 64,
+      "longest_cyclic": 24,
+      "r": 0.05442916044559334,
+      "profile": "pilot72_stress",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_stress_industrial_liion_H0D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 279.4168053104521,
+      "profile": "pilot72_stress",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_stress_industrial_liion_H0D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.0373923942097463e-12,
+      "max_ell_outside_allowed_loss_kW": 3.295511929647139e-13,
+      "hours": 55,
+      "longest_cyclic": 8,
+      "r": 0.07544911664292708,
+      "profile": "pilot72_stress",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_stress_industrial_liion_H0D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 279.4168053104521,
+      "profile": "pilot72_stress",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_stress_industrial_liion_H0D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 1.5916157281026244e-12,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 59,
+      "longest_cyclic": 12,
+      "r": 0.06944648588040381,
+      "profile": "pilot72_stress",
+      "equipment": "industrial_liion"
+    },
+    "pilot72_stress_liion_hydrogen_H0D24_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.7053025658242404e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 329.4309217365624,
+      "profile": "pilot72_stress",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_stress_liion_hydrogen_H0D24_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.2737367544323206e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 64,
+      "longest_cyclic": 22,
+      "r": 0.06505416044559334,
+      "profile": "pilot72_stress",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_stress_liion_hydrogen_H0D8_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.7053025658242404e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 329.4309217365624,
+      "profile": "pilot72_stress",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_stress_liion_hydrogen_H0D8_r_D.npz": {
+      "max_residual_kW_or_kWh": 4.547473508864641e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 57,
+      "longest_cyclic": 8,
+      "r": 0.08607411664292708,
+      "profile": "pilot72_stress",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_stress_liion_hydrogen_H0D12_r_H.npz": {
+      "max_residual_kW_or_kWh": 1.7053025658242404e-13,
+      "max_ell_outside_allowed_loss_kW": 0.0,
+      "hours": 0,
+      "longest_cyclic": 0,
+      "r": 329.4309217365624,
+      "profile": "pilot72_stress",
+      "equipment": "liion_hydrogen"
+    },
+    "pilot72_stress_liion_hydrogen_H0D12_r_D.npz": {
+      "max_residual_kW_or_kWh": 2.331801915599628e-13,
+      "max_ell_outside_allowed_loss_kW": 1.4210854715202004e-13,
+      "hours": 61,
+      "longest_cyclic": 12,
+      "r": 0.0800714858804038,
+      "profile": "pilot72_stress",
+      "equipment": "liion_hydrogen"
+    }
+  },
+  "note": "independent direct balances at tolerance1e-8; no rounded-zero Gamma for annual intervals"
+}

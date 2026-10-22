@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this software; article publication details will be added by the author."
+type: software
+title: "Reliability-constraint conflicts: duration and self-discharge — reproducibility code"
+authors:
+  - family-names: Trashchenkov
+    given-names: Sergei
+    orcid: "https://orcid.org/0000-0001-8786-8336"
+license: MIT
+version: "0.1.0"
+# Article citation placeholder: title, journal, year, DOI to be supplied after publication.
+# No article DOI or repository URL has been assigned; nothing has been published.

@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "prepared_at_utc": "2026-10-15T14:31:57.900243+00:00",
+  "years": [
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "latitude": 71.7775,
+  "longitude": 139.8471,
+  "wind_nominal_kW": 3000,
+  "pv_nominal_kW": 500,
+  "standby_added_kW": 0,
+  "sources": [
+    {
+      "path": "raw/pvgis_era5_2005_2022.json",
+      "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=71.7775&lon=139.8471&raddatabase=PVGIS-ERA5&startyear=2005&endyear=2022&pvcalculation=1&peakpower=1&loss=14&pvtechchoice=crystSi&mountingplace=free&angle=60&aspect=0&trackingtype=0&usehorizon=1&outputformat=json",
+      "kind": "original_unmodified_API_response",
+      "inputs": {
+        "location": {
+          "latitude": 71.7775,
+          "longitude": 139.8471,
+          "elevation": 12.0
+        },
+        "meteo_data": {
+          "radiation_db": "PVGIS-ERA5",
+          "meteo_db": "ERA5",
+          "year_min": 2005,
+          "year_max": 2022,
+          "use_horizon": true,
+          "horizon_db": null,
+          "horizon_data": "DEM-calculated"
+        },
+        "mounting_system": {
+          "fixed": {
+            "slope": {
+              "value": 60,
+              "optimal": false
+            },
+            "azimuth": {
+              "value": 0,
+              "optimal": false
+            },
+            "type": "free-standing"
+          }
+        },
+        "pv_module": {
+          "technology": "c-Si",
+          "peak_power": 1.0,
+          "system_loss": 14.0
+        }
+      },
+      "sha256": "f8b32f04745842f83ddd2a11c3a58e8a77dd6df675b8c1a0969498eb9bbb5af5",
+      "bytes": 14855858
+    },
+    {
+      "path": "raw/pvgis_era5_2023.json",
+      "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=71.7775&lon=139.8471&raddatabase=PVGIS-ERA5&startyear=2023&endyear=2023&pvcalculation=1&peakpower=1&loss=14&pvtechchoice=crystSi&mountingplace=free&angle=60&aspect=0&trackingtype=0&usehorizon=1&outputformat=json",
+      "kind": "byte_identical_reuse",
+      "inputs": {
+        "location": {
+          "latitude": 71.7775,
+          "longitude": 139.8471,
+          "elevation": 12.0
+        },
+        "meteo_data": {
+          "radiation_db": "PVGIS-ERA5",
+          "meteo_db": "ERA5",
+          "year_min": 2023,
+          "year_max": 2023,
+          "use_horizon": true,
+          "horizon_db": null,
+          "horizon_data": "DEM-calculated"
+        },
+        "mounting_system": {
+          "fixed": {
+            "slope": {
+              "value": 60,
+              "optimal": false
+            },
+            "azimuth": {
+              "value": 0,
+              "optimal": false
+            },
+            "type": "free-standing"
+          }
+        },
+        "pv_module": {
+          "technology": "c-Si",
+          "peak_power": 1.0,
+          "system_loss": 14.0
+        }
+      },
+      "reused_from": "research_continuation_2026-10-13/mechanism_study_2026-10-15/winter_sources/raw/pvgis_era5_2023.json",
+      "sha256": "9a55443e77aaf3a5d8ef717dac56f22c0a3d700c576debaa6c7ff0b03487b67c",
+      "bytes": 827402
+    },
+    {
+      "path": "sources/ewt_dw54_500_curve_digitized.csv",
+      "url": "https://ewtdirectwind.com/wp-content/uploads/2023/11/EWT_DW54.pdf",
+      "kind": "previously_digitized_manufacturer_curve",
+      "reused_from": "research_continuation_2026-10-13/mechanism_study_2026-10-15/winter_sources/derived/ewt_dw54_500_curve_digitized.csv",
+      "original_pdf_sha256": "479f75dbf95e982b4ce27c0ae3d5e90769fbfd88721ddaf2ba3f90f177acf1c1",
+      "sha256": "7f2f50d645ca84344f8e0c9c77909c4e97883da2553b0cdde528c583f9d517fe",
+      "bytes": 298
+    },
+    {
+      "path": "sources/yukagir_typical_winter_model_24h.csv",
+      "kind": "author_archive_model_shape_not_measurements",
+      "reused_from": "research_continuation_2026-10-13/mechanism_study_2026-10-15/winter_sources/derived/yukagir_typical_winter_model_24h.csv",
+      "sha256": "0d0cb91fcbc99f612a26e38aa79565c7722f8858a9e8dede163a67e6ba5c0702",
+      "bytes": 746
+    }
+  ],
+  "source_offsets_by_year": {
+    "2005": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 0,
+      "hourly_index_end_exclusive": 8760
+    },
+    "2006": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 8760,
+      "hourly_index_end_exclusive": 17520
+    },
+    "2007": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 17520,
+      "hourly_index_end_exclusive": 26280
+    },
+    "2008": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 26280,
+      "hourly_index_end_exclusive": 35064
+    },
+    "2009": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 35064,
+      "hourly_index_end_exclusive": 43824
+    },
+    "2010": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 43824,
+      "hourly_index_end_exclusive": 52584
+    },
+    "2011": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 52584,
+      "hourly_index_end_exclusive": 61344
+    },
+    "2012": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 61344,
+      "hourly_index_end_exclusive": 70128
+    },
+    "2013": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 70128,
+      "hourly_index_end_exclusive": 78888
+    },
+    "2014": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 78888,
+      "hourly_index_end_exclusive": 87648
+    },
+    "2015": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 87648,
+      "hourly_index_end_exclusive": 96408
+    },
+    "2016": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 96408,
+      "hourly_index_end_exclusive": 105192
+    },
+    "2017": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 105192,
+      "hourly_index_end_exclusive": 113952
+    },
+    "2018": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 113952,
+      "hourly_index_end_exclusive": 122712
+    },
+    "2019": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 122712,
+      "hourly_index_end_exclusive": 131472
+    },
+    "2020": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 131472,
+      "hourly_index_end_exclusive": 140256
+    },
+    "2021": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 140256,
+      "hourly_index_end_exclusive": 149016
+    },
+    "2022": {
+      "raw_file": "raw/pvgis_era5_2005_2022.json",
+      "hourly_index_start": 149016,
+      "hourly_index_end_exclusive": 157776
+    },
+    "2023": {
+      "raw_file": "raw/pvgis_era5_2023.json",
+      "hourly_index_start": 0,
+      "hourly_index_end_exclusive": 8760
+    }
+  },
+  "protocol_sha256": "f2a5dc2c09364392143f49348e9430aa6b3808c497c301fdbe958d23d76ede39",
+  "request_sha256": "f5a563c91df1ea0ef9144897de5239ea0695755e2aaac69f5b59a2bf791d563f",
+  "download_log_sha256": "aa36a4c47483d6c3a4d7eae8f41a52c503a8663e812aaf1801e99e0950ead045",
+  "prepare_script_sha256": "f5c00edd115a1573993f172cd3f5dfc0914f376a0e26192773e826ab62435d58",
+  "outputs_sha256": {
+    "annual_8760.npz": "e1c7ca9b488cc391a4382ec5e67360e8d7f935be124c746859e64c2fb8283a09",
+    "winter_1008.npz": "17c7eb34ca8778db2e335c02d033fe82f5222421cf4786148498137ba5c6579e",
+    "removed_feb29.json": "cb05ca2ffbc79dd82043bb47d1e3bf0e65d3501174ee2b033481e90ab461907c",
+    "validation.json": "daf15936779ea3a52c4f9cead34d506d7b37ae02618a51a22aee646f953354f3",
+    "annual_original/year_2005.npz": "3c93d363b0b4fbcb9c74383553185c8faffe0ae63e0a28821be7bd939716e656",
+    "annual_original/year_2006.npz": "f66b5fed007ebbe6ed1d43ec630280c6d53e0fee65948604e7f6eaa010d192e5",
+    "annual_original/year_2007.npz": "43037d36871c86459bf00f5f23f157a620e274ada1c4b4fdf9b5de57fe74cc52",
+    "annual_original/year_2008.npz": "2cdbf5d8c2eabff950685d050941931ba918afa154701d80fec75d840c5fad24",
+    "annual_original/year_2009.npz": "253bba3f606b623b82ef36749fa61433dc21f08700cc632d4479b47df74b9323",
+    "annual_original/year_2010.npz": "7b82e8c61553c5ba3e71d86a446dca7b7eb8b2ac0639d2d71e3049e4b6129cca",
+    "annual_original/year_2011.npz": "924171658f15a30470e0911d69a673acac4bde6e843c6a0897ac62804baa377a",
+    "annual_original/year_2012.npz": "14544d9ded93611578ed9f52e07d7b8421fb17bd5a2736c68a083549fe1ca8e2",
+    "annual_original/year_2013.npz": "e29f9b4303d2106983358a732c2eaca47fec852607e4763d6de0f3b634cc30b6",
+    "annual_original/year_2014.npz": "f0e29618b9ff58fa1697a4a893d38e1c0900de98fad49b47bc2859c80575aafe",
+    "annual_original/year_2015.npz": "dc4e634226ccf92fa68f32c8bf897a7e56c54ae4d383d66e8ea1c5ac7f1c0f24",
+    "annual_original/year_2016.npz": "94ce9a1f4b7fc3860e9c956a73e67caf9053b8ae95d4b63935c236951ab29acd",
+    "annual_original/year_2017.npz": "80b64f04472491442a186983d9abb83471742d5af025f4912809eebc9cbb9a19",
+    "annual_original/year_2018.npz": "2b729406970d9bbe816f57874b67b0434a160382b12de3b8c7f8db006c8bc8e1",
+    "annual_original/year_2019.npz": "a8335ffcca66ebd373d2b06c5fb83b337081688fabdfa42778f3d22194cb1e7f",
+    "annual_original/year_2020.npz": "bd74f10f11185ab6751f536cb6affaabe257e83df6d04eb2501aefec73fd6320",
+    "annual_original/year_2021.npz": "62318285c926cb6258facea0aed066c1046628dda2e064ee7747237027e4a83a",
+    "annual_original/year_2022.npz": "3292734e40fb4d3c2fc81019943aeae7d336660438d86638d2ec70e9a83d4d7b",
+    "annual_original/year_2023.npz": "1f7282b2c29c35bb50f6580d3a1c043310a80ac8300de7526582fe890bb8d8e0"
+  },
+  "python": "3.9.6 (default, Apr 30 2025, 02:07:17) \n[Clang 17.0.0 (clang-1700.0.13.5)]",
+  "numpy": "2.0.2",
+  "attribution": "European Commission, Joint Research Centre, PVGIS 5.3; ERA5",
+  "pvgis_api_documentation": "https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/api-non-interactive-service_en",
+  "pvgis_usage_conditions": "https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/general-information/usage-conditions-data-protection_en",
+  "rights_limitations": "PVGIS attribution retained. EWT curve derives from copyrighted manufacturer material. Author model load has no established public license. No blanket open license asserted."
+}

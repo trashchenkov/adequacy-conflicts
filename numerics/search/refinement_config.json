@@ -1,0 +1,10 @@
+{
+  "seed": 2026102202,
+  "budget_seconds": 1000.0,
+  "population": 40,
+  "generations": 60,
+  "local_maxfev": 450,
+  "structures": 704,
+  "definitions": 2,
+  "trace_columns": "x[0:T], E, Pc, linear(gamma,H,D,rH,rD,rjoint), cyclic(same)"
+}

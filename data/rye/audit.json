@@ -1,0 +1,39 @@
+{
+  "T": 8280,
+  "start": "2020-01-01 13:00:00+00:00",
+  "end": "2020-12-11 12:00:00+00:00",
+  "missing_wind": [
+    {
+      "start": "2020-11-12 09:00:00+00:00",
+      "end": "2020-11-12 22:00:00+00:00",
+      "length": 14,
+      "rows": [
+        7580,
+        7581,
+        7582,
+        7583,
+        7584,
+        7585,
+        7586,
+        7587,
+        7588,
+        7589,
+        7590,
+        7591,
+        7592,
+        7593
+      ]
+    }
+  ],
+  "long_gap_policy": "zero generation, conditional assumption, not measured",
+  "consumption_kWh": 157689.071298324,
+  "peak_load_kW": 70.366622222,
+  "x_min": -70.366622222,
+  "negative_values": {
+    "Consumption": 0,
+    "Solar": 0,
+    "Wind": 0
+  },
+  "positive_import_q05": 2.115116944450001,
+  "source_sha256": "980e8be3cb32b310679fbad741762f24b624597a9cef7872cc84acac1b3a5c9d"
+}

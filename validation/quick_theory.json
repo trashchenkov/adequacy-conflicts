@@ -1,0 +1,86 @@
+[
+  {
+    "name": "ex:quarter Gamma",
+    "expected": 0.25,
+    "obtained": 0.2499995231628418,
+    "tolerance": 2e-06,
+    "ok": true
+  },
+  {
+    "name": "thm:half pinned-hour sharpness",
+    "expected": 0.5,
+    "obtained": 0.4999995231628418,
+    "tolerance": 2e-06,
+    "ok": true
+  },
+  {
+    "name": "ex:sd 4/95",
+    "expected": 0.042105263157894736,
+    "obtained": 0.042105257511138916,
+    "tolerance": 2e-06,
+    "ok": true
+  },
+  {
+    "name": "prop:three capacity",
+    "expected": 0.010526315789473687,
+    "obtained": 0.01052635908126831,
+    "tolerance": 2e-06,
+    "ok": true
+  },
+  {
+    "name": "prop:three surplus eta=1",
+    "expected": 0.01845018450184502,
+    "obtained": 0.01845020055770874,
+    "tolerance": 2e-06,
+    "ok": true
+  },
+  {
+    "name": "prop:three surplus eta=.5",
+    "expected": 0.008676789587852497,
+    "obtained": 0.00867682695388794,
+    "tolerance": 2e-06,
+    "ok": true
+  },
+  {
+    "name": "prop:shore delta=0.1 L=1",
+    "expected": 0.04263157894736841,
+    "obtained": 0.04263165593147278,
+    "tolerance": 2e-06,
+    "ok": true
+  },
+  {
+    "name": "prop:shore delta=0.05 L=3",
+    "expected": 0.03252096550547646,
+    "obtained": 0.03252097964286804,
+    "tolerance": 2e-06,
+    "ok": true
+  },
+  {
+    "name": "prop:shore delta=0.02 L=10",
+    "expected": 0.015972073027323404,
+    "obtained": 0.015972107648849487,
+    "tolerance": 2e-06,
+    "ok": true
+  },
+  {
+    "name": "prop:shore delta=0.01 L=20",
+    "expected": 0.008494333945841785,
+    "obtained": 0.008494287729263306,
+    "tolerance": 2e-06,
+    "ok": true
+  },
+  {
+    "name": "daily tank delta=.01 Gamma",
+    "expected": 0.006687,
+    "obtained": 0.006687164306640625,
+    "tolerance": 2e-05,
+    "ok": true
+  },
+  {
+    "name": "MILP no-D regression",
+    "expected": 240,
+    "obtained": 240,
+    "tolerance": 0,
+    "ok": true
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "created": "2021-06-21T09:38:30.433696+00:00",
+  "modified": "2021-06-21T13:48:17.115428+00:00",
+  "id": 4448894,
+  "conceptrecid": "4448893",
+  "doi": "10.5281/zenodo.4448894",
+  "conceptdoi": "10.5281/zenodo.4448893",
+  "doi_url": "https://doi.org/10.5281/zenodo.4448894",
+  "metadata": {
+    "title": "Rye microgrid load and generation data, and meteorological forecasts.",
+    "doi": "10.5281/zenodo.4448894",
+    "publication_date": "2021-06-21",
+    "description": "<p>This dataset contains timeseries for Rye Microgrid, Trondheim, Norway. The timeseries include solar and wind power generation, consumption and historical weather forecasts.</p>\n\n<p>From <a href=\"https://github.com/TronderEnergi/tronderenergi-ai-hackathon-2021\">https://github.com/TronderEnergi/tronderenergi-ai-hackathon-2021</a>:</p>\n\n<p><em>&quot;The Rye microgrid is a pilot within the EU research project REMOTE. It is a small microgrid placed at Lang&oslash;rgen, in the outskirts of Trondheim, and is a small energy system designed to supply electricity to a modern farm and three households. The REMOTE projects goal for Rye Microgrid is to run the system in islanded mode.</em></p>\n\n<p><em>The system has two sources of generation &ndash; a wind turbine and a rack of PV panels. In addition, the system has two storages &ndash; a battery with high charge and discharge response, but with limited storage and losses, and a hydrogen energy system, with lower charge and discharge rates, higher losses and storage capacity. When you want to charge the hydrogen system, electricity is used to run an electrolyser that makes hydrogen from water and stores the resulting hydrogen in a tank. The process can be reversed by producing electricity from hydrogen using a fuel cell. (...)</em></p>\n\n<p><em>Morover, when local production or discharges from storages are not sufficient to cover the demand, the microgrid can draw electricity from the grid at some costs.&quot;</em></p>\n\n<p>&nbsp;</p>\n\n<p>For further details, see:&nbsp;<a href=\"https://www.remote-euproject.eu/remote18/rem18-cont/uploads/2019/03/REMOTE-D2.2.pdf\">https://www.remote-euproject.eu/remote18/rem18-cont/uploads/2019/03/REMOTE-D2.2.pdf</a> and&nbsp;<a href=\"https://github.com/TronderEnergi/tronderenergi-ai-hackathon-2021\">https://github.com/TronderEnergi/tronderenergi-ai-hackathon-2021</a></p>\n\n<p>rye_generation_and_load.csv is a comma-separated csv-file with the following columns (all values in <em>kW </em>and time as UTC):</p>\n\n<ul>\n\t<li>Consumption: Consumption of loads in system (residential and agriculture).</li>\n\t<li>Solar: Total production from all solar PV racks.</li>\n\t<li>Wind: Power production from wind turbine.</li>\n</ul>\n\n<p>met_data.h5: Contains&nbsp;historical weather forecasts data from&nbsp;The Norwegian Meteorological Institute (met.no)&nbsp;updated every 6 hours for the given location. The file is in hdf5 format. The forecasts include the following parameters: air_pressure_at_sea_level [Pa], air_temperature_2m [K], cloud_area_fraction [pu], integral_of_surface_downwelling_shortwave_flux_in_air_wrt_time [J/m<sup>2</sup>s], wind_direction_10m [deg], wind_speed_10m [m/s]</p>\n\n<p>The structure of the file is as follows:</p>\n\n<ul>\n\t<li>lat63_41_lon10_11 (coordinates)\n\t<ul>\n\t\t<li>[forecasted parameter]\n\t\t<ul>\n\t\t\t<li>forecast\n\t\t\t<ul>\n\t\t\t\t<li>2020-01-01T00Z (time forecast was issued)\n\t\t\t\t<ul>\n\t\t\t\t\t<li>axis0 (columns,&nbsp;index&nbsp;where each&nbsp;represent a point in a geographical grid. For example if axis=0,1,2,3, the tables contains the forecasts for the four closes points to the microgrid.)</li>\n\t\t\t\t\t<li>axis1 (rows, timestamps)</li>\n\t\t\t\t\t<li>block0_items (equal to axis0)</li>\n\t\t\t\t\t<li>block0_values (matrix, forecast values)</li>\n\t\t\t\t</ul>\n\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\t</li>\n\t\t</ul>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Aaslid, Per",
+        "affiliation": "SINTEF Energy Research",
+        "orcid": "0000-0003-2253-4479"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "Klæboe, Gro",
+        "affiliation": "TrønderEnergi AS",
+        "type": "Other",
+        "orcid": "0000-0002-4106-3724"
+      }
+    ],
+    "keywords": [
+      "microgrid"
+    ],
+    "references": [
+      "P.Marocco, D.Ferrero, M.Gandiglio, and M.Santarelli, \"Remote area Energy supply with Multiple Options for integrated hydrogen-based TEchnologies - Deliverable number 2.2\", 2018.  [Online]. Available: https://www.remote-euproject.eu/remote18/rem18-cont/uploads/2019/03/REMOTE-D2.2.pdf"
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "4448893"
+          }
+        }
+      ]
+    },
+    "notes": "This data has been published in conjunction with PhD studies funded by the Norwegian Research Council under grant number 272398."
+  },
+  "title": "Rye microgrid load and generation data, and meteorological forecasts.",
+  "links": {
+    "self": "https://zenodo.org/api/records/4448894",
+    "self_html": "https://zenodo.org/records/4448894",
+    "preview_html": "https://zenodo.org/records/4448894?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.4448894",
+    "self_doi": "https://doi.org/10.5281/zenodo.4448894",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4448894",
+    "reserve_doi": "https://zenodo.org/api/records/4448894/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/4448893",
+    "parent_html": "https://zenodo.org/records/4448893",
+    "parent_doi": "https://doi.org/10.5281/zenodo.4448893",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4448893",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:4448894/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:4448894/sequence/default",
+    "files": "https://zenodo.org/api/records/4448894/files",
+    "media_files": "https://zenodo.org/api/records/4448894/media-files",
+    "latest": "https://zenodo.org/api/records/4448894/versions/latest",
+    "latest_html": "https://zenodo.org/records/4448894/latest",
+    "versions": "https://zenodo.org/api/records/4448894/versions",
+    "draft": "https://zenodo.org/api/records/4448894/draft",
+    "access_links": "https://zenodo.org/api/records/4448894/access/links",
+    "access_grants": "https://zenodo.org/api/records/4448894/access/grants",
+    "access_users": "https://zenodo.org/api/records/4448894/access/users",
+    "access_request": "https://zenodo.org/api/records/4448894/access/request",
+    "access": "https://zenodo.org/api/records/4448894/access",
+    "communities": "https://zenodo.org/api/records/4448894/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/4448894/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/4448894/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/4448894/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/4448894/quota-increase",
+    "requests": "https://zenodo.org/api/records/4448894/requests"
+  },
+  "updated": "2021-06-21T13:48:17.115428+00:00",
+  "recid": "4448894",
+  "revision": 2,
+  "files": [
+    {
+      "id": "0f0cfff5-8d1d-4162-aee4-cb9905812f4f",
+      "key": "met_data.h5",
+      "size": 89331240,
+      "checksum": "md5:f5eaf3b50db6ae8cc7b41086d37064a8",
+      "links": {
+        "self": "https://zenodo.org/api/records/4448894/files/met_data.h5/content"
+      }
+    },
+    {
+      "id": "1a6d3e8a-ad33-4f0c-9eca-fe44f289a7d9",
+      "key": "rye_generation_and_load.csv",
+      "size": 409148,
+      "checksum": "md5:9838d6a911eb9fe7496c9fc6252e2ed8",
+      "links": {
+        "self": "https://zenodo.org/api/records/4448894/files/rye_generation_and_load.csv/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "189210"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 2657,
+    "unique_downloads": 1925,
+    "views": 2637,
+    "unique_views": 2364,
+    "version_downloads": 2650,
+    "version_unique_downloads": 1921,
+    "version_unique_views": 2356,
+    "version_views": 2629
+  },
+  "state": "done",
+  "submitted": true
+}

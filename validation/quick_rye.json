@@ -1,0 +1,92 @@
+{
+  "checks": [
+    {
+      "name": "Rye table rows reconstructed",
+      "expected": 51,
+      "obtained": 51,
+      "tolerance": 0,
+      "ok": true
+    },
+    {
+      "name": "Rye HD pairs",
+      "expected": 24,
+      "obtained": 24,
+      "tolerance": 0,
+      "ok": true
+    },
+    {
+      "name": "Rye HD positive lower bounds",
+      "expected": 0,
+      "obtained": 0,
+      "tolerance": 0,
+      "ok": true
+    },
+    {
+      "name": "Rye HD max upper kW",
+      "expected": 0.087,
+      "obtained": 0.08684934537989975,
+      "tolerance": 0.0005,
+      "ok": true
+    },
+    {
+      "name": "Rye HD max upper percent",
+      "expected": 0.22,
+      "obtained": 0.21712336344974933,
+      "tolerance": 0.005,
+      "ok": true
+    },
+    {
+      "name": "Rye tank lower kW",
+      "expected": 0.014,
+      "obtained": 0.013999960886852847,
+      "tolerance": 0.0005,
+      "ok": true
+    },
+    {
+      "name": "Rye tank upper kW",
+      "expected": 0.048,
+      "obtained": 0.04753120235699981,
+      "tolerance": 0.0005,
+      "ok": true
+    },
+    {
+      "name": "Rye tank lower / deltaE",
+      "expected": 0.012,
+      "obtained": 0.011666634072377374,
+      "tolerance": 0.0005,
+      "ok": true
+    },
+    {
+      "name": "Rye tank upper / deltaE",
+      "expected": 0.04,
+      "obtained": 0.03960933529749985,
+      "tolerance": 0.0005,
+      "ok": true
+    },
+    {
+      "name": "Rye hours",
+      "expected": 8280,
+      "obtained": 8280,
+      "tolerance": 0,
+      "ok": true
+    },
+    {
+      "name": "Rye peak load kW",
+      "expected": 70,
+      "obtained": 70.366622222,
+      "tolerance": 0.5,
+      "ok": true
+    }
+  ],
+  "discrepancy": {
+    "manuscript_HD_H_witness_series_h": [
+      3,
+      5
+    ],
+    "saved_range_h": [
+      3,
+      9
+    ],
+    "status": "DISCREPANCY"
+  }
+}

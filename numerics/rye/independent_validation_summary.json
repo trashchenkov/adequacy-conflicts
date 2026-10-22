@@ -1,0 +1,17 @@
+{
+  "source": "rye_independent_validation.tar.gz",
+  "source_status": "interim_replay_main_run_in_progress",
+  "sections": {
+    "controls": 7,
+    "annual_witnesses": 118,
+    "status": "interim_replay_main_run_in_progress",
+    "independent_formulation_control": 16,
+    "annual_independent_solver_checks": 2,
+    "positive_case_checks": 5,
+    "frontier_dp": 2,
+    "frontier_independent_solver_checks": 2,
+    "frontier_independent_refinements": 2,
+    "frontier_dp_recovery_joint_checks": 4
+  },
+  "warning": "Original source labels this interim; section counts are not a completed audit claim."
+}

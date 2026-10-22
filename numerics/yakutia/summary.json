@@ -1,0 +1,823 @@
+{
+  "annual_rows": 114,
+  "short_rows": 36,
+  "elapsed_s": 717.1416212079348,
+  "groups": [
+    {
+      "equipment": "industrial_liion",
+      "H": 72,
+      "D": 24,
+      "n": 19,
+      "gamma_lower": 0,
+      "gamma_upper_min": 0.702406704470377,
+      "gamma_upper_max": 56.32272061197921,
+      "gamma_upper_fraction_Pd_max": 0.03754848040798614,
+      "r0_hull": [
+        761.6571205785415,
+        861.2781930948894
+      ],
+      "catalogue_same": 49,
+      "catalogue_different": 0,
+      "catalogue_unknown": 8,
+      "catalogue_outside": 0,
+      "gamma_over_step_upper_max": 0.8046102944568458
+    },
+    {
+      "equipment": "industrial_liion",
+      "H": 35,
+      "D": 8,
+      "n": 19,
+      "gamma_lower": 0,
+      "gamma_upper_min": 0.7695960402934361,
+      "gamma_upper_max": 17.957235523147574,
+      "gamma_upper_fraction_Pd_max": 0.01197149034876505,
+      "r0_hull": [
+        778.7284751074219,
+        882.7960932264839
+      ],
+      "catalogue_same": 57,
+      "catalogue_different": 0,
+      "catalogue_unknown": 0,
+      "catalogue_outside": 0,
+      "gamma_over_step_upper_max": 0.1951873426429084
+    },
+    {
+      "equipment": "industrial_liion",
+      "H": 35,
+      "D": 12,
+      "n": 19,
+      "gamma_lower": 0,
+      "gamma_upper_min": 0.7695960402934361,
+      "gamma_upper_max": 12.012044190190636,
+      "gamma_upper_fraction_Pd_max": 0.00800802946012709,
+      "r0_hull": [
+        778.7284751074219,
+        882.7960932264839
+      ],
+      "catalogue_same": 57,
+      "catalogue_different": 0,
+      "catalogue_unknown": 0,
+      "catalogue_outside": 0,
+      "gamma_over_step_upper_max": 0.17160063128843767
+    },
+    {
+      "equipment": "liion_hydrogen",
+      "H": 72,
+      "D": 24,
+      "n": 19,
+      "gamma_lower": 0,
+      "gamma_upper_min": 5.675216053721101,
+      "gamma_upper_max": 281.21625238118503,
+      "gamma_upper_fraction_Pd_max": 0.1546844072503768,
+      "r0_hull": [
+        479.46491553710933,
+        771.3941350081382
+      ],
+      "catalogue_same": 20,
+      "catalogue_different": 0,
+      "catalogue_unknown": 37,
+      "catalogue_outside": 0,
+      "gamma_over_step_upper_max": 14.060812619059252
+    },
+    {
+      "equipment": "liion_hydrogen",
+      "H": 35,
+      "D": 8,
+      "n": 19,
+      "gamma_lower": 0,
+      "gamma_upper_min": 6.614483646545523,
+      "gamma_upper_max": 255.09879510579435,
+      "gamma_upper_fraction_Pd_max": 0.1403183691451014,
+      "r0_hull": [
+        531.6998300878906,
+        804.4876138602702
+      ],
+      "catalogue_same": 27,
+      "catalogue_different": 0,
+      "catalogue_unknown": 30,
+      "catalogue_outside": 0,
+      "gamma_over_step_upper_max": 10.62911646274143
+    },
+    {
+      "equipment": "liion_hydrogen",
+      "H": 35,
+      "D": 12,
+      "n": 19,
+      "gamma_lower": 0,
+      "gamma_upper_min": 6.614483646545523,
+      "gamma_upper_max": 255.09879510579435,
+      "gamma_upper_fraction_Pd_max": 0.1403183691451014,
+      "r0_hull": [
+        531.6998300878906,
+        804.4876138602702
+      ],
+      "catalogue_same": 27,
+      "catalogue_different": 0,
+      "catalogue_unknown": 30,
+      "catalogue_outside": 0,
+      "gamma_over_step_upper_max": 10.62911646274143
+    }
+  ],
+  "year2023": [
+    {
+      "id": "annual2023_industrial_liion_H72D24",
+      "profile": "annual2023",
+      "equipment": "industrial_liion",
+      "T": 8760,
+      "H_annual": 72,
+      "H": 72,
+      "D": 24,
+      "r_H": {
+        "lo": 823.3445220686849,
+        "hi": 829.5956991483562,
+        "lo_source": "MILP_infeasible_or_necessary_bounds",
+        "hi_source": "checked_MILP_witness",
+        "calls": [
+          156,
+          157,
+          158,
+          159,
+          160
+        ],
+        "witness": "witnesses/annual2023_industrial_liion_H72D24_r_H.npz",
+        "hours": 72,
+        "longest_cyclic": 12,
+        "longest_linear": 12,
+        "status": "interval_unresolved",
+        "raw_lo": 823.3445220686849,
+        "raw_hi": 829.5956991483562,
+        "lo_provenance": {
+          "row": "annual2023_industrial_liion_H72D24",
+          "component": "r_H",
+          "value": 823.3445220686849,
+          "kind": "MILP_infeasible_or_necessary_bounds"
+        },
+        "hi_provenance": {
+          "row": "annual2023_industrial_liion_H72D24",
+          "component": "r_H",
+          "value": 829.5956991483562,
+          "kind": "checked_MILP_witness",
+          "witness": "witnesses/annual2023_industrial_liion_H72D24_r_H.npz"
+        }
+      },
+      "r_D": {
+        "lo": 369.33841125486106,
+        "hi": 378.115860328747,
+        "lo_source": "MILP_infeasible_or_necessary_bounds",
+        "hi_source": "checked_MILP_witness",
+        "calls": [
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167
+        ],
+        "witness": "witnesses/annual2023_industrial_liion_H72D24_r_D.npz",
+        "hours": 3577,
+        "longest_cyclic": 24,
+        "longest_linear": 24,
+        "status": "interval_unresolved",
+        "raw_lo": 369.33841125486106,
+        "raw_hi": 378.115860328747,
+        "lo_provenance": {
+          "row": "annual2023_industrial_liion_H72D24",
+          "component": "r_D",
+          "value": 369.33841125486106,
+          "kind": "MILP_infeasible_or_necessary_bounds"
+        },
+        "hi_provenance": {
+          "row": "annual2023_industrial_liion_H72D24",
+          "component": "r_D",
+          "value": 378.115860328747,
+          "kind": "checked_MILP_witness",
+          "witness": "witnesses/annual2023_industrial_liion_H72D24_r_D.npz"
+        }
+      },
+      "r_joint": {
+        "lo": 826.4701006085206,
+        "hi": 829.5956991483562,
+        "lo_source": "MILP_infeasible_or_necessary_bounds",
+        "hi_source": "H_witness_also_satisfies_D",
+        "calls": [
+          168,
+          169
+        ],
+        "witness": "witnesses/annual2023_industrial_liion_H72D24_r_H.npz",
+        "status": "interval_unresolved",
+        "raw_lo": 826.4701006085206,
+        "raw_hi": 829.5956991483562,
+        "lo_provenance": {
+          "row": "annual2023_industrial_liion_H72D24",
+          "component": "r_joint",
+          "value": 826.4701006085206,
+          "kind": "MILP_infeasible_or_necessary_bounds"
+        },
+        "hi_provenance": {
+          "row": "annual2023_industrial_liion_H72D24",
+          "component": "r_joint",
+          "value": 829.5956991483562,
+          "kind": "H_witness_also_satisfies_D",
+          "witness": "witnesses/annual2023_industrial_liion_H72D24_r_H.npz"
+        }
+      },
+      "sum_Pd": 1500.0,
+      "structural_zero": false,
+      "gamma": [
+        0.0,
+        6.251177079671265
+      ],
+      "gamma_basis": "independent capacity intervals",
+      "gamma_fraction_Pd": [
+        0.0,
+        0.00416745138644751
+      ],
+      "r0": [
+        823.3445220686849,
+        829.5956991483562
+      ]
+    },
+    {
+      "id": "annual2023_industrial_liion_H35D8",
+      "profile": "annual2023",
+      "equipment": "industrial_liion",
+      "T": 8760,
+      "H_annual": 35,
+      "H": 35,
+      "D": 8,
+      "r_H": {
+        "lo": 846.0426230566407,
+        "hi": 855.563547884318,
+        "lo_source": "necessary_block_energy_and_global_energy",
+        "hi_source": "checked_MILP_witness",
+        "calls": [
+          170,
+          171,
+          172,
+          173,
+          174
+        ],
+        "witness": "witnesses/annual2023_industrial_liion_H35D8_r_H.npz",
+        "hours": 35,
+        "longest_cyclic": 7,
+        "longest_linear": 7,
+        "status": "interval_unresolved",
+        "raw_lo": 846.0426230566407,
+        "raw_hi": 855.563547884318,
+        "lo_provenance": {
+          "row": "annual2023_industrial_liion_H35D8",
+          "component": "r_H",
+          "value": 846.0426230566407,
+          "kind": "necessary_block_energy_and_global_energy"
+        },
+        "hi_provenance": {
+          "row": "annual2023_industrial_liion_H35D8",
+          "component": "r_H",
+          "value": 855.563547884318,
+          "kind": "checked_MILP_witness",
+          "witness": "witnesses/annual2023_industrial_liion_H35D8_r_H.npz"
+        }
+      },
+      "r_D": {
+        "lo": 626.1074241966611,
+        "hi": 632.3589083394079,
+        "lo_source": "MILP_infeasible_or_necessary_bounds",
+        "hi_source": "checked_MILP_witness",
+        "calls": [
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181
+        ],
+        "witness": "witnesses/annual2023_industrial_liion_H35D8_r_D.npz",
+        "hours": 2377,
+        "longest_cyclic": 8,
+        "longest_linear": 8,
+        "status": "interval_unresolved",
+        "raw_lo": 626.1074241966611,
+        "raw_hi": 632.3589083394079,
+        "lo_provenance": {
+          "row": "annual2023_industrial_liion_H35D8",
+          "component": "r_D",
+          "value": 626.1074241966611,
+          "kind": "MILP_infeasible_or_necessary_bounds"
+        },
+        "hi_provenance": {
+          "row": "annual2023_industrial_liion_H35D8",
+          "component": "r_D",
+          "value": 632.3589083394079,
+          "kind": "checked_MILP_witness",
+          "witness": "witnesses/annual2023_industrial_liion_H35D8_r_D.npz"
+        }
+      },
+      "r_joint": {
+        "lo": 854.9684713325883,
+        "hi": 855.563547884318,
+        "lo_source": "MILP_infeasible_or_necessary_bounds",
+        "hi_source": "H_witness_also_satisfies_D",
+        "calls": [
+          182,
+          183,
+          184,
+          185,
+          186
+        ],
+        "witness": "witnesses/annual2023_industrial_liion_H35D8_r_H.npz",
+        "status": "interval_unresolved",
+        "raw_lo": 854.9684713325883,
+        "raw_hi": 855.563547884318,
+        "lo_provenance": {
+          "row": "annual2023_industrial_liion_H35D8",
+          "component": "r_joint",
+          "value": 854.9684713325883,
+          "kind": "MILP_infeasible_or_necessary_bounds"
+        },
+        "hi_provenance": {
+          "row": "annual2023_industrial_liion_H35D8",
+          "component": "r_joint",
+          "value": 855.563547884318,
+          "kind": "H_witness_also_satisfies_D",
+          "witness": "witnesses/annual2023_industrial_liion_H35D8_r_H.npz"
+        }
+      },
+      "sum_Pd": 1500.0,
+      "structural_zero": false,
+      "gamma": [
+        0.0,
+        9.52092482767739
+      ],
+      "gamma_basis": "independent capacity intervals",
+      "gamma_fraction_Pd": [
+        0.0,
+        0.006347283218451594
+      ],
+      "r0": [
+        846.0426230566407,
+        855.563547884318
+      ]
+    },
+    {
+      "id": "annual2023_industrial_liion_H35D12",
+      "profile": "annual2023",
+      "equipment": "industrial_liion",
+      "T": 8760,
+      "H_annual": 35,
+      "H": 35,
+      "D": 12,
+      "r_H": {
+        "lo": 846.0426230566407,
+        "hi": 855.563547884318,
+        "lo_source": "necessary_block_energy_and_global_energy",
+        "hi_source": "checked_MILP_witness",
+        "calls": [
+          187,
+          188,
+          189,
+          190,
+          191
+        ],
+        "witness": "witnesses/annual2023_industrial_liion_H35D12_r_H.npz",
+        "hours": 35,
+        "longest_cyclic": 7,
+        "longest_linear": 7,
+        "status": "interval_unresolved",
+        "raw_lo": 846.0426230566407,
+        "raw_hi": 855.563547884318,
+        "lo_provenance": {
+          "row": "annual2023_industrial_liion_H35D12",
+          "component": "r_H",
+          "value": 846.0426230566407,
+          "kind": "necessary_block_energy_and_global_energy"
+        },
+        "hi_provenance": {
+          "row": "annual2023_industrial_liion_H35D12",
+          "component": "r_H",
+          "value": 855.563547884318,
+          "kind": "checked_MILP_witness",
+          "witness": "witnesses/annual2023_industrial_liion_H35D12_r_H.npz"
+        }
+      },
+      "r_D": {
+        "lo": 543.5066123144532,
+        "hi": 556.2839354415312,
+        "lo_source": "necessary_block_energy_and_global_energy",
+        "hi_source": "checked_MILP_witness",
+        "calls": [
+          192,
+          193,
+          194,
+          195,
+          196,
+          197
+        ],
+        "witness": "witnesses/annual2023_industrial_liion_H35D12_r_D.npz",
+        "hours": 2889,
+        "longest_cyclic": 12,
+        "longest_linear": 12,
+        "status": "interval_unresolved",
+        "raw_lo": 543.5066123144532,
+        "raw_hi": 556.2839354415312,
+        "lo_provenance": {
+          "row": "annual2023_industrial_liion_H35D12",
+          "component": "r_D",
+          "value": 543.5066123144532,
+          "kind": "necessary_block_energy_and_global_energy"
+        },
+        "hi_provenance": {
+          "row": "annual2023_industrial_liion_H35D12",
+          "component": "r_D",
+          "value": 556.2839354415312,
+          "kind": "checked_MILP_witness",
+          "witness": "witnesses/annual2023_industrial_liion_H35D12_r_D.npz"
+        }
+      },
+      "r_joint": {
+        "lo": 846.0426230566407,
+        "hi": 855.563547884318,
+        "lo_source": "necessary_block_energy_and_global_energy",
+        "hi_source": "H_witness_also_satisfies_D",
+        "calls": [],
+        "witness": "witnesses/annual2023_industrial_liion_H35D12_r_H.npz",
+        "raw_lo": 846.0426230566407,
+        "raw_hi": 855.563547884318,
+        "lo_provenance": {
+          "row": "annual2023_industrial_liion_H35D12",
+          "component": "r_joint",
+          "value": 846.0426230566407,
+          "kind": "necessary_block_energy_and_global_energy"
+        },
+        "hi_provenance": {
+          "row": "annual2023_industrial_liion_H35D12",
+          "component": "r_joint",
+          "value": 855.563547884318,
+          "kind": "H_witness_also_satisfies_D",
+          "witness": "witnesses/annual2023_industrial_liion_H35D12_r_H.npz"
+        }
+      },
+      "sum_Pd": 1500.0,
+      "structural_zero": false,
+      "gamma": [
+        0.0,
+        9.52092482767739
+      ],
+      "gamma_basis": "independent capacity intervals",
+      "gamma_fraction_Pd": [
+        0.0,
+        0.006347283218451594
+      ],
+      "r0": [
+        846.0426230566407,
+        855.563547884318
+      ]
+    },
+    {
+      "id": "annual2023_liion_hydrogen_H72D24",
+      "profile": "annual2023",
+      "equipment": "liion_hydrogen",
+      "T": 8760,
+      "H_annual": 72,
+      "H": 72,
+      "D": 24,
+      "r_H": {
+        "lo": 717.3447367447918,
+        "hi": 737.6292757169597,
+        "lo_source": "MILP_infeasible_or_necessary_bounds",
+        "hi_source": "monotone implication from same profile/equipment; compare raw results",
+        "calls": [
+          198,
+          199,
+          200,
+          201
+        ],
+        "hours": 71,
+        "longest_cyclic": 14,
+        "longest_linear": 14,
+        "status": "interval_unresolved",
+        "raw_lo": 717.3447367447918,
+        "raw_hi": 771.4368540039063,
+        "lo_provenance": {
+          "row": "annual2023_liion_hydrogen_H72D24",
+          "component": "r_H",
+          "value": 717.3447367447918,
+          "kind": "MILP_infeasible_or_necessary_bounds"
+        },
+        "hi_provenance": {
+          "kind": "independently audited support meets target limits",
+          "witness": "witnesses/annual2023_liion_hydrogen_H72D24_r_joint.npz",
+          "value": 737.6292757169597,
+          "hours": 72,
+          "longest_cyclic": 13
+        },
+        "original_witness": "witnesses/annual2023_liion_hydrogen_H72D24_r_H.npz"
+      },
+      "r_D": {
+        "lo": 0.0,
+        "hi": 59.26761904761904,
+        "lo_source": "necessary_block_energy_and_global_energy",
+        "hi_source": "checked_MILP_witness",
+        "calls": [
+          202,
+          203,
+          204,
+          205
+        ],
+        "witness": "witnesses/annual2023_liion_hydrogen_H72D24_r_D.npz",
+        "hours": 4953,
+        "longest_cyclic": 24,
+        "longest_linear": 24,
+        "status": "interval_unresolved",
+        "raw_lo": 0.0,
+        "raw_hi": 59.26761904761904,
+        "lo_provenance": {
+          "row": "annual2023_liion_hydrogen_H72D24",
+          "component": "r_D",
+          "value": 0.0,
+          "kind": "necessary_block_energy_and_global_energy"
+        },
+        "hi_provenance": {
+          "row": "annual2023_liion_hydrogen_H72D24",
+          "component": "r_D",
+          "value": 59.26761904761904,
+          "kind": "checked_MILP_witness",
+          "witness": "witnesses/annual2023_liion_hydrogen_H72D24_r_D.npz"
+        }
+      },
+      "r_joint": {
+        "lo": 730.8677560595704,
+        "hi": 737.6292757169597,
+        "lo_source": "MILP_infeasible_or_necessary_bounds",
+        "hi_source": "checked_MILP_witness",
+        "calls": [
+          206,
+          207,
+          208
+        ],
+        "witness": "witnesses/annual2023_liion_hydrogen_H72D24_r_joint.npz",
+        "hours": 72,
+        "longest_cyclic": 13,
+        "longest_linear": 13,
+        "status": "interval_unresolved",
+        "raw_lo": 730.8677560595704,
+        "raw_hi": 737.6292757169597,
+        "lo_provenance": {
+          "row": "annual2023_liion_hydrogen_H72D24",
+          "component": "r_joint",
+          "value": 730.8677560595704,
+          "kind": "MILP_infeasible_or_necessary_bounds"
+        },
+        "hi_provenance": {
+          "row": "annual2023_liion_hydrogen_H72D24",
+          "component": "r_joint",
+          "value": 737.6292757169597,
+          "kind": "checked_MILP_witness",
+          "witness": "witnesses/annual2023_liion_hydrogen_H72D24_r_joint.npz"
+        }
+      },
+      "sum_Pd": 1818.0,
+      "structural_zero": false,
+      "gamma": [
+        0.0,
+        20.284538972167866
+      ],
+      "gamma_basis": "independent capacity intervals",
+      "gamma_fraction_Pd": [
+        0.0,
+        0.011157612195911918
+      ],
+      "r0": [
+        717.3447367447918,
+        737.6292757169597
+      ]
+    },
+    {
+      "id": "annual2023_liion_hydrogen_H35D8",
+      "profile": "annual2023",
+      "equipment": "liion_hydrogen",
+      "T": 8760,
+      "H_annual": 35,
+      "H": 35,
+      "D": 8,
+      "r_H": {
+        "lo": 747.5464054459636,
+        "hi": 759.8110318981935,
+        "lo_source": "MILP_infeasible_or_necessary_bounds",
+        "hi_source": "monotone implication from same profile/equipment; compare raw results",
+        "calls": [
+          209,
+          210,
+          211,
+          212
+        ],
+        "hours": 35,
+        "longest_cyclic": 7,
+        "longest_linear": 7,
+        "status": "interval_unresolved",
+        "raw_lo": 747.5464054459636,
+        "raw_hi": 796.6049112548828,
+        "lo_provenance": {
+          "row": "annual2023_liion_hydrogen_H35D8",
+          "component": "r_H",
+          "value": 747.5464054459636,
+          "kind": "MILP_infeasible_or_necessary_bounds"
+        },
+        "hi_provenance": {
+          "kind": "independently audited support meets target limits",
+          "witness": "witnesses/annual2023_liion_hydrogen_H35D8_r_joint.npz",
+          "value": 759.8110318981935,
+          "hours": 35,
+          "longest_cyclic": 8
+        },
+        "original_witness": "witnesses/annual2023_liion_hydrogen_H35D8_r_H.npz"
+      },
+      "r_D": {
+        "lo": 174.76522803710938,
+        "hi": 386.0015400754511,
+        "lo_source": "necessary_block_energy_and_global_energy",
+        "hi_source": "checked_MILP_witness",
+        "calls": [
+          213,
+          214,
+          215
+        ],
+        "witness": "witnesses/annual2023_liion_hydrogen_H35D8_r_D.npz",
+        "hours": 3695,
+        "longest_cyclic": 8,
+        "longest_linear": 8,
+        "status": "interval_unresolved",
+        "raw_lo": 174.76522803710938,
+        "raw_hi": 386.0015400754511,
+        "lo_provenance": {
+          "row": "annual2023_liion_hydrogen_H35D8",
+          "component": "r_D",
+          "value": 174.76522803710938,
+          "kind": "necessary_block_energy_and_global_energy"
+        },
+        "hi_provenance": {
+          "row": "annual2023_liion_hydrogen_H35D8",
+          "component": "r_D",
+          "value": 386.0015400754511,
+          "kind": "checked_MILP_witness",
+          "witness": "witnesses/annual2023_liion_hydrogen_H35D8_r_D.npz"
+        }
+      },
+      "r_joint": {
+        "lo": 753.6787086720785,
+        "hi": 759.8110318981935,
+        "lo_source": "MILP_infeasible_or_necessary_bounds",
+        "hi_source": "checked_MILP_witness",
+        "calls": [
+          216,
+          217,
+          218,
+          219
+        ],
+        "witness": "witnesses/annual2023_liion_hydrogen_H35D8_r_joint.npz",
+        "hours": 35,
+        "longest_cyclic": 8,
+        "longest_linear": 8,
+        "status": "interval_unresolved",
+        "raw_lo": 753.6787086720785,
+        "raw_hi": 759.8110318981935,
+        "lo_provenance": {
+          "row": "annual2023_liion_hydrogen_H35D8",
+          "component": "r_joint",
+          "value": 753.6787086720785,
+          "kind": "MILP_infeasible_or_necessary_bounds"
+        },
+        "hi_provenance": {
+          "row": "annual2023_liion_hydrogen_H35D8",
+          "component": "r_joint",
+          "value": 759.8110318981935,
+          "kind": "checked_MILP_witness",
+          "witness": "witnesses/annual2023_liion_hydrogen_H35D8_r_joint.npz"
+        }
+      },
+      "sum_Pd": 1818.0,
+      "structural_zero": false,
+      "gamma": [
+        0.0,
+        12.26462645222989
+      ],
+      "gamma_basis": "independent capacity intervals",
+      "gamma_fraction_Pd": [
+        0.0,
+        0.006746219170643504
+      ],
+      "r0": [
+        747.5464054459636,
+        759.8110318981935
+      ]
+    },
+    {
+      "id": "annual2023_liion_hydrogen_H35D12",
+      "profile": "annual2023",
+      "equipment": "liion_hydrogen",
+      "T": 8760,
+      "H_annual": 35,
+      "H": 35,
+      "D": 12,
+      "r_H": {
+        "lo": 747.5464054459636,
+        "hi": 759.8110318981935,
+        "lo_source": "MILP_infeasible_or_necessary_bounds",
+        "hi_source": "monotone implication from same profile/equipment; compare raw results",
+        "calls": [
+          220,
+          221,
+          222,
+          223
+        ],
+        "hours": 35,
+        "longest_cyclic": 7,
+        "longest_linear": 7,
+        "status": "interval_unresolved",
+        "raw_lo": 747.5464054459636,
+        "raw_hi": 796.6049112548828,
+        "lo_provenance": {
+          "row": "annual2023_liion_hydrogen_H35D12",
+          "component": "r_H",
+          "value": 747.5464054459636,
+          "kind": "MILP_infeasible_or_necessary_bounds"
+        },
+        "hi_provenance": {
+          "kind": "independently audited support meets target limits",
+          "witness": "witnesses/annual2023_liion_hydrogen_H35D8_r_joint.npz",
+          "value": 759.8110318981935,
+          "hours": 35,
+          "longest_cyclic": 8
+        },
+        "original_witness": "witnesses/annual2023_liion_hydrogen_H35D12_r_H.npz"
+      },
+      "r_D": {
+        "lo": 34.30179297851562,
+        "hi": 386.0015400754511,
+        "lo_source": "necessary_block_energy_and_global_energy",
+        "hi_source": "monotone implication from same profile/equipment; compare raw results",
+        "calls": [],
+        "raw_lo": 34.30179297851562,
+        "raw_hi": 995.9009523809523,
+        "lo_provenance": {
+          "row": "annual2023_liion_hydrogen_H35D12",
+          "component": "r_D",
+          "value": 34.30179297851562,
+          "kind": "necessary_block_energy_and_global_energy"
+        },
+        "hi_provenance": {
+          "kind": "independently audited support meets target limits",
+          "witness": "witnesses/annual2023_liion_hydrogen_H35D8_r_D.npz",
+          "value": 386.0015400754511,
+          "hours": 3695,
+          "longest_cyclic": 8
+        }
+      },
+      "r_joint": {
+        "lo": 747.5464054459636,
+        "hi": 759.8110318981935,
+        "lo_source": "necessary_block_energy_and_global_energy",
+        "hi_source": "monotone implication from same profile/equipment; compare raw results",
+        "calls": [],
+        "raw_lo": 747.5464054459636,
+        "raw_hi": 796.6049112548828,
+        "lo_provenance": {
+          "row": "annual2023_liion_hydrogen_H35D12",
+          "component": "r_joint",
+          "value": 747.5464054459636,
+          "kind": "necessary_block_energy_and_global_energy"
+        },
+        "hi_provenance": {
+          "kind": "independently audited support meets target limits",
+          "witness": "witnesses/annual2023_liion_hydrogen_H35D8_r_joint.npz",
+          "value": 759.8110318981935,
+          "hours": 35,
+          "longest_cyclic": 8
+        },
+        "original_witness": "witnesses/annual2023_liion_hydrogen_H35D12_r_H.npz"
+      },
+      "sum_Pd": 1818.0,
+      "structural_zero": false,
+      "gamma": [
+        0.0,
+        12.26462645222989
+      ],
+      "gamma_basis": "independent capacity intervals",
+      "gamma_fraction_Pd": [
+        0.0,
+        0.006746219170643504
+      ],
+      "r0": [
+        747.5464054459636,
+        759.8110318981935
+      ]
+    }
+  ],
+  "solver_status_counts": {
+    "0": 1521,
+    "2": 415,
+    "1": 238
+  },
+  "all_annual_gamma_lower_zero": true
+}

@@ -1,0 +1,4823 @@
+{
+  "protocol": "PROTOCOL_RU.md",
+  "elapsed_s": 872.1051118751056,
+  "budget_s": 1200,
+  "T": 8280,
+  "tol_kW": 0.02,
+  "configs": {
+    "li20_2h": [
+      {
+        "Pc": 20,
+        "Pd": 20,
+        "E": 40,
+        "eta": 0.9,
+        "delta": 0
+      }
+    ],
+    "li20_4h": [
+      {
+        "Pc": 20,
+        "Pd": 20,
+        "E": 80,
+        "eta": 0.9,
+        "delta": 0
+      }
+    ],
+    "li40_2h": [
+      {
+        "Pc": 40,
+        "Pd": 40,
+        "E": 80,
+        "eta": 0.9,
+        "delta": 0
+      }
+    ],
+    "li40_4h": [
+      {
+        "Pc": 40,
+        "Pd": 40,
+        "E": 160,
+        "eta": 0.9,
+        "delta": 0
+      }
+    ],
+    "tank0.005": [
+      {
+        "Pc": 20,
+        "Pd": 20,
+        "E": 60,
+        "eta": 1,
+        "delta": 0.005
+      }
+    ],
+    "tank0.01": [
+      {
+        "Pc": 20,
+        "Pd": 20,
+        "E": 60,
+        "eta": 1,
+        "delta": 0.01
+      }
+    ],
+    "tank0.02": [
+      {
+        "Pc": 20,
+        "Pd": 20,
+        "E": 60,
+        "eta": 1,
+        "delta": 0.02
+      }
+    ],
+    "park": [
+      {
+        "Pc": 20,
+        "Pd": 20,
+        "E": 80,
+        "eta": 0.9,
+        "delta": 0
+      },
+      {
+        "Pc": 20,
+        "Pd": 20,
+        "E": 60,
+        "eta": 1,
+        "delta": 0.01
+      }
+    ],
+    "control_tank": [
+      {
+        "Pc": 20,
+        "Pd": 20,
+        "E": 60,
+        "eta": 1,
+        "delta": 0
+      }
+    ],
+    "control_park": [
+      {
+        "Pc": 20,
+        "Pd": 20,
+        "E": 80,
+        "eta": 1,
+        "delta": 0
+      },
+      {
+        "Pc": 20,
+        "Pd": 20,
+        "E": 60,
+        "eta": 1,
+        "delta": 0
+      }
+    ]
+  },
+  "frontiers": [
+    {
+      "config": "tank0.005",
+      "r_reference": 0.0,
+      "ens": {
+        "label": "tank0.005_frontENS",
+        "r": 0.0,
+        "H": null,
+        "D": null,
+        "ens_lim": null,
+        "objective": "ENS",
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "elapsed_s": 0.15592491696588695,
+        "accepted": true,
+        "objective_value": 51156.746778132496,
+        "dual_bound": null,
+        "witness": "witnesses/0507_tank0.005_frontENS.npz",
+        "physical_residual": 7.105427357601002e-15,
+        "integrality_residual": 0.0,
+        "ENS": 51156.746778132496,
+        "LOLH": 3359,
+        "D_linear": 95,
+        "D_cyclic": 95
+      },
+      "H": {
+        "label": "tank0.005_frontH",
+        "r": 0.0,
+        "H": null,
+        "D": null,
+        "ens_lim": null,
+        "objective": "H",
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "elapsed_s": 35.838371625053696,
+        "accepted": true,
+        "objective_value": 2719.0,
+        "dual_bound": 2719.0,
+        "witness": "witnesses/0508_tank0.005_frontH.npz",
+        "physical_residual": 1.3791634501103545e-11,
+        "integrality_residual": 1.3078427230084344e-13,
+        "ENS": 53309.94947124137,
+        "LOLH": 2719,
+        "D_linear": 50,
+        "D_cyclic": 50
+      },
+      "established": true
+    },
+    {
+      "config": "tank0.01",
+      "r_reference": 0.0,
+      "ens": {
+        "label": "tank0.01_frontENS",
+        "r": 0.0,
+        "H": null,
+        "D": null,
+        "ens_lim": null,
+        "objective": "ENS",
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "elapsed_s": 0.1367725000018254,
+        "accepted": true,
+        "objective_value": 51382.46974607086,
+        "dual_bound": null,
+        "witness": "witnesses/0517_tank0.01_frontENS.npz",
+        "physical_residual": 5.329070518200751e-15,
+        "integrality_residual": 0.0,
+        "ENS": 51382.46974607086,
+        "LOLH": 3370,
+        "D_linear": 95,
+        "D_cyclic": 95
+      },
+      "H": {
+        "label": "tank0.01_frontH",
+        "r": 0.0,
+        "H": null,
+        "D": null,
+        "ens_lim": null,
+        "objective": "H",
+        "status": 1,
+        "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+        "elapsed_s": 45.09197770804167,
+        "accepted": true,
+        "objective_value": 2755.0000000000005,
+        "dual_bound": 2754.0,
+        "witness": "witnesses/0518_tank0.01_frontH.npz",
+        "physical_residual": 6.966705521968638e-12,
+        "integrality_residual": 6.810310524580182e-13,
+        "ENS": 53692.40465680511,
+        "LOLH": 2755,
+        "D_linear": 50,
+        "D_cyclic": 50
+      },
+      "established": false
+    },
+    {
+      "config": "tank0.02",
+      "r_reference": 0.0,
+      "ens": {
+        "label": "tank0.02_frontENS",
+        "r": 0.0,
+        "H": null,
+        "D": null,
+        "ens_lim": null,
+        "objective": "ENS",
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "elapsed_s": 0.14647412509657443,
+        "accepted": true,
+        "objective_value": 51816.78229645805,
+        "dual_bound": null,
+        "witness": "witnesses/0519_tank0.02_frontENS.npz",
+        "physical_residual": 7.105427357601002e-15,
+        "integrality_residual": 0.0,
+        "ENS": 51816.782296458085,
+        "LOLH": 3394,
+        "D_linear": 95,
+        "D_cyclic": 95
+      },
+      "H": {
+        "label": "tank0.02_frontH",
+        "r": 0.0,
+        "H": null,
+        "D": null,
+        "ens_lim": null,
+        "objective": "H",
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "elapsed_s": 32.172167083015665,
+        "accepted": true,
+        "objective_value": 2856.0,
+        "dual_bound": 2856.0,
+        "witness": "witnesses/0520_tank0.02_frontH.npz",
+        "physical_residual": 6.821210263296962e-13,
+        "integrality_residual": 3.000415698417144e-14,
+        "ENS": 54734.91623757985,
+        "LOLH": 2856,
+        "D_linear": 52,
+        "D_cyclic": 52
+      },
+      "established": true
+    },
+    {
+      "config": "park",
+      "r_reference": 0.0,
+      "ens": {
+        "label": "park_frontENS",
+        "r": 0.0,
+        "H": null,
+        "D": null,
+        "ens_lim": null,
+        "objective": "ENS",
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "elapsed_s": 0.30274391698185354,
+        "accepted": true,
+        "objective_value": 39201.554593486166,
+        "dual_bound": null,
+        "witness": "witnesses/0528_park_frontENS.npz",
+        "physical_residual": 8.881784197001252e-15,
+        "integrality_residual": 0.0,
+        "ENS": 39201.55459348619,
+        "LOLH": 2479,
+        "D_linear": 95,
+        "D_cyclic": 95
+      },
+      "H": {
+        "label": "park_frontH",
+        "r": 0.0,
+        "H": null,
+        "D": null,
+        "ens_lim": null,
+        "objective": "H",
+        "status": 1,
+        "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+        "elapsed_s": 45.23861825000495,
+        "accepted": true,
+        "objective_value": 1866.9999999999998,
+        "dual_bound": 1844.0,
+        "witness": "witnesses/0529_park_frontH.npz",
+        "physical_residual": 5.875813416069933e-10,
+        "integrality_residual": 3.1378609746178356e-13,
+        "ENS": 40848.54105721232,
+        "LOLH": 1867,
+        "D_linear": 35,
+        "D_cyclic": 35
+      },
+      "established": false
+    },
+    {
+      "config": "control_tank",
+      "r_reference": 0.0,
+      "ens": {
+        "label": "control_tank_frontENS",
+        "r": 0.0,
+        "H": null,
+        "D": null,
+        "ens_lim": null,
+        "objective": "ENS",
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "elapsed_s": 0.1423374159494415,
+        "accepted": true,
+        "objective_value": 50924.430307364084,
+        "dual_bound": null,
+        "witness": "witnesses/0530_control_tank_frontENS.npz",
+        "physical_residual": 3.552713678800501e-15,
+        "integrality_residual": 0.0,
+        "ENS": 50924.430307364004,
+        "LOLH": 3164,
+        "D_linear": 95,
+        "D_cyclic": 95
+      },
+      "H": {
+        "label": "control_tank_frontH",
+        "r": 0.0,
+        "H": null,
+        "D": null,
+        "ens_lim": null,
+        "objective": "H",
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "elapsed_s": 31.797746541909873,
+        "accepted": true,
+        "objective_value": 2667.0,
+        "dual_bound": 2667.0,
+        "witness": "witnesses/0531_control_tank_frontH.npz",
+        "physical_residual": 3.126388037344441e-13,
+        "integrality_residual": 0.0,
+        "ENS": 51938.938416776,
+        "LOLH": 2667,
+        "D_linear": 35,
+        "D_cyclic": 35
+      },
+      "established": true
+    },
+    {
+      "config": "control_park",
+      "r_reference": 0.0,
+      "ens": {
+        "label": "control_park_frontENS",
+        "r": 0.0,
+        "H": null,
+        "D": null,
+        "ens_lim": null,
+        "objective": "ENS",
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "elapsed_s": 0.3147245419677347,
+        "accepted": true,
+        "objective_value": 38713.175592365,
+        "dual_bound": null,
+        "witness": "witnesses/0542_control_park_frontENS.npz",
+        "physical_residual": 7.105427357601002e-15,
+        "integrality_residual": 0.0,
+        "ENS": 38713.175592365005,
+        "LOLH": 2449,
+        "D_linear": 95,
+        "D_cyclic": 95
+      },
+      "H": {
+        "label": "control_park_frontH",
+        "r": 0.0,
+        "H": null,
+        "D": null,
+        "ens_lim": null,
+        "objective": "H",
+        "status": 1,
+        "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+        "elapsed_s": 45.127312917029485,
+        "accepted": true,
+        "objective_value": 1825.0,
+        "dual_bound": 1802.0,
+        "witness": "witnesses/0543_control_park_frontH.npz",
+        "physical_residual": 7.105427357601002e-14,
+        "integrality_residual": 1.7462152243336777e-15,
+        "ENS": 40031.589001947,
+        "LOLH": 1825,
+        "D_linear": 35,
+        "D_cyclic": 35
+      },
+      "established": false
+    }
+  ],
+  "rows": [
+    {
+      "id": "li20_2h_H72D24",
+      "family": "HD",
+      "config": "li20_2h",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 40,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 72,
+        "D": 24
+      },
+      "r1": {
+        "lo": 24.80466394379879,
+        "hi": 24.824140200798013,
+        "witness": "witnesses/0009_li20_2h_H72D24a_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "li20_2h_H72D24a",
+        "witness_status": 0,
+        "ENS": 1535.9393864377544,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 0.0,
+        "hi": 2.329381666625,
+        "witness": "witnesses/0012_li20_2h_H72D24b_1q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 1,
+        "limits": {
+          "D": 24
+        },
+        "label": "li20_2h_H72D24b",
+        "witness_status": 0,
+        "ENS": 49710.14146534637,
+        "LOLH": 4184,
+        "D_linear": 24,
+        "D_cyclic": 24,
+        "resolved": false
+      },
+      "rjoint": {
+        "lo": 24.80466394379879,
+        "hi": 24.824140200798013,
+        "witness": "witnesses/0009_li20_2h_H72D24a_9.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72,
+          "D": 24
+        },
+        "label": "li20_2h_H72D24j",
+        "ENS": 1535.9393864377544,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01947625699922284
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009738128499611421
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li20_2h_H72D12",
+      "family": "HD",
+      "config": "li20_2h",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 40,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 72,
+        "D": 12
+      },
+      "r1": {
+        "lo": 24.80466394379879,
+        "hi": 24.824140200798013,
+        "witness": "witnesses/0009_li20_2h_H72D24a_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "li20_2h_H72D24a",
+        "witness_status": 0,
+        "ENS": 1535.9393864377544,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 6.300640600036558,
+        "hi": 6.315979850752342,
+        "witness": "witnesses/0022_li20_2h_H72D12b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 12
+        },
+        "label": "li20_2h_H72D12b",
+        "witness_status": 0,
+        "ENS": 34595.28674138761,
+        "LOLH": 3415,
+        "D_linear": 12,
+        "D_cyclic": 12,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 24.80466394379879,
+        "hi": 24.824140200798013,
+        "witness": "witnesses/0009_li20_2h_H72D24a_9.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72,
+          "D": 12
+        },
+        "label": "li20_2h_H72D12j",
+        "ENS": 1535.9393864377544,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01947625699922284
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009738128499611421
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li20_2h_H72D8",
+      "family": "HD",
+      "config": "li20_2h",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 40,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 72,
+        "D": 8
+      },
+      "r1": {
+        "lo": 24.80466394379879,
+        "hi": 24.824140200798013,
+        "witness": "witnesses/0009_li20_2h_H72D24a_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "li20_2h_H72D24a",
+        "witness_status": 0,
+        "ENS": 1535.9393864377544,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 11.12260064640602,
+        "hi": 11.135639131017928,
+        "witness": "witnesses/0032_li20_2h_H72D8b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 8
+        },
+        "label": "li20_2h_H72D8b",
+        "witness_status": 0,
+        "ENS": 20375.88821811479,
+        "LOLH": 2541,
+        "D_linear": 8,
+        "D_cyclic": 8,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 24.80466394379879,
+        "hi": 24.824140200798013,
+        "witness": "witnesses/0009_li20_2h_H72D24a_9.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72,
+          "D": 8
+        },
+        "label": "li20_2h_H72D8j",
+        "ENS": 1535.9393864377544,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01947625699922284
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009738128499611421
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li20_2h_H150D24",
+      "family": "HD",
+      "config": "li20_2h",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 40,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 150,
+        "D": 24
+      },
+      "r1": {
+        "lo": 20.56500751109403,
+        "hi": 20.579209290979676,
+        "witness": "witnesses/0042_li20_2h_H150D24a_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 150
+        },
+        "label": "li20_2h_H150D24a",
+        "witness_status": 0,
+        "ENS": 2833.9727178329354,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 0.0,
+        "hi": 2.329381666625,
+        "witness": "witnesses/0012_li20_2h_H72D24b_1q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 1,
+        "limits": {
+          "D": 24
+        },
+        "label": "li20_2h_H72D24b",
+        "witness_status": 0,
+        "ENS": 49710.14146534637,
+        "LOLH": 4184,
+        "D_linear": 24,
+        "D_cyclic": 24,
+        "resolved": false
+      },
+      "rjoint": {
+        "lo": 20.56500751109403,
+        "hi": 20.579209290979676,
+        "witness": "witnesses/0042_li20_2h_H150D24a_9.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 150,
+          "D": 24
+        },
+        "label": "li20_2h_H150D24j",
+        "ENS": 2833.9727178329354,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.014201779885645749
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0007100889942822875
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li20_2h_H150D12",
+      "family": "HD",
+      "config": "li20_2h",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 40,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 150,
+        "D": 12
+      },
+      "r1": {
+        "lo": 20.56500751109403,
+        "hi": 20.579209290979676,
+        "witness": "witnesses/0042_li20_2h_H150D24a_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 150
+        },
+        "label": "li20_2h_H150D24a",
+        "witness_status": 0,
+        "ENS": 2833.9727178329354,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 6.300640600036558,
+        "hi": 6.315979850752342,
+        "witness": "witnesses/0022_li20_2h_H72D12b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 12
+        },
+        "label": "li20_2h_H72D12b",
+        "witness_status": 0,
+        "ENS": 34595.28674138761,
+        "LOLH": 3415,
+        "D_linear": 12,
+        "D_cyclic": 12,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 20.56500751109403,
+        "hi": 20.579209290979676,
+        "witness": "witnesses/0042_li20_2h_H150D24a_9.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 150,
+          "D": 12
+        },
+        "label": "li20_2h_H150D12j",
+        "ENS": 2833.9727178329354,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.014201779885645749
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0007100889942822875
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li20_2h_H150D8",
+      "family": "HD",
+      "config": "li20_2h",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 40,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 150,
+        "D": 8
+      },
+      "r1": {
+        "lo": 20.56500751109403,
+        "hi": 20.579209290979676,
+        "witness": "witnesses/0042_li20_2h_H150D24a_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 150
+        },
+        "label": "li20_2h_H150D24a",
+        "witness_status": 0,
+        "ENS": 2833.9727178329354,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 11.12260064640602,
+        "hi": 11.135639131017928,
+        "witness": "witnesses/0032_li20_2h_H72D8b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 8
+        },
+        "label": "li20_2h_H72D8b",
+        "witness_status": 0,
+        "ENS": 20375.88821811479,
+        "LOLH": 2541,
+        "D_linear": 8,
+        "D_cyclic": 8,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 20.56500751109403,
+        "hi": 20.579209290979676,
+        "witness": "witnesses/0042_li20_2h_H150D24a_9.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 150,
+          "D": 8
+        },
+        "label": "li20_2h_H150D8j",
+        "ENS": 2833.9727178329354,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.014201779885645749
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0007100889942822875
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li20_4h_H72D24",
+      "family": "HD",
+      "config": "li20_4h",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 80,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 72,
+        "D": 24
+      },
+      "r1": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0052_li20_4h_H72D24a_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "li20_4h_H72D24a",
+        "witness_status": 0,
+        "ENS": 1752.6168940286248,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 0.0,
+        "hi": 0.01819829427050781,
+        "witness": "witnesses/0062_li20_4h_H72D24b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 24
+        },
+        "label": "li20_4h_H72D24b",
+        "witness_status": 0,
+        "ENS": 57353.030474226034,
+        "LOLH": 4372,
+        "D_linear": 24,
+        "D_cyclic": 24,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0052_li20_4h_H72D24a_9.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72,
+          "D": 24
+        },
+        "label": "li20_4h_H72D24j",
+        "ENS": 1752.6168940286248,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.019531268196647744
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009765634098323872
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li20_4h_H72D12",
+      "family": "HD",
+      "config": "li20_4h",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 80,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 72,
+        "D": 12
+      },
+      "r1": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0052_li20_4h_H72D24a_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "li20_4h_H72D24a",
+        "witness_status": 0,
+        "ENS": 1752.6168940286248,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 2.0080313916131103,
+        "hi": 2.027562643508996,
+        "witness": "witnesses/0072_li20_4h_H72D12b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 12
+        },
+        "label": "li20_4h_H72D12b",
+        "witness_status": 0,
+        "ENS": 48543.52778648553,
+        "LOLH": 3797,
+        "D_linear": 12,
+        "D_cyclic": 12,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0052_li20_4h_H72D24a_9.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72,
+          "D": 12
+        },
+        "label": "li20_4h_H72D12j",
+        "ENS": 1752.6168940286248,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.019531268196647744
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009765634098323872
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li20_4h_H72D8",
+      "family": "HD",
+      "config": "li20_4h",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 80,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 72,
+        "D": 8
+      },
+      "r1": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0052_li20_4h_H72D24a_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "li20_4h_H72D24a",
+        "witness_status": 0,
+        "ENS": 1752.6168940286248,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 6.64196528802799,
+        "hi": 6.661496551555889,
+        "witness": "witnesses/0078_li20_4h_H72D8b_5.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 8
+        },
+        "label": "li20_4h_H72D8b",
+        "witness_status": 0,
+        "ENS": 31964.6966326796,
+        "LOLH": 3114,
+        "D_linear": 8,
+        "D_cyclic": 8,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0052_li20_4h_H72D24a_9.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72,
+          "D": 8
+        },
+        "label": "li20_4h_H72D8j",
+        "ENS": 1752.6168940286248,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.019531268196647744
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009765634098323872
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li20_4h_H150D24",
+      "family": "HD",
+      "config": "li20_4h",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 80,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 150,
+        "D": 24
+      },
+      "r1": {
+        "lo": 18.833749839054327,
+        "hi": 18.850022209323704,
+        "witness": "witnesses/0091_li20_4h_H150D24a_8.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 150
+        },
+        "label": "li20_4h_H150D24a",
+        "witness_status": 0,
+        "ENS": 3141.966836030482,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 0.0,
+        "hi": 0.01819829427050781,
+        "witness": "witnesses/0062_li20_4h_H72D24b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 24
+        },
+        "label": "li20_4h_H72D24b",
+        "witness_status": 0,
+        "ENS": 57353.030474226034,
+        "LOLH": 4372,
+        "D_linear": 24,
+        "D_cyclic": 24,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 18.833749839054327,
+        "hi": 18.850022209323704,
+        "witness": "witnesses/0091_li20_4h_H150D24a_8.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 150,
+          "D": 24
+        },
+        "label": "li20_4h_H150D24j",
+        "ENS": 3141.966836030482,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01627237026937678
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.000813618513468839
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li20_4h_H150D12",
+      "family": "HD",
+      "config": "li20_4h",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 80,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 150,
+        "D": 12
+      },
+      "r1": {
+        "lo": 18.833749839054327,
+        "hi": 18.850022209323704,
+        "witness": "witnesses/0091_li20_4h_H150D24a_8.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 150
+        },
+        "label": "li20_4h_H150D24a",
+        "witness_status": 0,
+        "ENS": 3141.966836030482,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 2.0080313916131103,
+        "hi": 2.027562643508996,
+        "witness": "witnesses/0072_li20_4h_H72D12b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 12
+        },
+        "label": "li20_4h_H72D12b",
+        "witness_status": 0,
+        "ENS": 48543.52778648553,
+        "LOLH": 3797,
+        "D_linear": 12,
+        "D_cyclic": 12,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 18.833749839054327,
+        "hi": 18.850022209323704,
+        "witness": "witnesses/0091_li20_4h_H150D24a_8.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 150,
+          "D": 12
+        },
+        "label": "li20_4h_H150D12j",
+        "ENS": 3141.966836030482,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01627237026937678
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.000813618513468839
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li20_4h_H150D8",
+      "family": "HD",
+      "config": "li20_4h",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 80,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 150,
+        "D": 8
+      },
+      "r1": {
+        "lo": 18.833749839054327,
+        "hi": 18.850022209323704,
+        "witness": "witnesses/0091_li20_4h_H150D24a_8.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 150
+        },
+        "label": "li20_4h_H150D24a",
+        "witness_status": 0,
+        "ENS": 3141.966836030482,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 6.64196528802799,
+        "hi": 6.661496551555889,
+        "witness": "witnesses/0078_li20_4h_H72D8b_5.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 8
+        },
+        "label": "li20_4h_H72D8b",
+        "witness_status": 0,
+        "ENS": 31964.6966326796,
+        "LOLH": 3114,
+        "D_linear": 8,
+        "D_cyclic": 8,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 18.833749839054327,
+        "hi": 18.850022209323704,
+        "witness": "witnesses/0091_li20_4h_H150D24a_8.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 150,
+          "D": 8
+        },
+        "label": "li20_4h_H150D8j",
+        "ENS": 3141.966836030482,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01627237026937678
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.000813618513468839
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li40_2h_H72D24",
+      "family": "HD",
+      "config": "li40_2h",
+      "units": [
+        {
+          "Pc": 40,
+          "Pd": 40,
+          "E": 80,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 72,
+        "D": 24
+      },
+      "r1": {
+        "lo": 18.858769908905085,
+        "hi": 18.88607959371742,
+        "witness": "witnesses/0102_li40_2h_H72D24a_8q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "H": 72
+        },
+        "label": "li40_2h_H72D24a",
+        "witness_status": 0,
+        "ENS": 1263.1709428455588,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": false
+      },
+      "r2": {
+        "lo": 0.0,
+        "hi": 0.01819829427050781,
+        "witness": "witnesses/0112_li40_2h_H72D24b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 24
+        },
+        "label": "li40_2h_H72D24b",
+        "witness_status": 0,
+        "ENS": 56326.96601320815,
+        "LOLH": 4360,
+        "D_linear": 24,
+        "D_cyclic": 24,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 18.858769908905085,
+        "hi": 18.87242475131125,
+        "witness": "witnesses/0113_li40_2h_H72D24j_0.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72,
+          "D": 24
+        },
+        "label": "li40_2h_H72D24j",
+        "ENS": 1236.7207748231538,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "witness_status": 0,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.013654842406165102
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.00034137106015412754
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li40_2h_H72D12",
+      "family": "HD",
+      "config": "li40_2h",
+      "units": [
+        {
+          "Pc": 40,
+          "Pd": 40,
+          "E": 80,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 72,
+        "D": 12
+      },
+      "r1": {
+        "lo": 18.858769908905085,
+        "hi": 18.88607959371742,
+        "witness": "witnesses/0102_li40_2h_H72D24a_8q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "H": 72
+        },
+        "label": "li40_2h_H72D24a",
+        "witness_status": 0,
+        "ENS": 1263.1709428455588,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": false
+      },
+      "r2": {
+        "lo": 1.660985428853751,
+        "hi": 1.6714520172818097,
+        "witness": "witnesses/0124_li40_2h_H72D12b_10.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 12
+        },
+        "label": "li40_2h_H72D12b",
+        "witness_status": 0,
+        "ENS": 49774.909042118736,
+        "LOLH": 3863,
+        "D_linear": 12,
+        "D_cyclic": 12,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 18.858769908905085,
+        "hi": 18.87242475131125,
+        "witness": "witnesses/0125_li40_2h_H72D12j_0.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72,
+          "D": 12
+        },
+        "label": "li40_2h_H72D12j",
+        "ENS": 1321.7713225660546,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "witness_status": 0,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.013654842406165102
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.00034137106015412754
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li40_2h_H72D8",
+      "family": "HD",
+      "config": "li40_2h",
+      "units": [
+        {
+          "Pc": 40,
+          "Pd": 40,
+          "E": 80,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 72,
+        "D": 8
+      },
+      "r1": {
+        "lo": 18.858769908905085,
+        "hi": 18.88607959371742,
+        "witness": "witnesses/0102_li40_2h_H72D24a_8q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "H": 72
+        },
+        "label": "li40_2h_H72D24a",
+        "witness_status": 0,
+        "ENS": 1263.1709428455588,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": false
+      },
+      "r2": {
+        "lo": 6.657129493865298,
+        "hi": 6.676773241820243,
+        "witness": "witnesses/0134_li40_2h_H72D8b_8.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 8
+        },
+        "label": "li40_2h_H72D8b",
+        "witness_status": 0,
+        "ENS": 31541.343715777308,
+        "LOLH": 3059,
+        "D_linear": 8,
+        "D_cyclic": 8,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 18.858769908905085,
+        "hi": 18.87242475131125,
+        "witness": "witnesses/0136_li40_2h_H72D8j_0.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72,
+          "D": 8
+        },
+        "label": "li40_2h_H72D8j",
+        "ENS": 1276.9329842219963,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "witness_status": 0,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.013654842406165102
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.00034137106015412754
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li40_2h_H150D24",
+      "family": "HD",
+      "config": "li40_2h",
+      "units": [
+        {
+          "Pc": 40,
+          "Pd": 40,
+          "E": 80,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 150,
+        "D": 24
+      },
+      "r1": {
+        "lo": 17.159707310536145,
+        "hi": 17.196285084455162,
+        "witness": "witnesses/0147_li40_2h_H150D24a_8q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "H": 150
+        },
+        "label": "li40_2h_H150D24a",
+        "witness_status": 0,
+        "ENS": 2510.6084008157445,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": false
+      },
+      "r2": {
+        "lo": 0.0,
+        "hi": 0.01819829427050781,
+        "witness": "witnesses/0112_li40_2h_H72D24b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 24
+        },
+        "label": "li40_2h_H72D24b",
+        "witness_status": 0,
+        "ENS": 56326.96601320815,
+        "LOLH": 4360,
+        "D_linear": 24,
+        "D_cyclic": 24,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 17.159707310536145,
+        "hi": 17.196285084455162,
+        "witness": "witnesses/0147_li40_2h_H150D24a_8q.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 3,
+        "limits": {
+          "H": 150,
+          "D": 24
+        },
+        "label": "li40_2h_H150D24j",
+        "ENS": 2510.6084008157445,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": false
+      },
+      "gamma": [
+        0.0,
+        0.036577773919017176
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009144443479754294
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": false
+    },
+    {
+      "id": "li40_2h_H150D12",
+      "family": "HD",
+      "config": "li40_2h",
+      "units": [
+        {
+          "Pc": 40,
+          "Pd": 40,
+          "E": 80,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 150,
+        "D": 12
+      },
+      "r1": {
+        "lo": 17.159707310536145,
+        "hi": 17.196285084455162,
+        "witness": "witnesses/0147_li40_2h_H150D24a_8q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "H": 150
+        },
+        "label": "li40_2h_H150D24a",
+        "witness_status": 0,
+        "ENS": 2510.6084008157445,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": false
+      },
+      "r2": {
+        "lo": 1.660985428853751,
+        "hi": 1.6714520172818097,
+        "witness": "witnesses/0124_li40_2h_H72D12b_10.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 12
+        },
+        "label": "li40_2h_H72D12b",
+        "witness_status": 0,
+        "ENS": 49774.909042118736,
+        "LOLH": 3863,
+        "D_linear": 12,
+        "D_cyclic": 12,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 17.159707310536145,
+        "hi": 17.196285084455162,
+        "witness": "witnesses/0147_li40_2h_H150D24a_8q.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 3,
+        "limits": {
+          "H": 150,
+          "D": 12
+        },
+        "label": "li40_2h_H150D12j",
+        "ENS": 2510.6084008157445,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": false
+      },
+      "gamma": [
+        0.0,
+        0.036577773919017176
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009144443479754294
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": false
+    },
+    {
+      "id": "li40_2h_H150D8",
+      "family": "HD",
+      "config": "li40_2h",
+      "units": [
+        {
+          "Pc": 40,
+          "Pd": 40,
+          "E": 80,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 150,
+        "D": 8
+      },
+      "r1": {
+        "lo": 17.159707310536145,
+        "hi": 17.196285084455162,
+        "witness": "witnesses/0147_li40_2h_H150D24a_8q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "H": 150
+        },
+        "label": "li40_2h_H150D24a",
+        "witness_status": 0,
+        "ENS": 2510.6084008157445,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": false
+      },
+      "r2": {
+        "lo": 6.657129493865298,
+        "hi": 6.676773241820243,
+        "witness": "witnesses/0134_li40_2h_H72D8b_8.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 8
+        },
+        "label": "li40_2h_H72D8b",
+        "witness_status": 0,
+        "ENS": 31541.343715777308,
+        "LOLH": 3059,
+        "D_linear": 8,
+        "D_cyclic": 8,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 17.168851754015897,
+        "hi": 17.196285084455162,
+        "witness": "witnesses/0147_li40_2h_H150D24a_8q.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 2,
+        "limits": {
+          "H": 150,
+          "D": 8
+        },
+        "label": "li40_2h_H150D8j",
+        "ENS": 2510.6084008157445,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": false
+      },
+      "gamma": [
+        0.0,
+        0.036577773919017176
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009144443479754294
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": false
+    },
+    {
+      "id": "li40_4h_H72D24",
+      "family": "HD",
+      "config": "li40_4h",
+      "units": [
+        {
+          "Pc": 40,
+          "Pd": 40,
+          "E": 160,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 72,
+        "D": 24
+      },
+      "r1": {
+        "lo": 16.480896826584406,
+        "hi": 16.496013112297994,
+        "witness": "witnesses/0167_li40_4h_H72D24a_10.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "li40_4h_H72D24a",
+        "witness_status": 0,
+        "ENS": 1403.8301639301346,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 0.0,
+        "hi": 0.01819829427050781,
+        "witness": "witnesses/0177_li40_4h_H72D24b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 24
+        },
+        "label": "li40_4h_H72D24b",
+        "witness_status": 0,
+        "ENS": 56587.63517152621,
+        "LOLH": 4303,
+        "D_linear": 24,
+        "D_cyclic": 24,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 16.480896826584406,
+        "hi": 16.496013112297994,
+        "witness": "witnesses/0167_li40_4h_H72D24a_10.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72,
+          "D": 24
+        },
+        "label": "li40_4h_H72D24j",
+        "ENS": 1403.8301639301346,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.015116285713588695
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0003779071428397174
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li40_4h_H72D12",
+      "family": "HD",
+      "config": "li40_4h",
+      "units": [
+        {
+          "Pc": 40,
+          "Pd": 40,
+          "E": 160,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 72,
+        "D": 12
+      },
+      "r1": {
+        "lo": 16.480896826584406,
+        "hi": 16.496013112297994,
+        "witness": "witnesses/0167_li40_4h_H72D24a_10.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "li40_4h_H72D24a",
+        "witness_status": 0,
+        "ENS": 1403.8301639301346,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 0.0,
+        "hi": 0.010746110025878906,
+        "witness": "witnesses/0188_li40_4h_H72D12b_10.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 12
+        },
+        "label": "li40_4h_H72D12b",
+        "witness_status": 0,
+        "ENS": 55454.108178331975,
+        "LOLH": 4041,
+        "D_linear": 12,
+        "D_cyclic": 12,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 16.480896826584406,
+        "hi": 16.496013112297994,
+        "witness": "witnesses/0167_li40_4h_H72D24a_10.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72,
+          "D": 12
+        },
+        "label": "li40_4h_H72D12j",
+        "ENS": 1403.8301639301346,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.015116285713588695
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0003779071428397174
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li40_4h_H72D8",
+      "family": "HD",
+      "config": "li40_4h",
+      "units": [
+        {
+          "Pc": 40,
+          "Pd": 40,
+          "E": 160,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 72,
+        "D": 8
+      },
+      "r1": {
+        "lo": 16.480896826584406,
+        "hi": 16.496013112297994,
+        "witness": "witnesses/0167_li40_4h_H72D24a_10.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "li40_4h_H72D24a",
+        "witness_status": 0,
+        "ENS": 1403.8301639301346,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 0.0,
+        "hi": 0.011950199652832031,
+        "witness": "witnesses/0199_li40_4h_H72D8b_10.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 8
+        },
+        "label": "li40_4h_H72D8b",
+        "witness_status": 0,
+        "ENS": 54708.73633740784,
+        "LOLH": 3934,
+        "D_linear": 8,
+        "D_cyclic": 8,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 16.480896826584406,
+        "hi": 16.496013112297994,
+        "witness": "witnesses/0167_li40_4h_H72D24a_10.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72,
+          "D": 8
+        },
+        "label": "li40_4h_H72D8j",
+        "ENS": 1403.8301639301346,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.015116285713588695
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0003779071428397174
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true
+    },
+    {
+      "id": "li40_4h_H150D24",
+      "family": "HD",
+      "config": "li40_4h",
+      "units": [
+        {
+          "Pc": 40,
+          "Pd": 40,
+          "E": 160,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 150,
+        "D": 24
+      },
+      "r1": {
+        "lo": 14.65925215690238,
+        "hi": 14.74610150228228,
+        "witness": "witnesses/0207_li40_4h_H150D24a_7.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 3,
+        "limits": {
+          "H": 150
+        },
+        "label": "li40_4h_H150D24a",
+        "witness_status": 0,
+        "ENS": 2616.5309775326577,
+        "LOLH": 150,
+        "D_linear": 9,
+        "D_cyclic": 9,
+        "resolved": false
+      },
+      "r2": {
+        "lo": 0.0,
+        "hi": 0.01819829427050781,
+        "witness": "witnesses/0177_li40_4h_H72D24b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 24
+        },
+        "label": "li40_4h_H72D24b",
+        "witness_status": 0,
+        "ENS": 56587.63517152621,
+        "LOLH": 4303,
+        "D_linear": 24,
+        "D_cyclic": 24,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 14.680964493247355,
+        "hi": 14.74610150228228,
+        "witness": "witnesses/0207_li40_4h_H150D24a_7.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 2,
+        "limits": {
+          "H": 150,
+          "D": 24
+        },
+        "label": "li40_4h_H150D24j",
+        "ENS": 2616.5309775326577,
+        "LOLH": 150,
+        "D_linear": 9,
+        "D_cyclic": 9,
+        "resolved": false
+      },
+      "gamma": [
+        0.0,
+        0.08684934537989975
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0021712336344974935
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": false
+    },
+    {
+      "id": "li40_4h_H150D12",
+      "family": "HD",
+      "config": "li40_4h",
+      "units": [
+        {
+          "Pc": 40,
+          "Pd": 40,
+          "E": 160,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 150,
+        "D": 12
+      },
+      "r1": {
+        "lo": 14.65925215690238,
+        "hi": 14.74610150228228,
+        "witness": "witnesses/0207_li40_4h_H150D24a_7.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 3,
+        "limits": {
+          "H": 150
+        },
+        "label": "li40_4h_H150D24a",
+        "witness_status": 0,
+        "ENS": 2616.5309775326577,
+        "LOLH": 150,
+        "D_linear": 9,
+        "D_cyclic": 9,
+        "resolved": false
+      },
+      "r2": {
+        "lo": 0.0,
+        "hi": 0.010746110025878906,
+        "witness": "witnesses/0188_li40_4h_H72D12b_10.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 12
+        },
+        "label": "li40_4h_H72D12b",
+        "witness_status": 0,
+        "ENS": 55454.108178331975,
+        "LOLH": 4041,
+        "D_linear": 12,
+        "D_cyclic": 12,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 14.65925215690238,
+        "hi": 14.74610150228228,
+        "witness": "witnesses/0207_li40_4h_H150D24a_7.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 3,
+        "limits": {
+          "H": 150,
+          "D": 12
+        },
+        "label": "li40_4h_H150D12j",
+        "ENS": 2616.5309775326577,
+        "LOLH": 150,
+        "D_linear": 9,
+        "D_cyclic": 9,
+        "resolved": false
+      },
+      "gamma": [
+        0.0,
+        0.08684934537989975
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0021712336344974935
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": false
+    },
+    {
+      "id": "li40_4h_H150D8",
+      "family": "HD",
+      "config": "li40_4h",
+      "units": [
+        {
+          "Pc": 40,
+          "Pd": 40,
+          "E": 160,
+          "eta": 0.9,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "H": 150,
+        "D": 8
+      },
+      "r1": {
+        "lo": 14.65925215690238,
+        "hi": 14.74610150228228,
+        "witness": "witnesses/0207_li40_4h_H150D24a_7.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 3,
+        "limits": {
+          "H": 150
+        },
+        "label": "li40_4h_H150D24a",
+        "witness_status": 0,
+        "ENS": 2616.5309775326577,
+        "LOLH": 150,
+        "D_linear": 9,
+        "D_cyclic": 9,
+        "resolved": false
+      },
+      "r2": {
+        "lo": 0.0,
+        "hi": 0.011950199652832031,
+        "witness": "witnesses/0199_li40_4h_H72D8b_10.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "D": 8
+        },
+        "label": "li40_4h_H72D8b",
+        "witness_status": 0,
+        "ENS": 54708.73633740784,
+        "LOLH": 3934,
+        "D_linear": 8,
+        "D_cyclic": 8,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 14.680964493247355,
+        "hi": 14.74610150228228,
+        "witness": "witnesses/0217_li40_4h_H150D8j_at_r0.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 2,
+        "limits": {
+          "H": 150,
+          "D": 8
+        },
+        "label": "li40_4h_H150D8j",
+        "witness_status": 0,
+        "ENS": 2580.59430852787,
+        "LOLH": 150,
+        "D_linear": 8,
+        "D_cyclic": 8,
+        "resolved": false
+      },
+      "gamma": [
+        0.0,
+        0.08684934537989975
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0021712336344974935
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": false
+    },
+    {
+      "id": "tank0.005_H72E0.001",
+      "family": "EH",
+      "config": "tank0.005",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.005
+        }
+      ],
+      "norms": {
+        "ens_lim": 157.68907129832402,
+        "H": 72
+      },
+      "r1": {
+        "lo": 30.759043932760143,
+        "hi": 30.778575230042883,
+        "witness": "witnesses/0228_tank0.005_H72E0.001a_7.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402
+        },
+        "label": "tank0.005_H72E0.001a",
+        "witness_status": 0,
+        "ENS": 157.68907129832402,
+        "LOLH": 35,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0240_tank0.005_H72E0.001b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "tank0.005_H72E0.001b",
+        "witness_status": 0,
+        "ENS": 1869.8022926982837,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 30.759043932760143,
+        "hi": 30.778575230042883,
+        "witness": "witnesses/0228_tank0.005_H72E0.001a_7.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402,
+          "H": 72
+        },
+        "label": "tank0.005_H72E0.001j",
+        "ENS": 157.68907129832402,
+        "LOLH": 35,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.0195312972827395
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009765648641369752
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 0.3,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0009765648641369752
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        0.06510432427579835
+      ]
+    },
+    {
+      "id": "tank0.005_H72E0.01",
+      "family": "EH",
+      "config": "tank0.005",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.005
+        }
+      ],
+      "norms": {
+        "ens_lim": 1576.89071298324,
+        "H": 72
+      },
+      "r1": {
+        "lo": 19.720596572897982,
+        "hi": 19.740127853481276,
+        "witness": "witnesses/0250_tank0.005_H72E0.01a_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324
+        },
+        "label": "tank0.005_H72E0.01a",
+        "witness_status": 0,
+        "ENS": 1576.8907129832403,
+        "LOLH": 219,
+        "D_linear": 14,
+        "D_cyclic": 14,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0240_tank0.005_H72E0.001b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "tank0.005_H72E0.001b",
+        "witness_status": 0,
+        "ENS": 1869.8022926982837,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0251_tank0.005_H72E0.01j_at_r0.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324,
+          "H": 72
+        },
+        "label": "tank0.005_H72E0.01j",
+        "witness_status": 0,
+        "ENS": 1576.890712983241,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.019531268196647744
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009765634098323872
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 0.3,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0009765634098323872
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        0.06510422732215915
+      ]
+    },
+    {
+      "id": "tank0.005_H150E0.001",
+      "family": "EH",
+      "config": "tank0.005",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.005
+        }
+      ],
+      "norms": {
+        "ens_lim": 157.68907129832402,
+        "H": 150
+      },
+      "r1": {
+        "lo": 30.759043932760143,
+        "hi": 30.778575230042883,
+        "witness": "witnesses/0228_tank0.005_H72E0.001a_7.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402
+        },
+        "label": "tank0.005_H72E0.001a",
+        "witness_status": 0,
+        "ENS": 157.68907129832402,
+        "LOLH": 35,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 19.534675661595365,
+        "hi": 19.56523924620837,
+        "witness": "witnesses/0258_tank0.005_H150E0.001b_6.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "H": 150
+        },
+        "label": "tank0.005_H150E0.001b",
+        "witness_status": 0,
+        "ENS": 3454.8783942369914,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": false
+      },
+      "rjoint": {
+        "lo": 30.759043932760143,
+        "hi": 30.778575230042883,
+        "witness": "witnesses/0228_tank0.005_H72E0.001a_7.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402,
+          "H": 150
+        },
+        "label": "tank0.005_H150E0.001j",
+        "ENS": 157.68907129832402,
+        "LOLH": 35,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.0195312972827395
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009765648641369752
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 0.3,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0009765648641369752
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        0.06510432427579835
+      ]
+    },
+    {
+      "id": "tank0.005_H150E0.01",
+      "family": "EH",
+      "config": "tank0.005",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.005
+        }
+      ],
+      "norms": {
+        "ens_lim": 1576.89071298324,
+        "H": 150
+      },
+      "r1": {
+        "lo": 19.720596572897982,
+        "hi": 19.740127853481276,
+        "witness": "witnesses/0250_tank0.005_H72E0.01a_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324
+        },
+        "label": "tank0.005_H72E0.01a",
+        "witness_status": 0,
+        "ENS": 1576.8907129832403,
+        "LOLH": 219,
+        "D_linear": 14,
+        "D_cyclic": 14,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 19.534675661595365,
+        "hi": 19.56523924620837,
+        "witness": "witnesses/0258_tank0.005_H150E0.001b_6.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "H": 150
+        },
+        "label": "tank0.005_H150E0.001b",
+        "witness_status": 0,
+        "ENS": 3454.8783942369914,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": false
+      },
+      "rjoint": {
+        "lo": 19.740127853481276,
+        "hi": 19.754413917111048,
+        "witness": "witnesses/0272_tank0.005_H150E0.01j_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324,
+          "H": 150
+        },
+        "label": "tank0.005_H150E0.01j",
+        "witness_status": 0,
+        "ENS": 1576.8907129832394,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.033817344213066036
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0016908672106533019
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": false,
+      "deltaE": 0.3,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0016908672106533019
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        0.11272448071022012
+      ]
+    },
+    {
+      "id": "tank0.01_H72E0.001",
+      "family": "EH",
+      "config": "tank0.01",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.01
+        }
+      ],
+      "norms": {
+        "ens_lim": 157.68907129832402,
+        "H": 72
+      },
+      "r1": {
+        "lo": 30.79810652732562,
+        "hi": 30.817637824608354,
+        "witness": "witnesses/0281_tank0.01_H72E0.001a_8.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402
+        },
+        "label": "tank0.01_H72E0.001a",
+        "witness_status": 0,
+        "ENS": 157.689071298324,
+        "LOLH": 35,
+        "D_linear": 2,
+        "D_cyclic": 2,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0292_tank0.01_H72E0.001b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "tank0.01_H72E0.001b",
+        "witness_status": 0,
+        "ENS": 1869.8022926982837,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 30.79810652732562,
+        "hi": 30.817637824608354,
+        "witness": "witnesses/0281_tank0.01_H72E0.001a_8.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402,
+          "H": 72
+        },
+        "label": "tank0.01_H72E0.001j",
+        "ENS": 157.689071298324,
+        "LOLH": 35,
+        "D_linear": 2,
+        "D_cyclic": 2,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01953129728273595
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009765648641367974
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 0.6,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0009765648641367974
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        0.03255216213789325
+      ]
+    },
+    {
+      "id": "tank0.01_H72E0.01",
+      "family": "EH",
+      "config": "tank0.01",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.01
+        }
+      ],
+      "norms": {
+        "ens_lim": 1576.89071298324,
+        "H": 72
+      },
+      "r1": {
+        "lo": 19.818252975814453,
+        "hi": 19.837784256397743,
+        "witness": "witnesses/0299_tank0.01_H72E0.01a_6.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324
+        },
+        "label": "tank0.01_H72E0.01a",
+        "witness_status": 0,
+        "ENS": 1576.89071298324,
+        "LOLH": 218,
+        "D_linear": 14,
+        "D_cyclic": 14,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0292_tank0.01_H72E0.001b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "tank0.01_H72E0.001b",
+        "witness_status": 0,
+        "ENS": 1869.8022926982837,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0303_tank0.01_H72E0.01j_at_r0.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324,
+          "H": 72
+        },
+        "label": "tank0.01_H72E0.01j",
+        "witness_status": 0,
+        "ENS": 1576.8907129832407,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.019531268196647744
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009765634098323872
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 0.6,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0009765634098323872
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        0.032552113661079574
+      ]
+    },
+    {
+      "id": "tank0.01_H150E0.001",
+      "family": "EH",
+      "config": "tank0.01",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.01
+        }
+      ],
+      "norms": {
+        "ens_lim": 157.68907129832402,
+        "H": 150
+      },
+      "r1": {
+        "lo": 30.79810652732562,
+        "hi": 30.817637824608354,
+        "witness": "witnesses/0281_tank0.01_H72E0.001a_8.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402
+        },
+        "label": "tank0.01_H72E0.001a",
+        "witness_status": 0,
+        "ENS": 157.689071298324,
+        "LOLH": 35,
+        "D_linear": 2,
+        "D_cyclic": 2,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 19.626366415434386,
+        "hi": 19.634007311587638,
+        "witness": "witnesses/0314_tank0.01_H150E0.001b_9q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "H": 150
+        },
+        "label": "tank0.01_H150E0.001b",
+        "witness_status": 0,
+        "ENS": 3432.503475082147,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 30.79810652732562,
+        "hi": 30.817637824608354,
+        "witness": "witnesses/0281_tank0.01_H72E0.001a_8.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402,
+          "H": 150
+        },
+        "label": "tank0.01_H150E0.001j",
+        "ENS": 157.689071298324,
+        "LOLH": 35,
+        "D_linear": 2,
+        "D_cyclic": 2,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01953129728273595
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009765648641367974
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 0.6,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0009765648641367974
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        0.03255216213789325
+      ]
+    },
+    {
+      "id": "tank0.01_H150E0.01",
+      "family": "EH",
+      "config": "tank0.01",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.01
+        }
+      ],
+      "norms": {
+        "ens_lim": 1576.89071298324,
+        "H": 150
+      },
+      "r1": {
+        "lo": 19.818252975814453,
+        "hi": 19.837784256397743,
+        "witness": "witnesses/0299_tank0.01_H72E0.01a_6.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324
+        },
+        "label": "tank0.01_H72E0.01a",
+        "witness_status": 0,
+        "ENS": 1576.89071298324,
+        "LOLH": 218,
+        "D_linear": 14,
+        "D_cyclic": 14,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 19.626366415434386,
+        "hi": 19.634007311587638,
+        "witness": "witnesses/0314_tank0.01_H150E0.001b_9q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "H": 150
+        },
+        "label": "tank0.01_H150E0.001b",
+        "witness_status": 0,
+        "ENS": 3432.503475082147,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 19.837784256397743,
+        "hi": 19.85197495244654,
+        "witness": "witnesses/0325_tank0.01_H150E0.01j_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324,
+          "H": 150
+        },
+        "label": "tank0.01_H150E0.01j",
+        "witness_status": 0,
+        "ENS": 1576.89071298324,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.03372197663208709
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0016860988316043546
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": false,
+      "deltaE": 0.6,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0016860988316043546
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        0.05620329438681182
+      ]
+    },
+    {
+      "id": "tank0.02_H72E0.001",
+      "family": "EH",
+      "config": "tank0.02",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.02
+        }
+      ],
+      "norms": {
+        "ens_lim": 157.68907129832402,
+        "H": 72
+      },
+      "r1": {
+        "lo": 30.85670041917383,
+        "hi": 30.876231716456566,
+        "witness": "witnesses/0335_tank0.02_H72E0.001a_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402
+        },
+        "label": "tank0.02_H72E0.001a",
+        "witness_status": 0,
+        "ENS": 157.689071298324,
+        "LOLH": 35,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0345_tank0.02_H72E0.001b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "tank0.02_H72E0.001b",
+        "witness_status": 0,
+        "ENS": 1869.8022926982837,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 30.85670041917383,
+        "hi": 30.876231716456566,
+        "witness": "witnesses/0335_tank0.02_H72E0.001a_9.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402,
+          "H": 72
+        },
+        "label": "tank0.02_H72E0.001j",
+        "ENS": 157.689071298324,
+        "LOLH": 35,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01953129728273595
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009765648641367974
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 1.2,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0009765648641367974
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        0.016276081068946624
+      ]
+    },
+    {
+      "id": "tank0.02_H72E0.01",
+      "family": "EH",
+      "config": "tank0.02",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.02
+        }
+      ],
+      "norms": {
+        "ens_lim": 1576.89071298324,
+        "H": 72
+      },
+      "r1": {
+        "lo": 20.013565781647387,
+        "hi": 20.03309706223068,
+        "witness": "witnesses/0354_tank0.02_H72E0.01a_8.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324
+        },
+        "label": "tank0.02_H72E0.01a",
+        "witness_status": 0,
+        "ENS": 1576.89071298324,
+        "LOLH": 224,
+        "D_linear": 14,
+        "D_cyclic": 14,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0345_tank0.02_H72E0.001b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "tank0.02_H72E0.001b",
+        "witness_status": 0,
+        "ENS": 1869.8022926982837,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0356_tank0.02_H72E0.01j_at_r0.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324,
+          "H": 72
+        },
+        "label": "tank0.02_H72E0.01j",
+        "witness_status": 0,
+        "ENS": 1576.8907129832403,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.019531268196647744
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009765634098323872
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 1.2,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0009765634098323872
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        0.016276056830539787
+      ]
+    },
+    {
+      "id": "tank0.02_H150E0.001",
+      "family": "EH",
+      "config": "tank0.02",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.02
+        }
+      ],
+      "norms": {
+        "ens_lim": 157.68907129832402,
+        "H": 150
+      },
+      "r1": {
+        "lo": 30.85670041917383,
+        "hi": 30.876231716456566,
+        "witness": "witnesses/0335_tank0.02_H72E0.001a_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402
+        },
+        "label": "tank0.02_H72E0.001a",
+        "witness_status": 0,
+        "ENS": 157.689071298324,
+        "LOLH": 35,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 19.901438676951457,
+        "hi": 19.91672046925796,
+        "witness": "witnesses/0366_tank0.02_H150E0.001b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 150
+        },
+        "label": "tank0.02_H150E0.001b",
+        "witness_status": 0,
+        "ENS": 3402.894914853705,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 30.85670041917383,
+        "hi": 30.876231716456566,
+        "witness": "witnesses/0335_tank0.02_H72E0.001a_9.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402,
+          "H": 150
+        },
+        "label": "tank0.02_H150E0.001j",
+        "ENS": 157.689071298324,
+        "LOLH": 35,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01953129728273595
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009765648641367974
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 1.2,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0009765648641367974
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        0.016276081068946624
+      ]
+    },
+    {
+      "id": "tank0.02_H150E0.01",
+      "family": "EH",
+      "config": "tank0.02",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.02
+        }
+      ],
+      "norms": {
+        "ens_lim": 1576.89071298324,
+        "H": 150
+      },
+      "r1": {
+        "lo": 20.013565781647387,
+        "hi": 20.03309706223068,
+        "witness": "witnesses/0354_tank0.02_H72E0.01a_8.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324
+        },
+        "label": "tank0.02_H72E0.01a",
+        "witness_status": 0,
+        "ENS": 1576.89071298324,
+        "LOLH": 224,
+        "D_linear": 14,
+        "D_cyclic": 14,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 19.901438676951457,
+        "hi": 19.91672046925796,
+        "witness": "witnesses/0366_tank0.02_H150E0.001b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 150
+        },
+        "label": "tank0.02_H150E0.001b",
+        "witness_status": 0,
+        "ENS": 3402.894914853705,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 20.047097023117534,
+        "hi": 20.061096984004386,
+        "witness": "witnesses/0376_tank0.02_H150E0.01j_8.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324,
+          "H": 150
+        },
+        "label": "tank0.02_H150E0.01j",
+        "witness_status": 0,
+        "ENS": 1576.8907129832403,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "gamma": [
+        0.013999960886852847,
+        0.04753120235699981
+      ],
+      "gamma_over_sumPd": [
+        0.0006999980443426424,
+        0.002376560117849991
+      ],
+      "positive_certified": true,
+      "resolved_to_tolerance": false,
+      "deltaE": 1.2,
+      "gamma_over_tankPd": [
+        0.0006999980443426424,
+        0.002376560117849991
+      ],
+      "gamma_over_deltaE": [
+        0.011666634072377374,
+        0.03960933529749985
+      ]
+    },
+    {
+      "id": "park_H72E0.001",
+      "family": "EH",
+      "config": "park",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 80,
+          "eta": 0.9,
+          "delta": 0
+        },
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.01
+        }
+      ],
+      "norms": {
+        "ens_lim": 157.68907129832402,
+        "H": 72
+      },
+      "r1": {
+        "lo": 19.352803159790742,
+        "hi": 19.372334433412497,
+        "witness": "witnesses/0386_park_H72E0.001a_8.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402
+        },
+        "label": "park_H72E0.001a",
+        "witness_status": 0,
+        "ENS": 157.68907129832402,
+        "LOLH": 36,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 16.72235020737654,
+        "hi": 17.19337543264752,
+        "witness": "witnesses/0396_park_H72E0.001b_5q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "H": 72
+        },
+        "label": "park_H72E0.001b",
+        "witness_status": 0,
+        "ENS": 1463.3852532317514,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": false
+      },
+      "rjoint": {
+        "lo": 19.352803159790742,
+        "hi": 19.372334433412497,
+        "witness": "witnesses/0386_park_H72E0.001a_8.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402,
+          "H": 72
+        },
+        "label": "park_H72E0.001j",
+        "ENS": 157.68907129832402,
+        "LOLH": 36,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01953127362175522
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0004882818405438805
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 0.6,
+      "gamma_over_tankPd": [
+        0.0,
+        0.000976563681087761
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        0.032552122702925367
+      ]
+    },
+    {
+      "id": "park_H72E0.01",
+      "family": "EH",
+      "config": "park",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 80,
+          "eta": 0.9,
+          "delta": 0
+        },
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.01
+        }
+      ],
+      "norms": {
+        "ens_lim": 1576.89071298324,
+        "H": 72
+      },
+      "r1": {
+        "lo": 16.177622538083504,
+        "hi": 16.194404304201846,
+        "witness": "witnesses/0407_park_H72E0.01a_10.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324
+        },
+        "label": "park_H72E0.01a",
+        "witness_status": 0,
+        "ENS": 1576.8907129832396,
+        "LOLH": 201,
+        "D_linear": 14,
+        "D_cyclic": 14,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 16.72235020737654,
+        "hi": 17.19337543264752,
+        "witness": "witnesses/0396_park_H72E0.001b_5q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "H": 72
+        },
+        "label": "park_H72E0.001b",
+        "witness_status": 0,
+        "ENS": 1463.3852532317514,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": false
+      },
+      "rjoint": {
+        "lo": 16.840106513694288,
+        "hi": 17.075619126329777,
+        "witness": "witnesses/0410_park_H72E0.01j_0q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "ens_lim": 1576.89071298324,
+          "H": 72
+        },
+        "label": "park_H72E0.01j",
+        "ENS": 1406.5093621650417,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "witness_status": 0,
+        "resolved": false
+      },
+      "gamma": [
+        0.0,
+        0.353268918953237
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.008831722973830924
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": false,
+      "deltaE": 0.6,
+      "gamma_over_tankPd": [
+        0.0,
+        0.017663445947661848
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        0.5887815315887284
+      ]
+    },
+    {
+      "id": "park_H150E0.001",
+      "family": "EH",
+      "config": "park",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 80,
+          "eta": 0.9,
+          "delta": 0
+        },
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.01
+        }
+      ],
+      "norms": {
+        "ens_lim": 157.68907129832402,
+        "H": 150
+      },
+      "r1": {
+        "lo": 19.352803159790742,
+        "hi": 19.372334433412497,
+        "witness": "witnesses/0386_park_H72E0.001a_8.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402
+        },
+        "label": "park_H72E0.001a",
+        "witness_status": 0,
+        "ENS": 157.68907129832402,
+        "LOLH": 36,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 13.995467577461456,
+        "hi": 16.677872636733262,
+        "witness": "witnesses/0415_park_H150E0.001b_2q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "H": 150
+        },
+        "label": "park_H150E0.001b",
+        "witness_status": 0,
+        "ENS": 3536.16156204221,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": false
+      },
+      "rjoint": {
+        "lo": 19.352803159790742,
+        "hi": 19.372334433412497,
+        "witness": "witnesses/0386_park_H72E0.001a_8.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402,
+          "H": 150
+        },
+        "label": "park_H150E0.001j",
+        "ENS": 157.68907129832402,
+        "LOLH": 36,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01953127362175522
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0004882818405438805
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 0.6,
+      "gamma_over_tankPd": [
+        0.0,
+        0.000976563681087761
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        0.032552122702925367
+      ]
+    },
+    {
+      "id": "park_H150E0.01",
+      "family": "EH",
+      "config": "park",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 80,
+          "eta": 0.9,
+          "delta": 0
+        },
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.01
+        }
+      ],
+      "norms": {
+        "ens_lim": 1576.89071298324,
+        "H": 150
+      },
+      "r1": {
+        "lo": 16.177622538083504,
+        "hi": 16.194404304201846,
+        "witness": "witnesses/0407_park_H72E0.01a_10.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324
+        },
+        "label": "park_H72E0.01a",
+        "witness_status": 0,
+        "ENS": 1576.8907129832396,
+        "LOLH": 201,
+        "D_linear": 14,
+        "D_cyclic": 14,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 13.995467577461456,
+        "hi": 16.677872636733262,
+        "witness": "witnesses/0415_park_H150E0.001b_2q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "H": 150
+        },
+        "label": "park_H150E0.001b",
+        "witness_status": 0,
+        "ENS": 3536.16156204221,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": false
+      },
+      "rjoint": {
+        "lo": 16.177622538083504,
+        "hi": 16.19325535366631,
+        "witness": "witnesses/0421_park_H150E0.01j_4.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324,
+          "H": 150
+        },
+        "label": "park_H150E0.01j",
+        "witness_status": 0,
+        "ENS": 1576.8907129832405,
+        "LOLH": 150,
+        "D_linear": 8,
+        "D_cyclic": 8,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.015632815582804938
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.00039082038957012345
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 0.6,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0007816407791402469
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        0.02605469263800823
+      ]
+    },
+    {
+      "id": "control_tank_H72E0.001",
+      "family": "EH",
+      "config": "control_tank",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "ens_lim": 157.68907129832402,
+        "H": 72
+      },
+      "r1": {
+        "lo": 30.71998133819467,
+        "hi": 30.739512635477407,
+        "witness": "witnesses/0430_control_tank_H72E0.001a_8.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402
+        },
+        "label": "control_tank_H72E0.001a",
+        "witness_status": 0,
+        "ENS": 157.68907129832402,
+        "LOLH": 36,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0441_control_tank_H72E0.001b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "control_tank_H72E0.001b",
+        "witness_status": 0,
+        "ENS": 1741.6119302233071,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 30.71998133819467,
+        "hi": 30.739512635477407,
+        "witness": "witnesses/0430_control_tank_H72E0.001a_8.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402,
+          "H": 72
+        },
+        "label": "control_tank_H72E0.001j",
+        "ENS": 157.68907129832402,
+        "LOLH": 36,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01953129728273595
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009765648641367974
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 0,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0009765648641367974
+      ],
+      "gamma_over_deltaE": null
+    },
+    {
+      "id": "control_tank_H72E0.01",
+      "family": "EH",
+      "config": "control_tank",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "ens_lim": 1576.89071298324,
+        "H": 72
+      },
+      "r1": {
+        "lo": 19.62294016998151,
+        "hi": 19.642471450564805,
+        "witness": "witnesses/0450_control_tank_H72E0.01a_8.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324
+        },
+        "label": "control_tank_H72E0.01a",
+        "witness_status": 0,
+        "ENS": 1576.8907129832398,
+        "LOLH": 219,
+        "D_linear": 14,
+        "D_cyclic": 14,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0441_control_tank_H72E0.001b_9.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "necessary_energy_and_power",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 72
+        },
+        "label": "control_tank_H72E0.001b",
+        "witness_status": 0,
+        "ENS": 1741.6119302233071,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 24.748332477632747,
+        "hi": 24.767863745829395,
+        "witness": "witnesses/0452_control_tank_H72E0.01j_at_r0.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324,
+          "H": 72
+        },
+        "label": "control_tank_H72E0.01j",
+        "witness_status": 0,
+        "ENS": 1500.9035309884778,
+        "LOLH": 72,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.019531268196647744
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009765634098323872
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 0,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0009765634098323872
+      ],
+      "gamma_over_deltaE": null
+    },
+    {
+      "id": "control_tank_H150E0.001",
+      "family": "EH",
+      "config": "control_tank",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "ens_lim": 157.68907129832402,
+        "H": 150
+      },
+      "r1": {
+        "lo": 30.71998133819467,
+        "hi": 30.739512635477407,
+        "witness": "witnesses/0430_control_tank_H72E0.001a_8.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402
+        },
+        "label": "control_tank_H72E0.001a",
+        "witness_status": 0,
+        "ENS": 157.68907129832402,
+        "LOLH": 36,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 19.36657594622382,
+        "hi": 19.381857738530325,
+        "witness": "witnesses/0460_control_tank_H150E0.001b_7.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 150
+        },
+        "label": "control_tank_H150E0.001b",
+        "witness_status": 0,
+        "ENS": 3190.6112914297037,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 30.71998133819467,
+        "hi": 30.739512635477407,
+        "witness": "witnesses/0430_control_tank_H72E0.001a_8.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402,
+          "H": 150
+        },
+        "label": "control_tank_H150E0.001j",
+        "ENS": 157.68907129832402,
+        "LOLH": 36,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01953129728273595
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009765648641367974
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 0,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0009765648641367974
+      ],
+      "gamma_over_deltaE": null
+    },
+    {
+      "id": "control_tank_H150E0.01",
+      "family": "EH",
+      "config": "control_tank",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "ens_lim": 1576.89071298324,
+        "H": 150
+      },
+      "r1": {
+        "lo": 19.62294016998151,
+        "hi": 19.642471450564805,
+        "witness": "witnesses/0450_control_tank_H72E0.01a_8.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324
+        },
+        "label": "control_tank_H72E0.01a",
+        "witness_status": 0,
+        "ENS": 1576.8907129832398,
+        "LOLH": 219,
+        "D_linear": 14,
+        "D_cyclic": 14,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 19.36657594622382,
+        "hi": 19.381857738530325,
+        "witness": "witnesses/0460_control_tank_H150E0.001b_7.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "H": 150
+        },
+        "label": "control_tank_H150E0.001b",
+        "witness_status": 0,
+        "ENS": 3190.6112914297037,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "rjoint": {
+        "lo": 19.62294016998151,
+        "hi": 19.642471450564805,
+        "witness": "witnesses/0463_control_tank_H150E0.01j_at_r0.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324,
+          "H": 150
+        },
+        "label": "control_tank_H150E0.01j",
+        "witness_status": 0,
+        "ENS": 1576.8907129832403,
+        "LOLH": 150,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01953128058329412
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0009765640291647059
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 0,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0009765640291647059
+      ],
+      "gamma_over_deltaE": null
+    },
+    {
+      "id": "control_park_H72E0.001",
+      "family": "EH",
+      "config": "control_park",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 80,
+          "eta": 1,
+          "delta": 0
+        },
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "ens_lim": 157.68907129832402,
+        "H": 72
+      },
+      "r1": {
+        "lo": 19.177021697194945,
+        "hi": 19.1965529708167,
+        "witness": "witnesses/0474_control_park_H72E0.001a_10.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402
+        },
+        "label": "control_park_H72E0.001a",
+        "witness_status": 0,
+        "ENS": 157.68907129832402,
+        "LOLH": 25,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 16.60459390105879,
+        "hi": 16.957862820012032,
+        "witness": "witnesses/0480_control_park_H72E0.001b_5.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 2,
+        "limits": {
+          "H": 72
+        },
+        "label": "control_park_H72E0.001b",
+        "witness_status": 0,
+        "ENS": 1395.52182600396,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": false
+      },
+      "rjoint": {
+        "lo": 19.177021697194945,
+        "hi": 19.1965529708167,
+        "witness": "witnesses/0474_control_park_H72E0.001a_10.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402,
+          "H": 72
+        },
+        "label": "control_park_H72E0.001j",
+        "ENS": 157.68907129832402,
+        "LOLH": 25,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01953127362175522
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0004882818405438805
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 0,
+      "gamma_over_tankPd": [
+        0.0,
+        0.000976563681087761
+      ],
+      "gamma_over_deltaE": null
+    },
+    {
+      "id": "control_park_H72E0.01",
+      "family": "EH",
+      "config": "control_park",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 80,
+          "eta": 1,
+          "delta": 0
+        },
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "ens_lim": 1576.89071298324,
+        "H": 72
+      },
+      "r1": {
+        "lo": 16.07693194137344,
+        "hi": 16.093713707491787,
+        "witness": "witnesses/0494_control_park_H72E0.01a_10.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324
+        },
+        "label": "control_park_H72E0.01a",
+        "witness_status": 0,
+        "ENS": 1576.8907129832405,
+        "LOLH": 214,
+        "D_linear": 15,
+        "D_cyclic": 15,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 16.60459390105879,
+        "hi": 16.957862820012032,
+        "witness": "witnesses/0480_control_park_H72E0.001b_5.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 2,
+        "limits": {
+          "H": 72
+        },
+        "label": "control_park_H72E0.001b",
+        "witness_status": 0,
+        "ENS": 1395.52182600396,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": false
+      },
+      "rjoint": {
+        "lo": 16.6929111307971,
+        "hi": 16.957862820012032,
+        "witness": "witnesses/0480_control_park_H72E0.001b_5.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 2,
+        "limits": {
+          "ens_lim": 1576.89071298324,
+          "H": 72
+        },
+        "label": "control_park_H72E0.01j",
+        "ENS": 1395.52182600396,
+        "LOLH": 72,
+        "D_linear": 4,
+        "D_cyclic": 4,
+        "resolved": false
+      },
+      "gamma": [
+        0.0,
+        0.35326891895324053
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.008831722973831013
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": false,
+      "deltaE": 0,
+      "gamma_over_tankPd": [
+        0.0,
+        0.017663445947662025
+      ],
+      "gamma_over_deltaE": null
+    },
+    {
+      "id": "control_park_H150E0.001",
+      "family": "EH",
+      "config": "control_park",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 80,
+          "eta": 1,
+          "delta": 0
+        },
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "ens_lim": 157.68907129832402,
+        "H": 150
+      },
+      "r1": {
+        "lo": 19.177021697194945,
+        "hi": 19.1965529708167,
+        "witness": "witnesses/0474_control_park_H72E0.001a_10.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402
+        },
+        "label": "control_park_H72E0.001a",
+        "witness_status": 0,
+        "ENS": 157.68907129832402,
+        "LOLH": 25,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 14.833719158483895,
+        "hi": 15.169019790892872,
+        "witness": "witnesses/0505_control_park_H150E0.001b_5q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "H": 150
+        },
+        "label": "control_park_H150E0.001b",
+        "witness_status": 0,
+        "ENS": 2461.8571145233827,
+        "LOLH": 149,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": false
+      },
+      "rjoint": {
+        "lo": 19.177021697194945,
+        "hi": 19.1965529708167,
+        "witness": "witnesses/0474_control_park_H72E0.001a_10.npz",
+        "hi_basis": "separate_witness_meets_both",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 157.68907129832402,
+          "H": 150
+        },
+        "label": "control_park_H150E0.001j",
+        "ENS": 157.68907129832402,
+        "LOLH": 25,
+        "D_linear": 3,
+        "D_cyclic": 3,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.01953127362175522
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0004882818405438805
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 0,
+      "gamma_over_tankPd": [
+        0.0,
+        0.000976563681087761
+      ],
+      "gamma_over_deltaE": null
+    },
+    {
+      "id": "control_park_H150E0.01",
+      "family": "EH",
+      "config": "control_park",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 80,
+          "eta": 1,
+          "delta": 0
+        },
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "ens_lim": 1576.89071298324,
+        "H": 150
+      },
+      "r1": {
+        "lo": 16.07693194137344,
+        "hi": 16.093713707491787,
+        "witness": "witnesses/0494_control_park_H72E0.01a_10.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324
+        },
+        "label": "control_park_H72E0.01a",
+        "witness_status": 0,
+        "ENS": 1576.8907129832405,
+        "LOLH": 214,
+        "D_linear": 15,
+        "D_cyclic": 15,
+        "resolved": true
+      },
+      "r2": {
+        "lo": 14.833719158483895,
+        "hi": 15.169019790892872,
+        "witness": "witnesses/0505_control_park_H150E0.001b_5q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 1,
+        "limits": {
+          "H": 150
+        },
+        "label": "control_park_H150E0.001b",
+        "witness_status": 0,
+        "ENS": 2461.8571145233827,
+        "LOLH": 149,
+        "D_linear": 5,
+        "D_cyclic": 5,
+        "resolved": false
+      },
+      "rjoint": {
+        "lo": 16.07693194137344,
+        "hi": 16.093713707491787,
+        "witness": "witnesses/0506_control_park_H150E0.01j_at_r0.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 0,
+        "limits": {
+          "ens_lim": 1576.89071298324,
+          "H": 150
+        },
+        "label": "control_park_H150E0.01j",
+        "witness_status": 0,
+        "ENS": 1576.8907129832403,
+        "LOLH": 150,
+        "D_linear": 8,
+        "D_cyclic": 8,
+        "resolved": true
+      },
+      "gamma": [
+        0.0,
+        0.016781766118345587
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.00041954415295863967
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": true,
+      "deltaE": 0,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0008390883059172793
+      ],
+      "gamma_over_deltaE": null
+    },
+    {
+      "id": "tank0.005_frontier",
+      "family": "EH_frontier",
+      "config": "tank0.005",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.005
+        }
+      ],
+      "norms": {
+        "ens_lim": 51156.746779132496,
+        "H": 2719
+      },
+      "r1": {
+        "lo": 0.0,
+        "hi": 0.0,
+        "resolved": true,
+        "hi_basis": "frontier_minimum",
+        "limits": {
+          "ens_lim": 51156.746779132496
+        }
+      },
+      "r2": {
+        "lo": 0.0,
+        "hi": 0.0,
+        "resolved": true,
+        "hi_basis": "frontier_minimum",
+        "limits": {
+          "H": 2719
+        }
+      },
+      "rjoint": {
+        "lo": 0.0,
+        "hi": 0.57717,
+        "witness": "witnesses/0516_tank0.005_frontierj_4q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 2,
+        "limits": {
+          "ens_lim": 51156.746779132496,
+          "H": 2719
+        },
+        "label": "tank0.005_frontierj",
+        "witness_status": 0,
+        "ENS": 50110.34370096653,
+        "LOLH": 2719,
+        "D_linear": 44,
+        "D_cyclic": 44,
+        "resolved": false
+      },
+      "gamma": [
+        0.0,
+        0.57717
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0288585
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": false,
+      "deltaE": 0.3,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0288585
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        1.9239
+      ]
+    },
+    {
+      "id": "tank0.02_frontier",
+      "family": "EH_frontier",
+      "config": "tank0.02",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0.02
+        }
+      ],
+      "norms": {
+        "ens_lim": 51816.782297458085,
+        "H": 2856
+      },
+      "r1": {
+        "lo": 0.0,
+        "hi": 0.0,
+        "resolved": true,
+        "hi_basis": "frontier_minimum",
+        "limits": {
+          "ens_lim": 51816.782297458085
+        }
+      },
+      "r2": {
+        "lo": 0.0,
+        "hi": 0.0,
+        "resolved": true,
+        "hi_basis": "frontier_minimum",
+        "limits": {
+          "H": 2856
+        }
+      },
+      "rjoint": {
+        "lo": 0.0,
+        "hi": 1.09924853540625,
+        "witness": "witnesses/0527_tank0.02_frontierj_3q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "MILP_infeasible",
+        "unknown_calls": 2,
+        "limits": {
+          "ens_lim": 51816.782297458085,
+          "H": 2856
+        },
+        "label": "tank0.02_frontierj",
+        "witness_status": 0,
+        "ENS": 51814.56311697498,
+        "LOLH": 2856,
+        "D_linear": 50,
+        "D_cyclic": 50,
+        "resolved": false
+      },
+      "gamma": [
+        0.0,
+        1.09924853540625
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.0549624267703125
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": false,
+      "deltaE": 1.2,
+      "gamma_over_tankPd": [
+        0.0,
+        0.0549624267703125
+      ],
+      "gamma_over_deltaE": [
+        0.0,
+        0.9160404461718751
+      ]
+    },
+    {
+      "id": "control_tank_frontier",
+      "family": "EH_frontier",
+      "config": "control_tank",
+      "units": [
+        {
+          "Pc": 20,
+          "Pd": 20,
+          "E": 60,
+          "eta": 1,
+          "delta": 0
+        }
+      ],
+      "norms": {
+        "ens_lim": 50924.430308364004,
+        "H": 2667
+      },
+      "r1": {
+        "lo": 0.0,
+        "hi": 0.0,
+        "resolved": true,
+        "hi_basis": "frontier_minimum",
+        "limits": {
+          "ens_lim": 50924.430308364004
+        }
+      },
+      "r2": {
+        "lo": 0.0,
+        "hi": 0.0,
+        "resolved": true,
+        "hi_basis": "frontier_minimum",
+        "limits": {
+          "H": 2667
+        }
+      },
+      "rjoint": {
+        "lo": 0.0,
+        "hi": 0.14683841145703125,
+        "witness": "witnesses/0541_control_tank_frontierj_6q.npz",
+        "hi_basis": "verified_witness",
+        "lo_basis": "separate_minima",
+        "unknown_calls": 3,
+        "limits": {
+          "ens_lim": 50924.430308364004,
+          "H": 2667
+        },
+        "label": "control_tank_frontierj",
+        "witness_status": 0,
+        "ENS": 50639.83104892006,
+        "LOLH": 2667,
+        "D_linear": 51,
+        "D_cyclic": 51,
+        "resolved": false
+      },
+      "gamma": [
+        0.0,
+        0.14683841145703125
+      ],
+      "gamma_over_sumPd": [
+        0.0,
+        0.007341920572851562
+      ],
+      "positive_certified": false,
+      "resolved_to_tolerance": false,
+      "deltaE": 0,
+      "gamma_over_tankPd": [
+        0.0,
+        0.007341920572851562
+      ],
+      "gamma_over_deltaE": null
+    }
+  ],
+  "calls": 544,
+  "status_counts": {
+    "0": 382,
+    "1": 41,
+    "2": 121
+  }
+}

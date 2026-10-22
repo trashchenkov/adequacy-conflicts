@@ -1,0 +1,37 @@
+{
+  "all_sign_structures": 2046,
+  "coverage": {
+    "no_deficit": 10,
+    "comparable_for_all_norms": 672,
+    "completed_initial_and_refinement": 704,
+    "reflection": 654,
+    "completed_negative_supplement": 6
+  },
+  "all_accounted_for": true,
+  "all_started_searches_completed": true,
+  "continuous_global_optimum_proven": false,
+  "evaluations": {
+    "initial": 184581,
+    "refinement": 3777780,
+    "negative_supplement": 120990
+  },
+  "total_evaluations": 4083351,
+  "compute_seconds_sum": 190.08687225007452,
+  "refinement_definition_status": {
+    "completed": 1377,
+    "comparable": 31
+  },
+  "refinement_local_optimizer_status": {
+    "0": 1374,
+    "1": 3
+  },
+  "best_gamma": [
+    0.25,
+    0.25
+  ],
+  "numerical_capacity_absolute_bisection_width_max": 7.450580596923828e-09,
+  "fixed_support_LP_validation": "engine_validation.json",
+  "exact_rational_examples": "rational_check.json",
+  "initial_error": "All-negative structures were initially excluded with an incorrect zero-conflict explanation. The six noncomparable T5..10 structures were optimized separately; T1..4 are comparable. Original evidence preserved.",
+  "notes": "Powell status1 denotes evaluation budget reached, not a solver infeasibility or global certificate."
+}
