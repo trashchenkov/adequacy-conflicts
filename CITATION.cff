@@ -7,9 +7,13 @@ authors:
     given-names: Sergei
     orcid: "https://orcid.org/0000-0001-8786-8336"
 license: MIT
-version: "1.0.0"
+version: "1.0.1"
 date-released: 2026-10-22
 doi: "10.5281/zenodo.23564776"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23564775"
+    description: "Zenodo concept DOI for all versions"
 repository-code: "https://github.com/trashchenkov/adequacy-conflicts"
 abstract: >-
   Reproducibility code for conflicts among adequacy constraints in storage
@@ -22,6 +26,4 @@ keywords:
   - loss of load hours
   - self-discharge
   - reproducibility
-# Article title, journal, year and DOI will be added after publication.
-# doi above is the Zenodo archive of GitHub release v1.0.0, not an article DOI.
-# The concept DOI for all versions is 10.5281/zenodo.23564775.
+# The doi field is the Zenodo archive of the software. It is not an article DOI.
